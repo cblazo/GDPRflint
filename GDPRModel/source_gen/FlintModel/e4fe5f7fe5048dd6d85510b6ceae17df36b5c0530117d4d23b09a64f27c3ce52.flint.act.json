@@ -1,0 +1,14 @@
+{
+  "act": {
+    "act": "<<An Act>>",
+    "actor": "[null]",
+    "action": "",
+    "object": "[null]",
+    "recipient": "[null]",
+    "preconditions": "[]",
+    "create": [],
+    "terminate": [],
+    "sources": [],
+    "explanation": ""
+  }
+}
