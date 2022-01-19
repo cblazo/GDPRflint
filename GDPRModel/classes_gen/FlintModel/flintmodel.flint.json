@@ -1,0 +1,36 @@
+{
+  "acts": [
+    {
+      "act": "<<An Act>>",
+      "actor": "[null]",
+      "action": "",
+      "object": "[null]",
+      "recipient": "[null]",
+      "preconditions": "[]",
+      "create": [],
+      "terminate": [],
+      "sources": [],
+      "explanation": ""
+    }
+  ],
+  "facts": [
+    {
+      "fact": "[A Fact]",
+      "explanation": "",
+      "function": "[]",
+      "sources": []
+    }
+  ],
+  "duties": [
+    {
+      "duty": "<A Duty>",
+      "duty-components": [],
+      "duty-holder": "[]",
+      "claimant": "[]",
+      "create": "<<>>",
+      "terminate": "<<>>",
+      "sources": [],
+      "explanation": ""
+    }
+  ]
+}
