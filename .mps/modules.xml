@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/GDPRModel.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/GDPRModel/GDPRModel.msd" folder="" />
     </projectModules>
   </component>
   <component name="ProjectModuleManager">
