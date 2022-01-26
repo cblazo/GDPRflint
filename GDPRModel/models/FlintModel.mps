@@ -91,7 +91,7 @@
   </node>
   <node concept="cu0$f" id="7uaI9y8qS4n">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Binding corporate rules" />
+    <property role="TrG5h" value="binding corporate rules" />
     <node concept="cog_b" id="7uaI9y8qS4o" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/cd7c0a1e-d405-4e10-b7f6-4f494d4ad34a" />
       <ref role="cog$q" node="7uaI9y8qRNH" resolve="Article 4" />
@@ -1373,10 +1373,10 @@
     <node concept="1zEWgd" id="4EkVbrqCGIS" role="mu3T0">
       <node concept="1zEWgd" id="4EkVbrqCHmA" role="1zF96y">
         <node concept="1FQA6B" id="4EkVbrqCHmQ" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCHbJ" resolve="Processing by a processor is governed by a contract or other legal act" />
+          <ref role="1FQA6$" node="4EkVbrqCHbJ" resolve="processing by a processor is governed by a contract or other legal act" />
         </node>
         <node concept="1FQA6B" id="4EkVbrqCHmW" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCH55" resolve="Processor has authorisation of the controller to engage another processor" />
+          <ref role="1FQA6$" node="4EkVbrqCH55" resolve="processor has authorisation of the controller to engage another processor" />
         </node>
       </node>
       <node concept="1zEXH2" id="4EkVbrqCGJk" role="1zF96y">
@@ -1409,10 +1409,10 @@
         </node>
       </node>
       <node concept="1FQA6B" id="4EkVbrqCHp6" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCHn2" resolve="Personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
+        <ref role="1FQA6$" node="4EkVbrqCHn2" resolve="personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
       </node>
-      <node concept="1FQA6B" id="4EkVbrqCYAC" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCYAB" resolve="The controller has provided the data subject with all necessary information relating to the processing" />
+      <node concept="1FQA6B" id="1oJepmsRYNZ" role="1zF96y">
+        <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCGnF" role="2pmM46">
@@ -1787,7 +1787,7 @@
       </node>
       <node concept="1zEXH5" id="4EkVbrqCHs1" role="1zF96y">
         <node concept="1FQA6B" id="4EkVbrqCHsw" role="1zF96A">
-          <ref role="1FQA6$" node="4EkVbrqCHsv" resolve="Member State" />
+          <ref role="1FQA6$" node="4EkVbrqCHsv" resolve="member state" />
         </node>
       </node>
     </node>
@@ -1814,7 +1814,7 @@
   </node>
   <node concept="cu0$f" id="7uaI9y8qSnG">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Recipient" />
+    <property role="TrG5h" value="recipient" />
     <node concept="cog_b" id="7uaI9y8qSnK" role="2pmM46">
       <node concept="2hPCcK" id="7uaI9y8qSnL" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qSnM" role="19SJt6" />
@@ -3174,7 +3174,7 @@
     <node concept="1zEXH2" id="7uaI9y8qSUk" role="coNO9">
       <node concept="1zEXH2" id="7uaI9y8qSZM" role="1zF96y">
         <node concept="1FQA6B" id="7uaI9y8qSUe" role="1zF96y">
-          <ref role="1FQA6$" node="7uaI9y8qSP4" resolve="A legally binding and enforceable public instrument" />
+          <ref role="1FQA6$" node="7uaI9y8qSP4" resolve="a legally binding and enforceable public instrument" />
         </node>
         <node concept="1FQA6B" id="7uaI9y8qSUr" role="1zF96y">
           <ref role="1FQA6$" node="7uaI9y8qSUq" resolve="approved binding corporate rules" />
@@ -3232,7 +3232,7 @@
   </node>
   <node concept="cu0$f" id="7uaI9y8qSP4">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="A legally binding and enforceable public instrument" />
+    <property role="TrG5h" value="a legally binding and enforceable public instrument" />
     <node concept="cog_b" id="7uaI9y8qSP5" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/7d784774-1acf-4694-8633-ece55c63ff7d" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
@@ -3353,19 +3353,19 @@
     </node>
     <node concept="1zEWgd" id="7uaI9y8qTk1" role="coNO9">
       <node concept="1FQA6B" id="7uaI9y8qTjZ" role="1zF96y">
-        <ref role="1FQA6$" node="7uaI9y8qS4n" resolve="Binding corporate rules" />
+        <ref role="1FQA6$" node="7uaI9y8qS4n" resolve="binding corporate rules" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGeO" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCG4T" resolve="The binding corporate rules are legally binding and apply to and are enforced by every member concerned" />
+        <ref role="1FQA6$" node="4EkVbrqCG4T" resolve="the binding corporate rules are legally binding and apply to and are enforced by every member concerned" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGeW" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCGaL" resolve="The binding corporate rules expressly confer enforceable rights on data subjects with regard to the processing of their personal data" />
+        <ref role="1FQA6$" node="4EkVbrqCGaL" resolve="the binding corporate rules expressly confer enforceable rights on data subjects with regard to the processing of their personal data" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGfu" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCGft" resolve="The binding corporate rules fulfil requirements laid out in paragraph 2" />
+        <ref role="1FQA6$" node="4EkVbrqCGft" resolve="the binding corporate rules fulfil requirements laid out in paragraph 2" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGfD" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCGf6" resolve="The binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
+        <ref role="1FQA6$" node="4EkVbrqCGf6" resolve="the binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
       </node>
     </node>
   </node>
@@ -5193,7 +5193,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCEc1">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The transfer is necessary for the performance of a contract" />
+    <property role="TrG5h" value="the transfer is necessary for the performance of a contract" />
     <node concept="cog_b" id="4EkVbrqCEc2" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/e4c9e90c-61f5-4fa4-bb06-e491e29d4885" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -5491,7 +5491,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCEgy">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The transfer is necessary for the conclusion or performance of a contract concluded in the interest of the data subject" />
+    <property role="TrG5h" value="the transfer is necessary for the conclusion or performance of a contract concluded in the interest of the data subject" />
     <node concept="cog_b" id="4EkVbrqCEgz" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/5cb50024-9f52-4f06-b8dd-54473a604f47" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -5813,7 +5813,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCEmb">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The transfer is necessary for important reasons of public interest" />
+    <property role="TrG5h" value="the transfer is necessary for important reasons of public interest" />
     <node concept="cog_b" id="4EkVbrqCEmc" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/06f2371e-0e95-4cc9-9df9-ff332f47da6a" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -6109,7 +6109,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCEs5">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The transfer is necessary in order to protect the vital interests of the data subject or of other persons," />
+    <property role="TrG5h" value="the transfer is necessary in order to protect the vital interests of the data subject or of other persons" />
     <node concept="cog_b" id="4EkVbrqCEs6" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/93c9f78e-d688-4bd0-8f9b-939c4237dab2" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -8022,13 +8022,13 @@
         <ref role="1FQA6$" node="4EkVbrqCEIb" resolve="the transfer concerns only a limited number of data subjects" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCFra" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCEJz" resolve="The transfer is necessary for the purposes of compelling legitimate interests pursued by the controller which are not overridden by the interests or rights and freedoms of the data subject" />
+        <ref role="1FQA6$" node="4EkVbrqCEJz" resolve="the transfer is necessary for the purposes of compelling legitimate interests pursued by the controller which are not overridden by the interests or rights and freedoms of the data subject" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCFrm" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCEMI" resolve="the controller has assessed all the circumstances surrounding the data transfer and has on the basis of that assessment provided suitable safeguards with regard to the protection of personal data" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCFBn" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCFye" resolve="The controller or processor has documented the assessment as well as the suitable safeguards" />
+        <ref role="1FQA6$" node="4EkVbrqCFye" resolve="the controller or processor has documented the assessment as well as the suitable safeguards" />
       </node>
     </node>
   </node>
@@ -8186,7 +8186,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCEJz">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The transfer is necessary for the purposes of compelling legitimate interests pursued by the controller which are not overridden by the interests or rights and freedoms of the data subject" />
+    <property role="TrG5h" value="the transfer is necessary for the purposes of compelling legitimate interests pursued by the controller which are not overridden by the interests or rights and freedoms of the data subject" />
     <node concept="cog_b" id="4EkVbrqCEJ$" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/f12b2876-dfd2-4de1-aff7-4989326ae28d" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -8745,39 +8745,39 @@
             <ref role="1FQA6$" node="4EkVbrqCE7a" resolve="the data subject has explicitly consented to transfer" />
           </node>
           <node concept="1FQA6B" id="4EkVbrqCFtF" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCEc1" resolve="The transfer is necessary for the performance of a contract" />
+            <ref role="1FQA6$" node="4EkVbrqCEc1" resolve="the transfer is necessary for the performance of a contract" />
           </node>
           <node concept="1FQA6B" id="4EkVbrqCFtS" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCEgy" resolve="The transfer is necessary for the conclusion or performance of a contract concluded in the interest of the data subject" />
+            <ref role="1FQA6$" node="4EkVbrqCEgy" resolve="the transfer is necessary for the conclusion or performance of a contract concluded in the interest of the data subject" />
           </node>
           <node concept="1FQA6B" id="4EkVbrqCFu2" role="1zF96y">
             <ref role="1FQA6$" node="4EkVbrqCEGE" resolve="authorised transfer which is not based on Article 45 or 46, or 49.1(1)" />
           </node>
         </node>
         <node concept="1FQA6B" id="4EkVbrqCG4J" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCFR9" resolve="Not activities carried out by public authorities in the exercise of their public powers" />
+          <ref role="1FQA6$" node="4EkVbrqCFR9" resolve="not activities carried out by public authorities in the exercise of their public powers" />
         </node>
       </node>
       <node concept="1zEWgd" id="4EkVbrqCFBv" role="1zF96y">
         <node concept="1FQA6B" id="4EkVbrqCFsp" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCEmb" resolve="The transfer is necessary for important reasons of public interest" />
+          <ref role="1FQA6$" node="4EkVbrqCEmb" resolve="the transfer is necessary for important reasons of public interest" />
         </node>
         <node concept="1FQA6B" id="4EkVbrqCG4F" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCFYh" resolve="The public interest is recognised in Union law or in the law of the Member State to which the controller is subject" />
+          <ref role="1FQA6$" node="4EkVbrqCFYh" resolve="the public interest is recognised in Union law or in the law of the Member State to which the controller is subject" />
         </node>
       </node>
       <node concept="1FQA6B" id="4EkVbrqCFsx" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCEoK" resolve="the transfer is necessary for the establishment, exercise or defence of legal claims" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCFsF" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCEs5" resolve="The transfer is necessary in order to protect the vital interests of the data subject or of other persons," />
+        <ref role="1FQA6$" node="4EkVbrqCEs5" resolve="the transfer is necessary in order to protect the vital interests of the data subject or of other persons" />
       </node>
       <node concept="1zEWgd" id="4EkVbrqCFsY" role="1zF96y">
         <node concept="1FQA6B" id="4EkVbrqCFsR" role="1zF96y">
           <ref role="1FQA6$" node="4EkVbrqCExN" resolve="the transfer is made from a register intended to provide information to the public" />
         </node>
         <node concept="1FQA6B" id="4EkVbrqCFQJ" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCFBO" resolve="The transfer does not involve the entirety of the personal data" />
+          <ref role="1FQA6$" node="4EkVbrqCFBO" resolve="the transfer does not involve the entirety of the personal data" />
         </node>
         <node concept="1FQA6B" id="4EkVbrqCFQR" role="1zF96y">
           <ref role="1FQA6$" node="4EkVbrqCFKf" resolve="the transfer is made at the request of persons having a legitimate interest or they are to be the recipients" />
@@ -9160,7 +9160,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCFye">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The controller or processor has documented the assessment as well as the suitable safeguards" />
+    <property role="TrG5h" value="the controller or processor has documented the assessment as well as the suitable safeguards" />
     <node concept="cog_b" id="4EkVbrqCFyf" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/cfc58a85-c6d7-42bc-a4a4-97171691e310" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -9503,7 +9503,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCFBO">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The transfer does not involve the entirety of the personal data" />
+    <property role="TrG5h" value="the transfer does not involve the entirety of the personal data" />
     <node concept="cog_b" id="4EkVbrqCFBP" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/9e0eb865-d934-419a-af23-363182d0b00b" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -10501,7 +10501,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCFR9">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Not activities carried out by public authorities in the exercise of their public powers" />
+    <property role="TrG5h" value="not activities carried out by public authorities in the exercise of their public powers" />
     <node concept="cog_b" id="4EkVbrqCFRa" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/8b4e661f-793c-4ea1-aa54-f34a70d74467" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -10865,7 +10865,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCFYh">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The public interest is recognised in Union law or in the law of the Member State to which the controller is subject" />
+    <property role="TrG5h" value="the public interest is recognised in Union law or in the law of the Member State to which the controller is subject" />
     <node concept="cog_b" id="4EkVbrqCFYi" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/84daebc1-85cc-4360-8caa-4904e86bb465" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
@@ -11248,7 +11248,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCG4T">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The binding corporate rules are legally binding and apply to and are enforced by every member concerned" />
+    <property role="TrG5h" value="the binding corporate rules are legally binding and apply to and are enforced by every member concerned" />
     <node concept="cog_b" id="4EkVbrqCG4V" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/d9a9c39e-dc35-4349-ac01-d2138177207b" />
       <ref role="cog$q" node="4EkVbrqCG4U" resolve="Article 47" />
@@ -11588,7 +11588,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCGaL">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The binding corporate rules expressly confer enforceable rights on data subjects with regard to the processing of their personal data" />
+    <property role="TrG5h" value="the binding corporate rules expressly confer enforceable rights on data subjects with regard to the processing of their personal data" />
     <node concept="cog_b" id="4EkVbrqCGaM" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/0bbc7237-120f-4ff4-bbfe-69be3744a11a" />
       <ref role="cog$q" node="4EkVbrqCG4U" resolve="Article 47" />
@@ -11789,11 +11789,11 @@
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGf6">
-    <property role="TrG5h" value="The binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
+    <property role="TrG5h" value="the binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
     <property role="3GE5qa" value="facts" />
     <node concept="1zEWgd" id="4EkVbrqCGfe" role="coNO9">
       <node concept="1FQA6B" id="4EkVbrqCGfc" role="1zF96y">
-        <ref role="1FQA6$" node="7uaI9y8qS4n" resolve="Binding corporate rules" />
+        <ref role="1FQA6$" node="7uaI9y8qS4n" resolve="binding corporate rules" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGfl" role="1zF96y">
         <ref role="1FQA6$" node="7uaI9y8qTb2" resolve="supervisory authority is competent" />
@@ -11802,7 +11802,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGft">
-    <property role="TrG5h" value="The binding corporate rules fulfil requirements laid out in paragraph 2" />
+    <property role="TrG5h" value="the binding corporate rules fulfil requirements laid out in paragraph 2" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="4EkVbrqCGfM" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/c51f4403-972f-4ebd-ad0d-f96e9aba0e16" />
@@ -11963,7 +11963,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCGjJ">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+    <property role="TrG5h" value="archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
     <node concept="cog_b" id="4EkVbrqCGjL" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/b686b107-5eb8-4965-a6b2-97bb6cd5ae2b" />
       <ref role="cog$q" node="4EkVbrqCGjK" resolve="Article 89" />
@@ -13764,7 +13764,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCGKf">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Third party" />
+    <property role="TrG5h" value="third party" />
     <node concept="cog_b" id="4EkVbrqCGKh" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/e22b4e68-7d0c-4f44-88b8-7ee140f75d1e" />
       <ref role="cog$q" node="4EkVbrqCGKg" resolve="Article 4" />
@@ -14156,7 +14156,7 @@
     <property role="3GE5qa" value="facts" />
     <node concept="1zEWgd" id="4EkVbrqCGPy" role="coNO9">
       <node concept="1FQA6B" id="4EkVbrqCGPw" role="1zF96y">
-        <ref role="1FQA6$" node="7uaI9y8qSnG" resolve="Recipient" />
+        <ref role="1FQA6$" node="7uaI9y8qSnG" resolve="recipient" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGPS" role="1zF96y">
         <ref role="1FQA6$" node="7uaI9y8qSkX" resolve="third country or international organisation" />
@@ -14185,7 +14185,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCH55">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Processor has authorisation of the controller to engage another processor" />
+    <property role="TrG5h" value="processor has authorisation of the controller to engage another processor" />
     <node concept="cog_b" id="4EkVbrqCH56" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/0795d672-8a0e-48d1-b67f-9561b30cc9d8" />
       <ref role="cog$q" node="4EkVbrqCGUt" resolve="Article 28" />
@@ -14675,7 +14675,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCHbJ">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Processing by a processor is governed by a contract or other legal act" />
+    <property role="TrG5h" value="processing by a processor is governed by a contract or other legal act" />
     <node concept="cog_b" id="4EkVbrqCHbK" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/46bb370c-1c8d-41ad-8986-1c61477889fa" />
       <ref role="cog$q" node="4EkVbrqCGUt" resolve="Article 28" />
@@ -15439,7 +15439,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCHn2">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="Personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
+    <property role="TrG5h" value="personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
     <node concept="cog_b" id="4EkVbrqCHn4" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/51a19db0-c2a9-45ad-82a4-99ea27c6b369" />
       <ref role="cog$q" node="4EkVbrqCHn3" resolve="Article 5" />
@@ -15614,7 +15614,7 @@
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="4EkVbrqCHsv">
-    <property role="TrG5h" value="Member State" />
+    <property role="TrG5h" value="member state" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="2cz0EU" id="4EkVbrqCY_u">
@@ -15697,10 +15697,10 @@
           <ref role="1FQA6$" node="1oJepmsRXu$" resolve="in a concise, transparent, intelligible and easily accessible form, using clear and plain language" />
         </node>
         <node concept="1FQA6B" id="1oJepmsRXWj" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRX$9" resolve="The information shall be provided in writing, or by other means" />
+          <ref role="1FQA6$" node="1oJepmsRX$9" resolve="the information shall be provided in writing, or by other means" />
         </node>
         <node concept="1FQA6B" id="1oJepmsRYNo" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRYEQ" resolve="The information may be provided in combination with standardised, machine-readable icons" />
+          <ref role="1FQA6$" node="1oJepmsRYEQ" resolve="the information may be provided in combination with standardised, machine-readable icons" />
         </node>
         <node concept="1zEXH2" id="1oJepmsRXWk" role="1zF96y">
           <node concept="1FQA6B" id="1oJepmsRXWl" role="1zF96y">
@@ -15721,13 +15721,13 @@
           </node>
           <node concept="1zEXH2" id="1oJepmsRYEy" role="1zF96y">
             <node concept="1FQA6B" id="1oJepmsRYEm" role="1zF96y">
-              <ref role="1FQA6$" node="1oJepmsRYtj" resolve="The controller provides the information within a reasonable period after obtaining the personal data" />
+              <ref role="1FQA6$" node="1oJepmsRYtj" resolve="within a reasonable period after obtaining the personal data" />
             </node>
             <node concept="1FQA6B" id="1oJepmsRYEB" role="1zF96y">
-              <ref role="1FQA6$" node="1oJepmsRYxU" resolve="The controller provides the information at the latest when the personal data are first disclosed" />
+              <ref role="1FQA6$" node="1oJepmsRYxU" resolve="the controller provides the information at the latest when the personal data are first disclosed" />
             </node>
             <node concept="1FQA6B" id="1oJepmsRYEJ" role="1zF96y">
-              <ref role="1FQA6$" node="1oJepmsRYxO" resolve="The controller provides the information at the latest at the time of the first communication to that data subject" />
+              <ref role="1FQA6$" node="1oJepmsRYxO" resolve="the controller provides the information at the latest at the time of the first communication to that data subject" />
             </node>
           </node>
         </node>
@@ -15752,7 +15752,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCYBe">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The data subject already has the information" />
+    <property role="TrG5h" value="the data subject already has the information" />
     <node concept="cog_b" id="4EkVbrqCYBf" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/989b4aaf-bd7a-47c6-84da-bf876d532e58" />
       <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
@@ -15837,7 +15837,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCYG_">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The identity and the contact details of the controller and, where applicable, of the controller's representative" />
+    <property role="TrG5h" value="the identity and the contact details of the controller and, where applicable, of the controller's representative" />
     <node concept="cog_b" id="4EkVbrqCYGA" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/0a78d46e-c51a-448b-a7cb-3d13eb70ba27" />
       <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
@@ -16550,7 +16550,7 @@
     <node concept="1zEXHe" id="4EkVbrqCYOV" role="coNO9">
       <property role="1zF6e5" value="recipients" />
       <node concept="1FQA6B" id="4EkVbrqCYOP" role="1zF6e3">
-        <ref role="1FQA6$" node="7uaI9y8qSnG" resolve="Recipient" />
+        <ref role="1FQA6$" node="7uaI9y8qSnG" resolve="recipient" />
       </node>
     </node>
   </node>
@@ -19229,8 +19229,8 @@
     <node concept="1FQA6B" id="1oJepmsRWMG" role="3FTnq6">
       <ref role="1FQA6$" node="4EkVbrqCGOC" resolve="obtain" />
     </node>
-    <node concept="1FQA6B" id="1oJepmsRXun" role="mu3T0">
-      <ref role="1FQA6$" node="4EkVbrqCYAB" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
+    <node concept="1FQA6B" id="2huJBPoYbfH" role="mu3T0">
+      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRWO4">
@@ -21117,7 +21117,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRX$9">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The information shall be provided in writing, or by other means" />
+    <property role="TrG5h" value="the information shall be provided in writing, or by other means" />
     <node concept="cog_b" id="1oJepmsRX$a" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/70ec1fd9-b7e7-40d0-9b11-9bac1858e1b6" />
       <ref role="cog$q" node="1oJepmsRXur" resolve="Article 12" />
@@ -22598,7 +22598,7 @@
     </node>
     <node concept="1zEWgd" id="1oJepmsRYaL" role="coNO9">
       <node concept="1FQA6B" id="1oJepmsRYaP" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCYG_" resolve="The identity and the contact details of the controller and, where applicable, of the controller's representative" />
+        <ref role="1FQA6$" node="4EkVbrqCYG_" resolve="the identity and the contact details of the controller and, where applicable, of the controller's representative" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYaZ" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCYIs" resolve="the contact details of the data protection officer, where applicable" />
@@ -22848,7 +22848,7 @@
     </node>
     <node concept="1zEWgd" id="1oJepmsRYh5" role="coNO9">
       <node concept="1FQA6B" id="1oJepmsRYh6" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCYG_" resolve="The identity and the contact details of the controller and, where applicable, of the controller's representative" />
+        <ref role="1FQA6$" node="4EkVbrqCYG_" resolve="the identity and the contact details of the controller and, where applicable, of the controller's representative" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYh7" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCYIs" resolve="the contact details of the data protection officer, where applicable" />
@@ -23352,7 +23352,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYtj">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The controller provides the information within a reasonable period after obtaining the personal data" />
+    <property role="TrG5h" value="within a reasonable period after obtaining the personal data" />
     <node concept="cog_b" id="1oJepmsRYtk" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/f7bf86cf-1346-498a-a87b-bf29a1efba2f" />
       <ref role="cog$q" node="1oJepmsRWIU" resolve="Article 14" />
@@ -23650,7 +23650,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYxO">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The controller provides the information at the latest at the time of the first communication to that data subject" />
+    <property role="TrG5h" value="the controller provides the information at the latest at the time of the first communication to that data subject" />
     <node concept="cog_b" id="1oJepmsRYxP" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/245ec09a-7c58-47c5-aa3a-65b2a5467830" />
       <ref role="cog$q" node="1oJepmsRWIU" resolve="Article 14" />
@@ -23954,7 +23954,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYxU">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The controller provides the information at the latest when the personal data are first disclosed" />
+    <property role="TrG5h" value="the controller provides the information at the latest when the personal data are first disclosed" />
     <node concept="cog_b" id="1oJepmsRYxV" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/7d4b6675-3aae-4020-bf4f-cb94eb396565" />
       <ref role="cog$q" node="1oJepmsRWIU" resolve="Article 14" />
@@ -24156,7 +24156,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYEQ">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="The information may be provided in combination with standardised, machine-readable icons" />
+    <property role="TrG5h" value="the information may be provided in combination with standardised, machine-readable icons" />
     <node concept="cog_b" id="1oJepmsRYER" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/90a412fb-99ed-405d-b54e-e8acf5534f3b" />
       <ref role="cog$q" node="1oJepmsRXur" resolve="Article 12" />
