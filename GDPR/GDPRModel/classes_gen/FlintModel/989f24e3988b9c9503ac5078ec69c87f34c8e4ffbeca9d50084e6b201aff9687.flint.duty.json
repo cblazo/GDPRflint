@@ -1,0 +1,12 @@
+{
+  "duty": {
+    "duty": "<A Duty>",
+    "duty-components": [],
+    "duty-holder": "[]",
+    "claimant": "[]",
+    "create": "<<>>",
+    "terminate": "<<>>",
+    "sources": [],
+    "explanation": ""
+  }
+}
