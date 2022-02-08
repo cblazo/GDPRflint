@@ -18,6 +18,9 @@
       </concept>
     </language>
     <language id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint">
+      <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
+        <property id="778381075952164307" name="explanation" index="3ANC2_" />
+      </concept>
       <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a" />
       <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
@@ -1343,6 +1346,7 @@
   <node concept="mu5$5" id="7uaI9y8qSf$">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="processing personal data" />
+    <property role="3ANC2_" value="I would expect art. 5 (about doing things with personal data) to be the source of this act, not art. 4 (definition of processing)." />
     <node concept="1FQA6B" id="4EkVbrqCGg6" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCE6_" resolve="processor" />
     </node>
