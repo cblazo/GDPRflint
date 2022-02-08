@@ -99,7 +99,7 @@
     <property role="3GE5qa" value="facts" />
     <property role="TrG5h" value="binding corporate rules" />
     <node concept="cog_b" id="7uaI9y8qS4o" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/cd7c0a1e-d405-4e10-b7f6-4f494d4ad34a" />
+      <property role="1hTq4$" value="https://calculemus.org/00be62e8-ad7e-4789-af62-b572cdcab23e" />
       <ref role="cog$q" node="7uaI9y8qRNH" resolve="Article 4" />
       <node concept="2hPCcK" id="7uaI9y8qS4p" role="2hN6Sa">
         <node concept="2h$EKm" id="7uaI9y8qSaS" role="19SJt6">
@@ -665,7 +665,7 @@
       <ref role="1FQA6$" node="7uaI9y8qSdX" resolve="transfer" />
     </node>
     <node concept="cog_b" id="7uaI9y8qSdQ" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/63bf52cb-3c1d-401a-9c34-692cf59d3561" />
+      <property role="1hTq4$" value="https://calculemus.org/d7c50848-b7c9-481e-a759-fad1bd9836c8" />
       <ref role="cog$q" node="7uaI9y8qSdP" resolve="Article 44" />
       <node concept="2hPCcK" id="7uaI9y8qSdR" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qSdS" role="19SJt6">
@@ -1362,7 +1362,7 @@
       <ref role="1FQA6$" node="7uaI9y8qSfJ" resolve="processing" />
     </node>
     <node concept="cog_b" id="7uaI9y8qSfD" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/01df7022-f96f-4d60-aa67-b57fd9b20856" />
+      <property role="1hTq4$" value="https://calculemus.org/664b15c5-ee9d-45d5-9bfd-410133cab01b" />
       <ref role="cog$q" node="7uaI9y8qRNH" resolve="Article 4" />
       <node concept="2hPCcK" id="7uaI9y8qSfE" role="2hN6Sa">
         <node concept="2h$EKm" id="7uaI9y8qSfH" role="19SJt6">
@@ -1433,20 +1433,11 @@
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCGnF" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/b686b107-5eb8-4965-a6b2-97bb6cd5ae2b" />
+      <property role="1hTq4$" value="https://calculemus.org/c92ae133-9ad1-4854-be8c-e701e3c798bb" />
       <ref role="cog$q" node="4EkVbrqCGjK" resolve="Article 89" />
       <node concept="2hPCcK" id="4EkVbrqCGnG" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCGnH" role="19SJt6">
           <property role="19SUeA" value="Processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes, shall be subject to appropriate safeguards, in accordance with this Regulation, for the rights and freedoms of the data subject." />
-        </node>
-      </node>
-    </node>
-    <node concept="cog_b" id="4EkVbrqCGyy" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/9c262161-97bf-47b1-8b1e-090499e1689c" />
-      <ref role="cog$q" node="4EkVbrqCGjK" resolve="Article 89" />
-      <node concept="2hPCcK" id="4EkVbrqCGyz" role="2hN6Sa">
-        <node concept="19SUe$" id="4EkVbrqCGy$" role="19SJt6">
-          <property role="19SUeA" value="" />
         </node>
       </node>
     </node>
@@ -2805,11 +2796,6 @@
   <node concept="cu0$f" id="7uaI9y8qS_q">
     <property role="TrG5h" value="authorised to transfer to the third country or international organisation" />
     <property role="3GE5qa" value="facts" />
-    <node concept="cog_b" id="7uaI9y8qS_w" role="2pmM46">
-      <node concept="2hPCcK" id="7uaI9y8qS_x" role="2hN6Sa">
-        <node concept="19SUe$" id="7uaI9y8qS_y" role="19SJt6" />
-      </node>
-    </node>
     <node concept="1zEXH2" id="7uaI9y8qSE6" role="coNO9">
       <node concept="1FQA6B" id="7uaI9y8qSDZ" role="1zF96y">
         <ref role="1FQA6$" node="7uaI9y8qS_H" resolve="adequacy decision" />
@@ -2833,7 +2819,7 @@
       </node>
     </node>
     <node concept="cog_b" id="7uaI9y8qSEm" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/a5e20a79-6cd8-4968-97dc-05d0a99ffea3" />
+      <property role="1hTq4$" value="https://calculemus.org/618cdb30-93bd-4270-a72f-449e5a8dd328" />
       <ref role="cog$q" node="7uaI9y8qS_I" resolve="Article 45" />
       <node concept="2hPCcK" id="7uaI9y8qSEn" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qSEo" role="19SJt6">
@@ -2842,7 +2828,7 @@
       </node>
     </node>
     <node concept="cog_b" id="7uaI9y8qT7M" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/f989eb96-bb67-4a7c-a63f-d0c3dc339840" />
+      <property role="1hTq4$" value="https://calculemus.org/de5a3ea8-a8ec-4e9c-9212-c05aa74f81de" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qT7N" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qT7O" role="19SJt6">
@@ -2851,7 +2837,7 @@
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCE6T" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/94a7bfec-0cf6-4c5b-b836-bbae6c7645ef" />
+      <property role="1hTq4$" value="https://calculemus.org/8f3696aa-a847-407b-bb44-af9c25c5a9af" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
       <node concept="2hPCcK" id="4EkVbrqCE6U" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCE6V" role="19SJt6">
@@ -2868,7 +2854,7 @@
     <property role="3GE5qa" value="facts" />
     <property role="TrG5h" value="adequacy decision" />
     <node concept="cog_b" id="7uaI9y8qS_J" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/a5e20a79-6cd8-4968-97dc-05d0a99ffea3" />
+      <property role="1hTq4$" value="https://calculemus.org/618cdb30-93bd-4270-a72f-449e5a8dd328" />
       <ref role="cog$q" node="7uaI9y8qS_I" resolve="Article 45" />
       <node concept="2hPCcK" id="7uaI9y8qS_K" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qS_L" role="19SJt6">
@@ -3252,7 +3238,7 @@
     <property role="3GE5qa" value="facts" />
     <property role="TrG5h" value="a legally binding and enforceable public instrument" />
     <node concept="cog_b" id="7uaI9y8qSP5" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/7d784774-1acf-4694-8633-ece55c63ff7d" />
+      <property role="1hTq4$" value="https://calculemus.org/cb803bf6-4b17-4957-a66e-9bd5bc82ba04" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qSP6" role="2hN6Sa">
         <node concept="2h$EKm" id="7uaI9y8qSPN" role="19SJt6">
@@ -3361,7 +3347,7 @@
     <property role="TrG5h" value="approved binding corporate rules" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qTbf" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/2439e189-ab32-4ffb-a7b8-3f0248e50a91" />
+      <property role="1hTq4$" value="https://calculemus.org/efdcace9-84a1-40f6-80f0-95669550353b" />
       <ref role="cog$q" node="7uaI9y8qTbe" resolve="Article 47" />
       <node concept="2hPCcK" id="7uaI9y8qTbg" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qTbh" role="19SJt6">
@@ -3807,7 +3793,7 @@
     <property role="TrG5h" value="certification mechanism" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qT7y" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/0577e457-9698-4f21-8d8e-971852fda270" />
+      <property role="1hTq4$" value="https://calculemus.org/109861f9-0488-44cc-a335-a3bc4caca4a1" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qT7z" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qT7$" role="19SJt6">
@@ -3820,7 +3806,7 @@
     <property role="TrG5h" value="binding and enforceable commitments" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qT7f" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/6cb8466d-79fb-4f66-b29a-7b5908844ac3" />
+      <property role="1hTq4$" value="https://calculemus.org/8f5cf079-b62c-4e01-b9f3-2de1e2ab669f" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qT7g" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qT7h" role="19SJt6">
@@ -3829,7 +3815,7 @@
       </node>
     </node>
     <node concept="cog_b" id="7uaI9y8qT7n" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/0577e457-9698-4f21-8d8e-971852fda270" />
+      <property role="1hTq4$" value="https://calculemus.org/109861f9-0488-44cc-a335-a3bc4caca4a1" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qT7o" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qT7p" role="19SJt6">
@@ -3842,7 +3828,7 @@
     <property role="TrG5h" value="authorisation from a competent supervisory authority" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qTax" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/42fadf36-01ec-483c-9658-195b38841769" />
+      <property role="1hTq4$" value="https://calculemus.org/fe6fcf5a-b7ea-4e52-bcfb-a02e99c44940" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qTay" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qTaz" role="19SJt6">
@@ -3851,7 +3837,7 @@
       </node>
     </node>
     <node concept="cog_b" id="7uaI9y8qTaD" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/0981c6f1-fc49-4adb-8e73-793c210e449f" />
+      <property role="1hTq4$" value="https://calculemus.org/75e722bf-a502-49f8-8e8d-ef810e9bd24e" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qTaE" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qTaF" role="19SJt6">
@@ -3860,7 +3846,7 @@
       </node>
     </node>
     <node concept="cog_b" id="7uaI9y8qTaO" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/11ae0599-323d-49b2-9b3c-7c988fe89f01" />
+      <property role="1hTq4$" value="https://calculemus.org/9f1a5e22-f519-4e93-9e4f-932bd37fce8a" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
       <node concept="2hPCcK" id="7uaI9y8qTaP" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qTaQ" role="19SJt6">
@@ -7652,7 +7638,7 @@
     <property role="3GE5qa" value="facts" />
     <property role="TrG5h" value="authorised transfer which is not based on Article 45 or 46, or 49.1(1)" />
     <node concept="cog_b" id="4EkVbrqCEGF" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/f12b2876-dfd2-4de1-aff7-4989326ae28d" />
+      <property role="1hTq4$" value="https://calculemus.org/bac37840-b739-45a7-9046-b8da2051bf49" />
       <ref role="cog$q" node="4EkVbrqCE6S" resolve="Article 49" />
       <node concept="2hPCcK" id="4EkVbrqCEGG" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCEGH" role="19SJt6">
@@ -11860,7 +11846,6 @@
     <property role="3GE5qa" value="facts" />
     <property role="TrG5h" value="archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
     <node concept="cog_b" id="4EkVbrqCGjL" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/b686b107-5eb8-4965-a6b2-97bb6cd5ae2b" />
       <ref role="cog$q" node="4EkVbrqCGjK" resolve="Article 89" />
       <node concept="2hPCcK" id="4EkVbrqCGjM" role="2hN6Sa">
         <node concept="2h$EKm" id="4EkVbrqCGl6" role="19SJt6">
@@ -12019,7 +12004,7 @@
     <property role="3GE5qa" value="facts" />
     <property role="TrG5h" value="appropriate safeguards for the rights and freedoms of the data subject" />
     <node concept="cog_b" id="4EkVbrqCGnV" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/b686b107-5eb8-4965-a6b2-97bb6cd5ae2b" />
+      <property role="1hTq4$" value="https://calculemus.org/c92ae133-9ad1-4854-be8c-e701e3c798bb" />
       <ref role="cog$q" node="4EkVbrqCGjK" resolve="Article 89" />
       <node concept="2hPCcK" id="4EkVbrqCGnW" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCGnX" role="19SJt6">
@@ -16599,7 +16584,7 @@
       <ref role="3jSua9" node="4EkVbrqCY_F" resolve="provide information relating to processing" />
     </node>
     <node concept="cog_b" id="4EkVbrqCY_P" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/580a8496-4ff5-456d-b589-1526e6509111" />
+      <property role="1hTq4$" value="https://calculemus.org/0417542d-4b57-411c-8009-1607d92294c4" />
       <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
       <node concept="2hPCcK" id="4EkVbrqCY_Q" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCY_R" role="19SJt6">
@@ -16608,7 +16593,7 @@
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCY_X" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/b4e2434e-ecc8-4375-955c-981fb2bfc30b" />
+      <property role="1hTq4$" value="https://calculemus.org/5d7930e7-2a0c-449c-9c1b-b2ff11ecdd0f" />
       <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
       <node concept="2hPCcK" id="4EkVbrqCY_Y" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCY_Z" role="19SJt6">
@@ -16617,7 +16602,7 @@
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCYA9" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/468882a6-e4ee-4bce-87a5-ed170690e70e" />
+      <property role="1hTq4$" value="https://calculemus.org/7e443179-9225-4b93-b9d5-fdc97643aa79" />
       <ref role="cog$q" node="4EkVbrqCYA8" resolve="Article 14" />
       <node concept="2hPCcK" id="4EkVbrqCYAa" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCYAb" role="19SJt6">
@@ -16649,7 +16634,7 @@
       <ref role="1FQA6$" node="1oJepmsRYrL" resolve="inform" />
     </node>
     <node concept="cog_b" id="1oJepmsRXus" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/70ec1fd9-b7e7-40d0-9b11-9bac1858e1b6" />
+      <property role="1hTq4$" value="https://calculemus.org/8028ee9a-a201-4d89-bfeb-2c619821770e" />
       <ref role="cog$q" node="1oJepmsRXur" resolve="Article 12" />
       <node concept="2hPCcK" id="1oJepmsRXut" role="2hN6Sa">
         <node concept="19SUe$" id="1oJepmsRXuu" role="19SJt6">
@@ -20181,7 +20166,7 @@
       <ref role="1FQA6$" node="1phiYgAMDWm" resolve="the personal data is collected" />
     </node>
     <node concept="cog_b" id="1phiYgAMDWC" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/580a8496-4ff5-456d-b589-1526e6509111" />
+      <property role="1hTq4$" value="https://calculemus.org/0417542d-4b57-411c-8009-1607d92294c4" />
       <ref role="cog$q" node="1phiYgAMDWB" resolve="Article 13" />
       <node concept="2hPCcK" id="1phiYgAMDWD" role="2hN6Sa">
         <node concept="19SUe$" id="1phiYgAMDWE" role="19SJt6">
@@ -20190,7 +20175,7 @@
       </node>
     </node>
     <node concept="cog_b" id="1phiYgAMDWW" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/01df7022-f96f-4d60-aa67-b57fd9b20856" />
+      <property role="1hTq4$" value="https://calculemus.org/664b15c5-ee9d-45d5-9bfd-410133cab01b" />
       <ref role="cog$q" node="1phiYgAMDWK" resolve="Article 4" />
       <node concept="2hPCcK" id="1phiYgAMDWX" role="2hN6Sa">
         <node concept="19SUe$" id="1phiYgAMDWY" role="19SJt6">
@@ -25716,7 +25701,7 @@
       <ref role="1FQA6$" node="1phiYgAMEb8" resolve="by law reconcile the right to the protection of personal data with the right to freedom of expression and information" />
     </node>
     <node concept="cog_b" id="1phiYgAME96" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/14de1e12-cd1b-4239-8956-ed553c82ab0d" />
+      <property role="1hTq4$" value="https://calculemus.org/4d22938a-4dd6-47e7-b6fc-4f802e754643" />
       <ref role="cog$q" node="1phiYgAME95" resolve="Article 85" />
       <node concept="2hPCcK" id="1phiYgAME97" role="2hN6Sa">
         <node concept="2h$EKm" id="1phiYgAME9g" role="19SJt6">
@@ -26028,7 +26013,7 @@
       </node>
     </node>
     <node concept="cog_b" id="1phiYgAMEe7" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/5f8f35d5-0cde-4868-8fcd-06e7fbc48033" />
+      <property role="1hTq4$" value="https://calculemus.org/0394cc88-3474-4eb7-9085-b9e87982673b" />
       <ref role="cog$q" node="1phiYgAME95" resolve="Article 85" />
       <node concept="2hPCcK" id="1phiYgAMEe8" role="2hN6Sa">
         <node concept="19SUe$" id="1phiYgAMEe9" role="19SJt6">
@@ -26050,7 +26035,7 @@
     <property role="TrG5h" value="by law reconcile the right to the protection of personal data with the right to freedom of expression and information" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="1phiYgAMEb9" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/14de1e12-cd1b-4239-8956-ed553c82ab0d" />
+      <property role="1hTq4$" value="https://calculemus.org/4d22938a-4dd6-47e7-b6fc-4f802e754643" />
       <ref role="cog$q" node="1phiYgAME95" resolve="Article 85" />
       <node concept="2hPCcK" id="1phiYgAMEba" role="2hN6Sa">
         <node concept="19SUe$" id="1phiYgAMEcp" role="19SJt6">
@@ -26071,7 +26056,7 @@
     <property role="3GE5qa" value="duties" />
     <property role="TrG5h" value="notify to the Commission the provisions of its law" />
     <node concept="cog_b" id="1phiYgAMEim" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/2b50460a-8e5d-45a7-b0a5-2d6d4044e0fc" />
+      <property role="1hTq4$" value="https://calculemus.org/c56dc13c-1933-4b0b-a93a-e0ba0e823493" />
       <ref role="cog$q" node="1phiYgAME95" resolve="Article 85" />
       <node concept="2hPCcK" id="1phiYgAMEin" role="2hN6Sa">
         <node concept="19SUe$" id="1phiYgAMEio" role="19SJt6">
@@ -26391,179 +26376,11 @@
     <property role="TrG5h" value="notify to the Commission the provisions of its law which it has adopted pursuant to paragraph 2 and, without delay, any subsequent amendment law or amendment affecting them." />
     <property role="3GE5qa" value="duties" />
     <node concept="cog_b" id="1phiYgAMEnB" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/2b50460a-8e5d-45a7-b0a5-2d6d4044e0fc" />
+      <property role="1hTq4$" value="https://calculemus.org/c56dc13c-1933-4b0b-a93a-e0ba0e823493" />
       <ref role="cog$q" node="1phiYgAME95" resolve="Article 85" />
       <node concept="2hPCcK" id="1phiYgAMEnC" role="2hN6Sa">
         <node concept="19SUe$" id="1phiYgAMEnD" role="19SJt6">
-          <property role="19SUeA" value="Each Member State shall " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoY" role="19SJt6">
-          <property role="19SUeA" value="notify" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnG" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoZ" role="19SJt6">
-          <property role="19SUeA" value="to" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnJ" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp0" role="19SJt6">
-          <property role="19SUeA" value="the" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnM" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp1" role="19SJt6">
-          <property role="19SUeA" value="Commission" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnP" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp2" role="19SJt6">
-          <property role="19SUeA" value="the" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnS" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp3" role="19SJt6">
-          <property role="19SUeA" value="provisions" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnV" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp4" role="19SJt6">
-          <property role="19SUeA" value="of" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEnY" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp5" role="19SJt6">
-          <property role="19SUeA" value="its" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEo1" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp6" role="19SJt6">
-          <property role="19SUeA" value="law" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEo4" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp7" role="19SJt6">
-          <property role="19SUeA" value="which" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEo7" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp8" role="19SJt6">
-          <property role="19SUeA" value="it" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoa" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEp9" role="19SJt6">
-          <property role="19SUeA" value="has" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEod" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpa" role="19SJt6">
-          <property role="19SUeA" value="adopted" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEog" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpb" role="19SJt6">
-          <property role="19SUeA" value="pursuant" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoj" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpc" role="19SJt6">
-          <property role="19SUeA" value="to" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEom" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpd" role="19SJt6">
-          <property role="19SUeA" value="paragraph" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEop" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpe" role="19SJt6">
-          <property role="19SUeA" value="2" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEos" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpf" role="19SJt6">
-          <property role="19SUeA" value="and," />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEov" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpg" role="19SJt6">
-          <property role="19SUeA" value="without" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoy" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEph" role="19SJt6">
-          <property role="19SUeA" value="delay," />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEo_" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpi" role="19SJt6">
-          <property role="19SUeA" value="any" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoC" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpj" role="19SJt6">
-          <property role="19SUeA" value="subsequent" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoF" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpk" role="19SJt6">
-          <property role="19SUeA" value="amendment" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoI" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpl" role="19SJt6">
-          <property role="19SUeA" value="law" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoL" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpm" role="19SJt6">
-          <property role="19SUeA" value="or" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoO" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpn" role="19SJt6">
-          <property role="19SUeA" value="amendment" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoR" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpo" role="19SJt6">
-          <property role="19SUeA" value="affecting" />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoU" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEpp" role="19SJt6">
-          <property role="19SUeA" value="them." />
-        </node>
-        <node concept="19SUe$" id="1phiYgAMEoX" role="19SJt6">
-          <property role="19SUeA" value="" />
+          <property role="19SUeA" value="Each Member State shall notify to the Commission the provisions of its law which it has adopted pursuant to paragraph 2 and, without delay, any subsequent amendment law or amendment affecting them." />
         </node>
       </node>
     </node>
