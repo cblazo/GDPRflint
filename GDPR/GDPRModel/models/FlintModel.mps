@@ -760,7 +760,7 @@
     <property role="TrG5h" value="controller" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qSeN" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/63bf52cb-3c1d-401a-9c34-692cf59d3561" />
+      <property role="1hTq4$" value="https://calculemus.org/d7c50848-b7c9-481e-a759-fad1bd9836c8" />
       <ref role="cog$q" node="7uaI9y8qSdP" resolve="Article 44" />
       <node concept="2hPCcK" id="7uaI9y8qSeO" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qSeP" role="19SJt6">
@@ -769,7 +769,7 @@
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCGUL" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/d538735c-8be2-48c3-a294-7018a441dce0" />
+      <property role="1hTq4$" value="https://calculemus.org/18e13eac-99f7-4217-bf98-102fb1044d29" />
       <ref role="cog$q" node="4EkVbrqCGKg" resolve="Article 4" />
       <node concept="2hPCcK" id="4EkVbrqCGUM" role="2hN6Sa">
         <node concept="2h$EKm" id="4EkVbrqCH20" role="19SJt6">
@@ -1435,7 +1435,7 @@
         <ref role="1FQA6$" node="4EkVbrqCHn2" resolve="personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYNZ" role="1zF96y">
-        <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
+        <ref role="1FQA6$" node="1oJepmsRYrI" resolve="controller has provided the data subject with all necessary information relating to the processing" />
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCGnF" role="2pmM46">
@@ -4823,7 +4823,7 @@
     <property role="TrG5h" value="processor" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="4EkVbrqCGUu" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/528dccc6-1649-4ef3-9699-8789b98f14fe" />
+      <property role="1hTq4$" value="https://calculemus.org/c3665a0a-efa2-4780-a077-0ee4f7d4d05c" />
       <ref role="cog$q" node="4EkVbrqCGUt" resolve="Article 28" />
       <node concept="2hPCcK" id="4EkVbrqCGUv" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCGUw" role="19SJt6">
@@ -4832,7 +4832,7 @@
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCGUA" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/e1610170-0a1a-450d-8f7e-22716c5d7b4c" />
+      <property role="1hTq4$" value="https://calculemus.org/4ccca14e-f055-4e71-96e4-9c79dcbfeefc" />
       <ref role="cog$q" node="4EkVbrqCGKg" resolve="Article 4" />
       <node concept="2hPCcK" id="4EkVbrqCGUB" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCGUC" role="19SJt6">
@@ -16625,7 +16625,7 @@
     <property role="TrG5h" value="provide information relating to processing" />
     <property role="3GE5qa" value="acts" />
     <node concept="1FQA6B" id="1oJepmsRYrJ" role="mu1cf">
-      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
+      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="controller has provided the data subject with all necessary information relating to the processing" />
     </node>
     <node concept="1FQA6B" id="1oJepmsRXue" role="3H36mW">
       <ref role="1FQA6$" node="7uaI9y8qSeM" resolve="controller" />
@@ -25833,35 +25833,6 @@
       </node>
     </node>
   </node>
-  <node concept="cu0$f" id="IMlc8iZQuG">
-    <property role="TrG5h" value="processor" />
-    <property role="3GE5qa" value="facts" />
-    <node concept="cog_b" id="IMlc8iZQuH" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/4ccca14e-f055-4e71-96e4-9c79dcbfeefc" />
-      <node concept="2hPCcK" id="IMlc8iZQuI" role="2hN6Sa">
-        <node concept="19SUe$" id="IMlc8iZQuM" role="19SJt6">
-          <property role="19SUeA" value="„processor” means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller;" />
-        </node>
-      </node>
-    </node>
-    <node concept="cog_b" id="IMlc8iZQuN" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/70d7959c-53a4-4499-bf3f-2cda182c587d" />
-      <node concept="2hPCcK" id="IMlc8iZQuO" role="2hN6Sa">
-        <node concept="19SUe$" id="IMlc8iZQuV" role="19SJt6">
-          <property role="19SUeA" value="Personal data shall be:" />
-        </node>
-      </node>
-    </node>
-    <node concept="cog_b" id="IMlc8iZQuX" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/1397d477-14e2-4b5d-99ff-7a39baaa6a9b" />
-      <ref role="cog$q" node="4EkVbrqCHn3" resolve="Article 5" />
-      <node concept="2hPCcK" id="IMlc8iZQuY" role="2hN6Sa">
-        <node concept="19SUe$" id="IMlc8iZQv8" role="19SJt6">
-          <property role="19SUeA" value="processed lawfully, fairly and in a transparent manner in relation to the data subject („lawfulness, fairness and transparency”);" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="mu5$5" id="IMlc8iZQyy">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Consent to processing of personal data" />
@@ -26663,28 +26634,6 @@
   <node concept="mu5$5" id="2uCqiGqxH2_">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Collect personal data" />
-    <node concept="cog_b" id="2uCqiGqxH2A" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/4ccca14e-f055-4e71-96e4-9c79dcbfeefc" />
-      <node concept="2hPCcK" id="2uCqiGqxH2B" role="2hN6Sa">
-        <node concept="2h$EKm" id="2uCqiGqxH2C" role="19SJt6">
-          <property role="19SUeA" value="„processor”" />
-          <node concept="2UK0tq" id="2uCqiGqxH2D" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAL/Actor" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="2uCqiGqxH2E" role="19SJt6">
-          <property role="19SUeA" value=" means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller;" />
-        </node>
-      </node>
-    </node>
-    <node concept="cog_b" id="2uCqiGqxH2F" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/18e13eac-99f7-4217-bf98-102fb1044d29" />
-      <node concept="2hPCcK" id="2uCqiGqxH2G" role="2hN6Sa">
-        <node concept="19SUe$" id="2uCqiGqxH2H" role="19SJt6">
-          <property role="19SUeA" value="„controller” means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;" />
-        </node>
-      </node>
-    </node>
     <node concept="cog_b" id="2uCqiGqxH2I" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/70d7959c-53a4-4499-bf3f-2cda182c587d" />
       <node concept="2hPCcK" id="2uCqiGqxH2J" role="2hN6Sa">
