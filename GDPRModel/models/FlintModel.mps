@@ -1416,7 +1416,7 @@
         <ref role="1FQA6$" node="4EkVbrqCHn2" resolve="personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYNZ" role="1zF96y">
-        <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
+        <ref role="1FQA6$" node="1oJepmsRYrI" resolve="controller has provided the data subject with all necessary information relating to the processing" />
       </node>
     </node>
     <node concept="cog_b" id="4EkVbrqCGnF" role="2pmM46">
@@ -15672,7 +15672,7 @@
     <property role="TrG5h" value="provide information relating to processing" />
     <property role="3GE5qa" value="acts" />
     <node concept="1FQA6B" id="1oJepmsRYrJ" role="mu1cf">
-      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
+      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="controller has provided the data subject with all necessary information relating to the processing" />
     </node>
     <node concept="1FQA6B" id="1oJepmsRXue" role="3H36mW">
       <ref role="1FQA6$" node="7uaI9y8qSeM" resolve="controller" />
@@ -19198,7 +19198,7 @@
     </node>
   </node>
   <node concept="mu5$5" id="1oJepmsRWIt">
-    <property role="TrG5h" value="collect personal data" />
+    <property role="TrG5h" value="collecting personal data" />
     <node concept="1FQA6B" id="1oJepmsRWMS" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCE6_" resolve="processor" />
     </node>
@@ -19211,8 +19211,8 @@
     <node concept="1FQA6B" id="1oJepmsRWMY" role="3FTnq6">
       <ref role="1FQA6$" node="4EkVbrqCGOw" resolve="collect" />
     </node>
-    <node concept="1FQA6B" id="1oJepmsRWIy" role="mu3T0">
-      <ref role="1FQA6$" node="4EkVbrqCYAB" resolve="The controller has provided the data subject with all necessary information relating to the processing" />
+    <node concept="1FQA6B" id="5sdhEMrVMsD" role="mu3T0">
+      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="controller has provided the data subject with all necessary information relating to the processing" />
     </node>
   </node>
   <node concept="cog_a" id="1oJepmsRWIU">
@@ -19220,7 +19220,7 @@
     <property role="3GE5qa" value="sources" />
   </node>
   <node concept="mu5$5" id="1oJepmsRWMB">
-    <property role="TrG5h" value="obtain personal data " />
+    <property role="TrG5h" value="obtaining personal data " />
     <node concept="1FQA6B" id="1oJepmsRWMP" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCE6_" resolve="processor" />
     </node>
@@ -19234,7 +19234,7 @@
       <ref role="1FQA6$" node="4EkVbrqCGOC" resolve="obtain" />
     </node>
     <node concept="1FQA6B" id="2huJBPoYbfH" role="mu3T0">
-      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
+      <ref role="1FQA6$" node="1oJepmsRYrI" resolve="controller has provided the data subject with all necessary information relating to the processing" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRWO4">
@@ -23293,7 +23293,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYrI">
-    <property role="TrG5h" value="the controller has provided the data subject with all necessary information relating to the processing" />
+    <property role="TrG5h" value="controller has provided the data subject with all necessary information relating to the processing" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="1oJepmsRYrQ" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/580a8496-4ff5-456d-b589-1526e6509111" />
