@@ -25850,7 +25850,7 @@
   <node concept="mu5$5" id="IMlc8iZQyy">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Give consent to the processing of personal data" />
-    <property role="3ANC2_" value="If it is an act why does it have so many conditions? (1) How doe this work for non-binairy people? (2)" />
+    <property role="3ANC2_" value="If it is an act why does it have so many conditions? (1) How does this work for non-binairy people? (2)" />
     <node concept="1FQA6B" id="IMlc8iZQyF" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCY_$" resolve="data subject" />
     </node>
