@@ -25849,8 +25849,8 @@
   </node>
   <node concept="mu5$5" id="IMlc8iZQyy">
     <property role="3GE5qa" value="acts" />
-    <property role="TrG5h" value="Giving consent to processing of personal data" />
-    <property role="3ANC2_" value="Is this an act, or a condition? (1) And if it is an act why does it have so many conditions? (2) Why does the act of giving consent result in a processor that has demonstrated that the data subject has consented? (3)" />
+    <property role="TrG5h" value="Give consent to the processing of personal data" />
+    <property role="3ANC2_" value="If it is an act why does it have so many conditions? (1) How doe this work for non-binairy people? (2)" />
     <node concept="1FQA6B" id="IMlc8iZQyF" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCY_$" resolve="data subject" />
     </node>
@@ -25890,8 +25890,8 @@
         </node>
       </node>
     </node>
-    <node concept="2cz2WB" id="30e$WWxgnuY" role="mu1cf">
-      <ref role="2cz2WA" to="7ltq:30e$WWxgnuT" resolve="processor demonstrates that the data subject has consented to processing of his or her personal data" />
+    <node concept="1FQA6B" id="5KiQe4JdUFW" role="mu1cf">
+      <ref role="1FQA6$" node="5KiQe4JdUFV" resolve="data subject has given consent to the processing of his or her personal data" />
     </node>
     <node concept="1zEWgd" id="30e$WWxgnv3" role="mu3T0">
       <node concept="1FQA6B" id="30e$WWxgnv6" role="1zF96y">
@@ -26913,7 +26913,7 @@
     </node>
   </node>
   <node concept="mu5$5" id="1phiYgAMDZ$">
-    <property role="TrG5h" value="erase personal data" />
+    <property role="TrG5h" value="e" />
     <property role="3GE5qa" value="acts" />
     <node concept="1FQA6B" id="1phiYgAMDZV" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCGU8" resolve="controller or processor" />
@@ -26926,15 +26926,6 @@
     </node>
     <node concept="1FQA6B" id="1phiYgAMDZH" role="3FTnq6">
       <ref role="1FQA6$" node="1phiYgAMDZG" resolve="erase" />
-    </node>
-    <node concept="1FQA6B" id="1phiYgAMDZY" role="mu1c7">
-      <ref role="1FQA6$" node="1phiYgAMDZv" resolve="the personal data is obtained" />
-    </node>
-    <node concept="1FQA6B" id="1phiYgAME03" role="mu1c7">
-      <ref role="1FQA6$" node="1phiYgAMDWm" resolve="the personal data is collected" />
-    </node>
-    <node concept="1FQA6B" id="1phiYgAME0g" role="mu1c7">
-      <ref role="1FQA6$" node="7uaI9y8qSxH" resolve="the personal data is transferred" />
     </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$k">
@@ -27034,7 +27025,7 @@
       </node>
     </node>
     <node concept="2cz2WB" id="2uCqiGqxH46" role="mu1cf">
-      <ref role="2cz2WA" node="IMlc8iZQDU" resolve="controller demonstrates compliance with Article 5(1) GDPR" />
+      <ref role="2cz2WA" node="IMlc8iZQDU" resolve="duty to demonstrate compliance with Article 5(1) GDPR" />
     </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnsy">
@@ -28263,7 +28254,7 @@
   <node concept="mu5$5" id="IMlc8iZQxW">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Erase personal data" />
-    <property role="3ANC2_" value="How does erasing personal data result in compliance to art. 5(1) GDPR?" />
+    <property role="3ANC2_" value="The precondition only refers to the action of erasing personal data. How does erasing personal data result in compliance to art. 5(1) GDPR? (1) Do we need something to be created? (2)" />
     <node concept="1FQA6B" id="IMlc8iZQy5" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCE6_" resolve="processor" />
     </node>
@@ -28295,15 +28286,18 @@
       </node>
     </node>
     <node concept="1zEWgd" id="IMlc8iZQzP" role="mu3T0">
-      <node concept="1FQA6B" id="IMlc8iZQzR" role="1zF96y">
-        <ref role="1FQA6$" to="7ltq:IMlc8iZQz7" resolve="processing is lawful, fair and transparent in relation to the data subject" />
+      <node concept="1FQA6B" id="5KiQe4JdUFm" role="1zF96y">
+        <ref role="1FQA6$" node="IMlc8iZQz7" resolve="personal data is processed lawfully, fairly and in a transparent manner in relation to the data subject" />
       </node>
-      <node concept="1FQA6B" id="IMlc8iZQDm" role="1zF96y">
-        <ref role="1FQA6$" to="7ltq:IMlc8iZQCP" resolve="personal data are processed in a manner that ensures appropriate security of the personal data" />
+      <node concept="1FQA6B" id="5KiQe4JdUF8" role="1zF96y">
+        <ref role="1FQA6$" node="IMlc8iZQCP" resolve="personal data are processed in a manner that ensures appropriate security of the personal data" />
       </node>
     </node>
-    <node concept="2cz2WB" id="IMlc8iZQE0" role="mu1c7">
-      <ref role="2cz2WA" to="7ltq:IMlc8iZQDU" resolve="controller demonstrates compliance with Article 5(1) GDPR" />
+    <node concept="2cz2WB" id="5KiQe4JdUFt" role="mu1c7">
+      <ref role="2cz2WA" node="IMlc8iZQDU" resolve="duty to demonstrate compliance with Article 5(1) GDPR" />
+    </node>
+    <node concept="2cz2WB" id="5KiQe4JdUF$" role="mu1c7">
+      <ref role="2cz2WA" node="5KiQe4JdUFz" resolve="personal data" />
     </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ_V">
@@ -28509,15 +28503,36 @@
   </node>
   <node concept="2cz0EU" id="IMlc8iZQDU">
     <property role="3GE5qa" value="duties" />
-    <property role="TrG5h" value="controller demonstrates compliance with Article 5(1) GDPR" />
+    <property role="TrG5h" value="duty to demonstrate compliance with Article 5(1) GDPR" />
     <node concept="cog_b" id="IMlc8iZQDV" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/7d0fe363-6bae-40d2-8d22-b43d44d69385" />
       <ref role="cog$q" node="4EkVbrqCHn3" resolve="Article 5" />
       <node concept="2hPCcK" id="IMlc8iZQDW" role="2hN6Sa">
         <node concept="19SUe$" id="IMlc8iZQDX" role="19SJt6">
-          <property role="19SUeA" value="The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 („accountability”)" />
+          <property role="19SUeA" value="The " />
+        </node>
+        <node concept="2h$EKm" id="5KiQe4JdUFD" role="19SJt6">
+          <property role="19SUeA" value="controller" />
+          <node concept="2UK0tq" id="5KiQe4JdUFE" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSnk_W/Holder" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="5KiQe4JdUFC" role="19SJt6">
+          <property role="19SUeA" value=" shall be responsible for, and be able to demonstrate compliance with, paragraph 1 („accountability”)" />
         </node>
       </node>
+    </node>
+    <node concept="1FQA6B" id="5KiQe4JdUFF" role="3H37fS">
+      <ref role="1FQA6$" node="7uaI9y8qSeM" resolve="controller" />
+    </node>
+    <node concept="1FQA6B" id="5KiQe4JdUFM" role="3H37fL">
+      <ref role="1FQA6$" node="7hSlYmu6A78" resolve="data subject" />
+    </node>
+    <node concept="3jSua8" id="5KiQe4JdUFO" role="cMmjW">
+      <ref role="3jSua9" node="1phiYgAMDZ$" resolve="e" />
+    </node>
+    <node concept="3jSua8" id="5KiQe4JdUFQ" role="cMmjI">
+      <ref role="3jSua9" node="2uCqiGqxH2_" resolve="Collect personal data" />
     </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnpR">
@@ -28552,6 +28567,14 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2cz0EU" id="5KiQe4JdUFz">
+    <property role="TrG5h" value="personal data" />
+    <property role="3GE5qa" value="duties" />
+  </node>
+  <node concept="cu0$f" id="5KiQe4JdUFV">
+    <property role="TrG5h" value="data subject has given consent to the processing of his or her personal data" />
+    <property role="3GE5qa" value="facts" />
   </node>
 </model>
 
