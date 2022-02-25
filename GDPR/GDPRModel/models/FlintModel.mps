@@ -701,7 +701,70 @@
           </node>
         </node>
         <node concept="19SUe$" id="7uaI9y8qSed" role="19SJt6">
-          <property role="19SUeA" value=" which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the " />
+          <property role="19SUeA" value=" which are undergoing processing or are intended for processing after transfer to a " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuqL" role="19SJt6">
+          <property role="19SUeA" value="third" />
+          <node concept="2UK0tq" id="2LnCOcayuqM" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuqK" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuqH" role="19SJt6">
+          <property role="19SUeA" value="country" />
+          <node concept="2UK0tq" id="2LnCOcayuqI" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuqG" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuqD" role="19SJt6">
+          <property role="19SUeA" value="or" />
+          <node concept="2UK0tq" id="2LnCOcayuqE" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuqC" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuq_" role="19SJt6">
+          <property role="19SUeA" value="to" />
+          <node concept="2UK0tq" id="2LnCOcayuqA" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuq$" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuqx" role="19SJt6">
+          <property role="19SUeA" value="an" />
+          <node concept="2UK0tq" id="2LnCOcayuqy" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuqw" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuqt" role="19SJt6">
+          <property role="19SUeA" value="international" />
+          <node concept="2UK0tq" id="2LnCOcayuqu" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuqs" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="2LnCOcayuqp" role="19SJt6">
+          <property role="19SUeA" value="organisation" />
+          <node concept="2UK0tq" id="2LnCOcayuqq" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="2LnCOcayuqo" role="19SJt6">
+          <property role="19SUeA" value=" shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the " />
         </node>
         <node concept="2h$EKm" id="7uaI9y8qSeK" role="19SJt6">
           <property role="19SUeA" value="controller" />
@@ -21665,7 +21728,7 @@
           <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
         </node>
         <node concept="1FQA6B" id="1oJepmsRYaV" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRYa4" resolve="information to provide upon collection from the data subject" />
+          <ref role="1FQA6$" node="1oJepmsRYa4" resolve="the controller has provided the data subject with necessary information upon collecting personal data from the data subject" />
         </node>
       </node>
       <node concept="1zEWgd" id="1oJepmsRY9P" role="1zF96y">
@@ -21676,16 +21739,15 @@
           <node concept="1FQA6B" id="qyR0EnzIjX" role="1zF96y" />
         </node>
         <node concept="1FQA6B" id="1oJepmsRYoj" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRYgd" resolve="information to provide upon not obtaining from the data subject" />
+          <ref role="1FQA6$" node="1oJepmsRYgd" resolve="the controller has provided the data subject with necessary information upon collecting personal data from another source" />
         </node>
       </node>
       <node concept="1zEWgd" id="1oJepmsRY9E" role="1zF96y">
-        <node concept="1FQA6B" id="qyR0EnzIk9" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
+        <node concept="1FQA6B" id="2LnCOcayurn" role="1zF96y">
+          <ref role="1FQA6$" node="qyR0EnzImD" resolve="personal data has been processed" />
         </node>
-        <node concept="1FQA6B" id="qyR0EnzIkd" role="1zF96y" />
         <node concept="1FQA6B" id="qyR0EnzIQ6" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRYht" resolve="information to provide upon processing for another purpose than that for which the personal data were obtained" />
+          <ref role="1FQA6$" node="1oJepmsRYht" resolve="the controller has provided the data subject with information relating to processing " />
         </node>
       </node>
     </node>
@@ -23106,7 +23168,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYa4">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="information to provide upon collection from the data subject" />
+    <property role="TrG5h" value="the controller has provided the data subject with necessary information upon collecting personal data from the data subject" />
     <node concept="cog_b" id="1oJepmsRYa6" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/580a8496-4ff5-456d-b589-1526e6509111" />
       <ref role="cog$q" node="1oJepmsRYa5" resolve="Article 13" />
@@ -23338,7 +23400,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYgd">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="information to provide upon not obtaining from the data subject" />
+    <property role="TrG5h" value="the controller has provided the data subject with necessary information upon collecting personal data from another source" />
     <node concept="cog_b" id="1oJepmsRYge" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/de3336a4-458d-4f05-8456-17c6d1be955a" />
       <ref role="cog$q" node="1oJepmsRWIU" resolve="Article 14" />
@@ -23452,7 +23514,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYht">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="information to provide upon processing for another purpose than that for which the personal data were obtained" />
+    <property role="TrG5h" value="the controller has provided the data subject with information relating to processing " />
     <node concept="cog_b" id="1oJepmsRYhu" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/b4e2434e-ecc8-4375-955c-981fb2bfc30b" />
       <ref role="cog$q" node="1oJepmsRYa5" resolve="Article 13" />
