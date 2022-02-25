@@ -61,6 +61,7 @@
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
+      <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -196,6 +197,9 @@
         <ref role="1FQA6$" node="IMlc8iZQCP" resolve="personal data are processed in a manner that ensures appropriate security of the personal data" />
       </node>
     </node>
+    <node concept="1FQA6B" id="7nF1FHJc59l" role="mu1cf">
+      <ref role="1FQA6$" node="7nF1FHJc59k" resolve="processed personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="7hSlYmu6A6c">
     <property role="TrG5h" value="personal data" />
@@ -208,6 +212,7 @@
         </node>
       </node>
     </node>
+    <node concept="1RnfdX" id="7nF1FHJc59Z" role="coNO9" />
   </node>
   <node concept="cu0$f" id="7hSlYmu6A6A">
     <property role="TrG5h" value="process" />
@@ -287,6 +292,9 @@
   <node concept="mu5$5" id="7hSlYmu6A8q">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Collect personal data" />
+    <node concept="1FQA6B" id="7nF1FHJc59F" role="mu1cf">
+      <ref role="1FQA6$" node="7hSlYmu6A6c" resolve="personal data" />
+    </node>
     <node concept="cog_b" id="IMlc8iZQvl" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/4ccca14e-f055-4e71-96e4-9c79dcbfeefc" />
       <node concept="2hPCcK" id="IMlc8iZQvm" role="2hN6Sa">
@@ -381,6 +389,48 @@
     <node concept="2cz2WB" id="IMlc8iZQDY" role="mu1cf">
       <ref role="2cz2WA" node="IMlc8iZQDU" resolve="controller demonstrates compliance with Article 5(1) GDPR" />
     </node>
+    <node concept="cog_b" id="3t0EHKEYTrd" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/4ef1c1e1-273e-4dea-9131-026360b8aaae" />
+      <ref role="cog$q" node="3t0EHKEYTrc" resolve="Article 4" />
+      <node concept="2hPCcK" id="3t0EHKEYTre" role="2hN6Sa">
+        <node concept="2h$EKm" id="3t0EHKEYTrH" role="19SJt6">
+          <property role="19SUeA" value="„personal" />
+          <node concept="2UK0tq" id="3t0EHKEYTrI" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="3t0EHKEYTrG" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="3t0EHKEYTrE" role="19SJt6">
+          <property role="19SUeA" value="data”" />
+          <node concept="2UK0tq" id="3t0EHKEYTrF" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="3t0EHKEYTrD" role="19SJt6">
+          <property role="19SUeA" value=" means any information relating to an identified or identifiable natural person " />
+        </node>
+        <node concept="2h$EKm" id="3t0EHKEYTsp" role="19SJt6">
+          <property role="19SUeA" value="(„data" />
+          <node concept="2UK0tq" id="3t0EHKEYTsq" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="3t0EHKEYTso" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="3t0EHKEYTsl" role="19SJt6">
+          <property role="19SUeA" value="subject”);" />
+          <node concept="2UK0tq" id="3t0EHKEYTsm" role="2h$EKj">
+            <property role="2UK0tr" value="4AIlyP2wQBx/Recipient" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="3t0EHKEYTsk" role="19SJt6">
+          <property role="19SUeA" value=" an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="cog_a" id="7hSlYmu6A8U">
     <property role="TrG5h" value="Article 4" />
@@ -457,6 +507,9 @@
   <node concept="mu5$5" id="IMlc8iZQxW">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Erase personal data" />
+    <node concept="1FQA6B" id="7nF1FHJc59$" role="mu1c7">
+      <ref role="1FQA6$" node="7hSlYmu6A6c" resolve="personal data" />
+    </node>
     <node concept="1FQA6B" id="IMlc8iZQy5" role="3H36mW">
       <ref role="1FQA6$" node="IMlc8iZQuG" resolve="processor" />
     </node>
@@ -519,6 +572,9 @@
   <node concept="mu5$5" id="IMlc8iZQyy">
     <property role="3GE5qa" value="acts" />
     <property role="TrG5h" value="Consent to processing of personal data" />
+    <node concept="1FQA6B" id="7nF1FHJc5aG" role="mu1cf">
+      <ref role="1FQA6$" node="30e$WWxgnd$" resolve="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
+    </node>
     <node concept="1FQA6B" id="IMlc8iZQyF" role="3H36mW">
       <ref role="1FQA6$" node="7hSlYmu6A78" resolve="data subject" />
     </node>
@@ -616,74 +672,14 @@
       </node>
     </node>
     <node concept="1zEWgd" id="IMlc8iZQzb" role="coNO9">
-      <node concept="1FQA6B" id="IMlc8iZQzy" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQzx" resolve="processing is lawful in relation to the data subject" />
+      <node concept="1FQA6B" id="21RuVojAdaP" role="1zF96y">
+        <ref role="1FQA6$" node="21RuVojAd2u" resolve="processing is lawful in relation to the data subject" />
       </node>
       <node concept="1FQA6B" id="IMlc8iZQzB" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQzA" resolve="processing is fair in relation to the data subject" />
       </node>
       <node concept="1FQA6B" id="IMlc8iZQzG" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQzF" resolve="processing is transparent in relation to the data subject" />
-      </node>
-    </node>
-  </node>
-  <node concept="cu0$f" id="IMlc8iZQzx">
-    <property role="TrG5h" value="processing is lawful in relation to the data subject" />
-    <property role="3GE5qa" value="facts" />
-    <node concept="cog_b" id="30e$WWxgndo" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/3e7eae0e-9317-440c-be51-30e990db6208" />
-      <node concept="2hPCcK" id="30e$WWxgndp" role="2hN6Sa">
-        <node concept="19SUe$" id="30e$WWxgndq" role="19SJt6">
-          <property role="19SUeA" value="Processing shall be lawful only if and to the extent that at least one of the following applies" />
-        </node>
-      </node>
-    </node>
-    <node concept="1zEXH2" id="30e$WWxgnnN" role="coNO9">
-      <node concept="1zEWgd" id="30e$WWxgnnv" role="1zF96y">
-        <node concept="1FQA6B" id="30e$WWxgnd_" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnd$" resolve="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
-        </node>
-        <node concept="1FQA6B" id="30e$WWxgnny" role="1zF96y" />
-      </node>
-      <node concept="1zEXH2" id="30e$WWxgnrc" role="1zF96y">
-        <node concept="1FQA6B" id="30e$WWxgnpz" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnpy" resolve="processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract" />
-        </node>
-      </node>
-      <node concept="1zEWgd" id="30e$WWxgnpA" role="1zF96y">
-        <node concept="1FQA6B" id="30e$WWxgnpO" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnpN" resolve="processing is necessary for compliance with a legal obligation to which the controller is subject" />
-        </node>
-        <node concept="1FQA6B" id="30e$WWxgnpS" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnpR" resolve="if applicable Member State specific provisions according to Union law or Member State law to which the controller is subject|" />
-        </node>
-        <node concept="1zEXH2" id="30e$WWxgnpZ" role="1zF96y" />
-      </node>
-      <node concept="1FQA6B" id="30e$WWxgnq5" role="1zF96y">
-        <ref role="1FQA6$" node="30e$WWxgnq4" resolve="processing is necessary in order to protect the vital interests of the data subject or of another natural person" />
-      </node>
-      <node concept="1zEWgd" id="30e$WWxgnsh" role="1zF96y">
-        <node concept="1FQA6B" id="30e$WWxgnsz" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnsy" resolve="processing is necessary for the performance of a task carried out in the public interest or in the exercises of official authority vested in the controller" />
-        </node>
-        <node concept="1FQA6B" id="30e$WWxgnsA" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnpR" resolve="if applicable Member State specific provisions according to Union law or Member State law to which the controller is subject|" />
-        </node>
-        <node concept="1FQA6B" id="30e$WWxgnsJ" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnsI" resolve="the purpose of the processing shall be determined in the legal basis of this specific provisions and shall be necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller" />
-        </node>
-        <node concept="1zEXH2" id="30e$WWxgnt6" role="1zF96y" />
-      </node>
-      <node concept="1zEWgd" id="30e$WWxgntc" role="1zF96y">
-        <node concept="1FQA6B" id="30e$WWxgnuf" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnue" resolve="processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third part, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection or personal data, in particular where the data subject is a child" />
-        </node>
-        <node concept="1zEXH5" id="30e$WWxgnui" role="1zF96y">
-          <node concept="1FQA6B" id="30e$WWxgnuq" role="1zF96A">
-            <ref role="1FQA6$" node="30e$WWxgnup" resolve="processing carried out by public authorities in the performance of their tasks" />
-          </node>
-        </node>
-        <node concept="1FQA6B" id="30e$WWxgnus" role="1zF96y" />
       </node>
     </node>
   </node>
@@ -892,6 +888,7 @@
   <node concept="cu0$f" id="30e$WWxgnd$">
     <property role="TrG5h" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1RnfdX" id="7nF1FHJc5aB" role="coNO9" />
   </node>
   <node concept="cu0$f" id="30e$WWxgnpy">
     <property role="TrG5h" value="processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract" />
@@ -977,6 +974,157 @@
   <node concept="cu0$f" id="30e$WWxgnwn">
     <property role="TrG5h" value="Paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child." />
     <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="7nF1FHJc59k">
+    <property role="TrG5h" value="processed personal data" />
+    <property role="3GE5qa" value="facts" />
+    <node concept="1RnfdX" id="7nF1FHJc59n" role="coNO9" />
+  </node>
+  <node concept="cu0$f" id="21RuVojAd2u">
+    <property role="TrG5h" value="processing is lawful in relation to the data subject" />
+    <property role="3GE5qa" value="facts" />
+    <node concept="cog_b" id="21RuVojAd2v" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/3e7eae0e-9317-440c-be51-30e990db6208" />
+      <node concept="2hPCcK" id="21RuVojAd2w" role="2hN6Sa">
+        <node concept="19SUe$" id="21RuVojAd2x" role="19SJt6">
+          <property role="19SUeA" value="Processing shall be lawful only if and to the extent that at least one of the following applies" />
+        </node>
+      </node>
+    </node>
+    <node concept="1zEXH2" id="21RuVojAd3H" role="coNO9">
+      <node concept="1zEXH2" id="21RuVojAd3Z" role="1zF96y">
+        <node concept="1FQA6B" id="21RuVojAd3U" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnd$" resolve="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
+        </node>
+        <node concept="1zEWgd" id="21RuVojAd4z" role="1zF96y">
+          <node concept="1FQA6B" id="21RuVojAd48" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd47" resolve="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd4D" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4C" resolve="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd4L" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4K" resolve="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd4V" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4U" resolve="the possible consequences of the intended further processing for data subjects;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd57" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd56" resolve="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
+          </node>
+        </node>
+      </node>
+      <node concept="1FQA6B" id="21RuVojAd5n" role="1zF96y">
+        <ref role="1FQA6$" node="30e$WWxgnpy" resolve="processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract" />
+      </node>
+      <node concept="1zEWgd" id="21RuVojAd5H" role="1zF96y">
+        <node concept="1FQA6B" id="21RuVojAd5T" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnpN" resolve="processing is necessary for compliance with a legal obligation to which the controller is subject" />
+        </node>
+        <node concept="1FQA6B" id="21RuVojAd5Y" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnpR" resolve="if applicable Member State specific provisions according to Union law or Member State law to which the controller is subject|" />
+        </node>
+        <node concept="1zEWgd" id="21RuVojAd6I" role="1zF96y">
+          <node concept="1FQA6B" id="21RuVojAd6J" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd47" resolve="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd6K" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4C" resolve="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd6L" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4K" resolve="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd6M" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4U" resolve="the possible consequences of the intended further processing for data subjects;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd6N" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd56" resolve="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
+          </node>
+        </node>
+      </node>
+      <node concept="1FQA6B" id="21RuVojAd7p" role="1zF96y">
+        <ref role="1FQA6$" node="30e$WWxgnq4" resolve="processing is necessary in order to protect the vital interests of the data subject or of another natural person" />
+      </node>
+      <node concept="1zEWgd" id="21RuVojAd83" role="1zF96y">
+        <node concept="1FQA6B" id="21RuVojAd8p" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnsy" resolve="processing is necessary for the performance of a task carried out in the public interest or in the exercises of official authority vested in the controller" />
+        </node>
+        <node concept="1FQA6B" id="21RuVojAd8u" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnpR" resolve="if applicable Member State specific provisions according to Union law or Member State law to which the controller is subject|" />
+        </node>
+        <node concept="1FQA6B" id="21RuVojAd8A" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnsI" resolve="the purpose of the processing shall be determined in the legal basis of this specific provisions and shall be necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller" />
+        </node>
+        <node concept="1zEWgd" id="21RuVojAd8K" role="1zF96y">
+          <node concept="1FQA6B" id="21RuVojAd8L" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd47" resolve="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd8M" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4C" resolve="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd8N" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4K" resolve="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd8O" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4U" resolve="the possible consequences of the intended further processing for data subjects;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAd8P" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd56" resolve="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
+          </node>
+        </node>
+      </node>
+      <node concept="1zEWgd" id="21RuVojAd9C" role="1zF96y">
+        <node concept="1FQA6B" id="21RuVojAda8" role="1zF96y">
+          <ref role="1FQA6$" node="30e$WWxgnue" resolve="processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third part, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection or personal data, in particular where the data subject is a child" />
+        </node>
+        <node concept="1zEXH5" id="21RuVojAdad" role="1zF96y">
+          <node concept="1FQA6B" id="21RuVojAdak" role="1zF96A">
+            <ref role="1FQA6$" node="30e$WWxgnup" resolve="processing carried out by public authorities in the performance of their tasks" />
+          </node>
+        </node>
+        <node concept="1zEWgd" id="21RuVojAdas" role="1zF96y">
+          <node concept="1FQA6B" id="21RuVojAdat" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd47" resolve="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAdau" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4C" resolve="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAdav" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4K" resolve="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAdaw" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd4U" resolve="the possible consequences of the intended further processing for data subjects;" />
+          </node>
+          <node concept="1FQA6B" id="21RuVojAdax" role="1zF96y">
+            <ref role="1FQA6$" node="21RuVojAd56" resolve="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="21RuVojAd47">
+    <property role="TrG5h" value="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="21RuVojAd4C">
+    <property role="TrG5h" value="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="21RuVojAd4K">
+    <property role="TrG5h" value="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="21RuVojAd4U">
+    <property role="TrG5h" value="the possible consequences of the intended further processing for data subjects;" />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cu0$f" id="21RuVojAd56">
+    <property role="TrG5h" value="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
+    <property role="3GE5qa" value="facts" />
+  </node>
+  <node concept="cog_a" id="3t0EHKEYTrc">
+    <property role="TrG5h" value="Article 4" />
+    <property role="3GE5qa" value="sources" />
   </node>
 </model>
 
