@@ -8,9 +8,7 @@
     <engage id="dc1d60af-7d27-4f1c-a5ca-cbb65d8d0a6d" name="LawSource" />
     <engage id="69940819-10c1-4a38-ac44-700b63f993ba" name="Flint" />
   </languages>
-  <imports>
-    <import index="7ltq" ref="r:58279e07-00d5-4372-811b-06679871822c(GDPR)" />
-  </imports>
+  <imports />
   <registry>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
       <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
@@ -2542,9 +2540,6 @@
         </node>
         <node concept="2h$EKm" id="7uaI9y8qSxL" role="19SJt6">
           <property role="19SUeA" value="transfer" />
-          <node concept="2UK0tq" id="7uaI9y8qSxM" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
-          </node>
           <node concept="2UK0tq" id="7uaI9y8qSzN" role="2h$EKj">
             <property role="2UK0tr" value="7B7tObSnm24/Function" />
           </node>
@@ -2563,9 +2558,6 @@
         </node>
         <node concept="2h$EKm" id="7uaI9y8qSxO" role="19SJt6">
           <property role="19SUeA" value="personal" />
-          <node concept="2UK0tq" id="7uaI9y8qSxP" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
           <node concept="2UK0tq" id="7uaI9y8qSzI" role="2h$EKj">
             <property role="2UK0tr" value="7B7tObSnm24/Function" />
           </node>
@@ -2575,9 +2567,6 @@
         </node>
         <node concept="2h$EKm" id="7uaI9y8qSxR" role="19SJt6">
           <property role="19SUeA" value="data" />
-          <node concept="2UK0tq" id="7uaI9y8qSxS" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
           <node concept="2UK0tq" id="7uaI9y8qSzH" role="2h$EKj">
             <property role="2UK0tr" value="7B7tObSnm24/Function" />
           </node>
@@ -4715,34 +4704,7 @@
       <property role="1hTq4$" value="https://calculemus.org/63bf52cb-3c1d-401a-9c34-692cf59d3561" />
       <node concept="2hPCcK" id="7uaI9y8qTkX" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qTkY" role="19SJt6">
-          <property role="19SUeA" value="Any " />
-        </node>
-        <node concept="2h$EKm" id="7uaI9y8qTkf" role="19SJt6">
-          <property role="19SUeA" value="transfer" />
-          <node concept="2UK0tq" id="7uaI9y8qTkg" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="7uaI9y8qTkh" role="19SJt6">
-          <property role="19SUeA" value=" of " />
-        </node>
-        <node concept="2h$EKm" id="7uaI9y8qTki" role="19SJt6">
-          <property role="19SUeA" value="personal" />
-          <node concept="2UK0tq" id="7uaI9y8qTkj" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="7uaI9y8qTkk" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="2h$EKm" id="7uaI9y8qTkl" role="19SJt6">
-          <property role="19SUeA" value="data" />
-          <node concept="2UK0tq" id="7uaI9y8qTkm" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="7uaI9y8qTkn" role="19SJt6">
-          <property role="19SUeA" value=" which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation" />
+          <property role="19SUeA" value="Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation" />
         </node>
       </node>
     </node>
@@ -4754,34 +4716,7 @@
       <property role="1hTq4$" value="https://calculemus.org/63bf52cb-3c1d-401a-9c34-692cf59d3561" />
       <node concept="2hPCcK" id="7uaI9y8qTle" role="2hN6Sa">
         <node concept="19SUe$" id="7uaI9y8qTlf" role="19SJt6">
-          <property role="19SUeA" value="Any " />
-        </node>
-        <node concept="2h$EKm" id="7uaI9y8qTlk" role="19SJt6">
-          <property role="19SUeA" value="transfer" />
-          <node concept="2UK0tq" id="7uaI9y8qTll" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQAP/Action" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="7uaI9y8qTlm" role="19SJt6">
-          <property role="19SUeA" value=" of " />
-        </node>
-        <node concept="2h$EKm" id="7uaI9y8qTln" role="19SJt6">
-          <property role="19SUeA" value="personal" />
-          <node concept="2UK0tq" id="7uaI9y8qTlo" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="7uaI9y8qTlp" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="2h$EKm" id="7uaI9y8qTlq" role="19SJt6">
-          <property role="19SUeA" value="data" />
-          <node concept="2UK0tq" id="7uaI9y8qTlr" role="2h$EKj">
-            <property role="2UK0tr" value="4AIlyP2wQBp/Object" />
-          </node>
-        </node>
-        <node concept="19SUe$" id="7uaI9y8qTls" role="19SJt6">
-          <property role="19SUeA" value=" which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation" />
+          <property role="19SUeA" value="Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation" />
         </node>
       </node>
     </node>
@@ -25691,7 +25626,6 @@
     <property role="TrG5h" value="processor demonstrates that the data subject has consented to processing of his or her personal data" />
     <node concept="cog_b" id="30e$WWxgnuV" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/594da26a-578d-4b68-b0b9-a2f5b22eceac" />
-      <ref role="cog$q" to="7ltq:30e$WWxgnuU" resolve="Article 6" />
       <node concept="2hPCcK" id="30e$WWxgnuW" role="2hN6Sa">
         <node concept="19SUe$" id="30e$WWxgnuX" role="19SJt6">
           <property role="19SUeA" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
@@ -25708,16 +25642,9 @@
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="IMlc8iZQyN" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/594da26a-578d-4b68-b0b9-a2f5b22eceac" />
-      <ref role="cog$q" to="7ltq:IMlc8iZQyB" resolve="Article 6" />
       <node concept="2hPCcK" id="IMlc8iZQyO" role="2hN6Sa">
         <node concept="19SUe$" id="IMlc8iZQyP" role="19SJt6">
-          <property role="19SUeA" value="the data subject has given " />
-        </node>
-        <node concept="19SUe$" id="IMlc8iZQyT" role="19SJt6">
-          <property role="19SUeA" value="consent" />
-        </node>
-        <node concept="19SUe$" id="IMlc8iZQyS" role="19SJt6">
-          <property role="19SUeA" value=" to the processing of his or her personal data for one or more specific purposes" />
+          <property role="19SUeA" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
         </node>
       </node>
     </node>
@@ -26244,16 +26171,7 @@
       <property role="1hTq4$" value="https://calculemus.org/70d7959c-53a4-4499-bf3f-2cda182c587d" />
       <node concept="2hPCcK" id="7hSlYmu6A7d" role="2hN6Sa">
         <node concept="19SUe$" id="7hSlYmu6A7k" role="19SJt6">
-          <property role="19SUeA" value="Personal" />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7g" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7l" role="19SJt6">
-          <property role="19SUeA" value="data" />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7j" role="19SJt6">
-          <property role="19SUeA" value=" shall be:" />
+          <property role="19SUeA" value="Personal data shall be:" />
         </node>
       </node>
     </node>
@@ -26262,22 +26180,7 @@
       <ref role="cog$q" node="4EkVbrqCHn3" resolve="Article 5" />
       <node concept="2hPCcK" id="7hSlYmu6A7n" role="2hN6Sa">
         <node concept="19SUe$" id="7hSlYmu6A7x" role="19SJt6">
-          <property role="19SUeA" value="processed" />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7q" role="19SJt6">
-          <property role="19SUeA" value=" lawfully, fairly and in a transparent manner in relation to the " />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7y" role="19SJt6">
-          <property role="19SUeA" value="data" />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7t" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7z" role="19SJt6">
-          <property role="19SUeA" value="subject" />
-        </node>
-        <node concept="19SUe$" id="7hSlYmu6A7w" role="19SJt6">
-          <property role="19SUeA" value=" („lawfulness, fairness and transparency”);" />
+          <property role="19SUeA" value="processed lawfully, fairly and in a transparent manner in relation to the data subject („lawfulness, fairness and transparency”);" />
         </node>
       </node>
     </node>
@@ -26803,7 +26706,6 @@
     </node>
     <node concept="cog_b" id="2uCqiGqxH2U" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/664b15c5-ee9d-45d5-9bfd-410133cab01b" />
-      <ref role="cog$q" to="7ltq:7hSlYmu6A8U" resolve="Article 4" />
       <node concept="2hPCcK" id="2uCqiGqxH2V" role="2hN6Sa">
         <node concept="19SUe$" id="2uCqiGqxH2W" role="19SJt6">
           <property role="19SUeA" value="„processing” means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection" />
@@ -27038,7 +26940,6 @@
     </node>
     <node concept="cog_b" id="7hSlYmu6A9s" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/664b15c5-ee9d-45d5-9bfd-410133cab01b" />
-      <ref role="cog$q" to="7ltq:7hSlYmu6A8U" resolve="Article 4" />
       <node concept="2hPCcK" id="7hSlYmu6A9t" role="2hN6Sa">
         <node concept="19SUe$" id="7hSlYmu6A9u" role="19SJt6">
           <property role="19SUeA" value="„processing” means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection" />
@@ -28435,22 +28336,9 @@
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="5KiQe4JdU$F" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/594da26a-578d-4b68-b0b9-a2f5b22eceac" />
-      <ref role="cog$q" to="7ltq:IMlc8iZQyB" resolve="Article 6" />
       <node concept="2hPCcK" id="5KiQe4JdU$G" role="2hN6Sa">
         <node concept="19SUe$" id="5KiQe4JdU$H" role="19SJt6">
-          <property role="19SUeA" value="the data subject has " />
-        </node>
-        <node concept="19SUe$" id="5KiQe4JdU$O" role="19SJt6">
-          <property role="19SUeA" value="given" />
-        </node>
-        <node concept="19SUe$" id="5KiQe4JdU$K" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-        <node concept="19SUe$" id="5KiQe4JdU$P" role="19SJt6">
-          <property role="19SUeA" value="consent" />
-        </node>
-        <node concept="19SUe$" id="5KiQe4JdU$N" role="19SJt6">
-          <property role="19SUeA" value=" to the processing of his or her personal data for one or more specific purposes" />
+          <property role="19SUeA" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
         </node>
       </node>
     </node>
