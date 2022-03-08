@@ -3153,45 +3153,42 @@
     <node concept="1zEXH2" id="7uaI9y8qSUk" role="coNO9">
       <node concept="1zEXH2" id="7uaI9y8qSZM" role="1zF96y">
         <node concept="1FQA6B" id="7uaI9y8qSUe" role="1zF96y">
-          <ref role="1FQA6$" node="7uaI9y8qSP4" resolve="a legally binding and enforceable public instrument" />
+          <ref role="1FQA6$" node="7uaI9y8qSP4" resolve="appropriate safeguards are provided for, by a legally binding and enforceable public instrument" />
         </node>
         <node concept="1FQA6B" id="7uaI9y8qSUr" role="1zF96y">
-          <ref role="1FQA6$" node="7uaI9y8qSUq" resolve="approved binding corporate rules" />
+          <ref role="1FQA6$" node="7uaI9y8qSUq" resolve="appropriate safeguards are provided for, by approved binding corporate rules" />
         </node>
         <node concept="1FQA6B" id="7uaI9y8qSUz" role="1zF96y">
-          <ref role="1FQA6$" node="7uaI9y8qSUy" resolve="standard data protection clauses" />
+          <ref role="1FQA6$" node="7uaI9y8qSUy" resolve="appropriate safeguards are provided for, by standard data protection clauses" />
         </node>
         <node concept="1zEWgd" id="7uaI9y8qSVe" role="1zF96y">
           <node concept="1FQA6B" id="7uaI9y8qSUH" role="1zF96y">
-            <ref role="1FQA6$" node="7uaI9y8qSUG" resolve="code of conduct" />
+            <ref role="1FQA6$" node="7uaI9y8qSUG" resolve="appropriate safeguards are provided for, by an approved code of conduct" />
           </node>
           <node concept="1FQA6B" id="7uaI9y8qSVr" role="1zF96y">
-            <ref role="1FQA6$" node="7uaI9y8qSVa" resolve="binding and enforceable commitments" />
+            <ref role="1FQA6$" node="7uaI9y8qSVa" resolve="binding and enforceable commitments by the controller or processor to apply the appropriate safeguards" />
           </node>
         </node>
         <node concept="1zEWgd" id="7uaI9y8qSUZ" role="1zF96y">
           <node concept="1FQA6B" id="7uaI9y8qSUT" role="1zF96y">
-            <ref role="1FQA6$" node="7uaI9y8qSUS" resolve="certification mechanism" />
+            <ref role="1FQA6$" node="7uaI9y8qSUS" resolve="appropriate safeguards are provided for, by an approved certification mechanism" />
           </node>
           <node concept="1FQA6B" id="7uaI9y8qSVb" role="1zF96y">
-            <ref role="1FQA6$" node="7uaI9y8qSVa" resolve="binding and enforceable commitments" />
+            <ref role="1FQA6$" node="7uaI9y8qSVa" resolve="binding and enforceable commitments by the controller or processor to apply the appropriate safeguards" />
           </node>
         </node>
       </node>
       <node concept="1zEWgd" id="7uaI9y8qT0n" role="1zF96y">
         <node concept="1FQA6B" id="7uaI9y8qT0b" role="1zF96y">
-          <ref role="1FQA6$" node="7uaI9y8qT0a" resolve="authorisation from a competent supervisory authority" />
+          <ref role="1FQA6$" node="7uaI9y8qT0a" resolve="the appropriate safeguards are authorised by the competent supervisory authority" />
         </node>
         <node concept="1zEXH2" id="7uaI9y8qT0K" role="1zF96y">
           <node concept="1FQA6B" id="7uaI9y8qT0U" role="1zF96y">
-            <ref role="1FQA6$" node="7uaI9y8qT0T" resolve="contractual clauses" />
+            <ref role="1FQA6$" node="7uaI9y8qT0T" resolve="appropriate safeguards are provided for, by contractual clauses" />
           </node>
           <node concept="1FQA6B" id="7uaI9y8qT0Q" role="1zF96y">
-            <ref role="1FQA6$" node="7uaI9y8qT0P" resolve="provisions to be inserted" />
+            <ref role="1FQA6$" node="7uaI9y8qT0P" resolve="appropriate safeguards are provided for, by provisions to be inserted" />
           </node>
-        </node>
-        <node concept="1FQA6B" id="4EkVbrqCE6K" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCE6J" resolve="supervisory authority has applied the consistency mechanism" />
         </node>
       </node>
     </node>
@@ -3211,7 +3208,7 @@
   </node>
   <node concept="cu0$f" id="7uaI9y8qSP4">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="a legally binding and enforceable public instrument" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by a legally binding and enforceable public instrument" />
     <node concept="cog_b" id="7uaI9y8qSP5" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/cb803bf6-4b17-4957-a66e-9bd5bc82ba04" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
@@ -3319,7 +3316,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUq">
-    <property role="TrG5h" value="approved binding corporate rules" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by approved binding corporate rules" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qTbf" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/efdcace9-84a1-40f6-80f0-95669550353b" />
@@ -3349,7 +3346,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUy">
-    <property role="TrG5h" value="standard data protection clauses" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by standard data protection clauses" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qT2d" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/0d5c583f-bb92-449b-a87f-8253730b916e" />
@@ -3752,7 +3749,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUG">
-    <property role="TrG5h" value="code of conduct" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by an approved code of conduct" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qT7E" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/6cb8466d-79fb-4f66-b29a-7b5908844ac3" />
@@ -3765,7 +3762,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUS">
-    <property role="TrG5h" value="certification mechanism" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by an approved certification mechanism" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qT7y" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/109861f9-0488-44cc-a335-a3bc4caca4a1" />
@@ -3778,7 +3775,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSVa">
-    <property role="TrG5h" value="binding and enforceable commitments" />
+    <property role="TrG5h" value="binding and enforceable commitments by the controller or processor to apply the appropriate safeguards" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qT7f" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/8f5cf079-b62c-4e01-b9f3-2de1e2ab669f" />
@@ -3800,17 +3797,8 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT0a">
-    <property role="TrG5h" value="authorisation from a competent supervisory authority" />
+    <property role="TrG5h" value="the appropriate safeguards are authorised by the competent supervisory authority" />
     <property role="3GE5qa" value="facts" />
-    <node concept="cog_b" id="7uaI9y8qTax" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/fe6fcf5a-b7ea-4e52-bcfb-a02e99c44940" />
-      <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
-      <node concept="2hPCcK" id="7uaI9y8qTay" role="2hN6Sa">
-        <node concept="19SUe$" id="7uaI9y8qTaz" role="19SJt6">
-          <property role="19SUeA" value="The supervisory authority shall apply the consistency mechanism referred to in Article 63 in the cases referred to in paragraph 3 of this Article." />
-        </node>
-      </node>
-    </node>
     <node concept="cog_b" id="7uaI9y8qTaD" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/75e722bf-a502-49f8-8e8d-ef810e9bd24e" />
       <ref role="cog$q" node="7uaI9y8qSOV" resolve="Article 46" />
@@ -3831,13 +3819,18 @@
     </node>
     <node concept="1zEWgd" id="7uaI9y8qTb5" role="coNO9">
       <node concept="1FQA6B" id="7uaI9y8qTb3" role="1zF96y">
-        <ref role="1FQA6$" node="7uaI9y8qTb2" resolve="supervisory authority is competent" />
+        <ref role="1FQA6$" node="7uaI9y8qTb2" resolve="the supervisory authority is competent" />
       </node>
-      <node concept="1FQA6B" id="7uaI9y8qTb9" role="1zF96y" />
+      <node concept="1FQA6B" id="1zkX1heM8fX" role="1zF96y">
+        <ref role="1FQA6$" node="1zkX1heM8df" resolve="The supervisory authority has applied the consistency mechanism referred to in Article 63" />
+      </node>
+      <node concept="1FQA6B" id="1zkX1heM8gc" role="1zF96y">
+        <ref role="1FQA6$" node="1zkX1heM8gb" resolve="the supervisory authority has authorised the appropriate safeguards reffered to in paragraph 1" />
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT0P">
-    <property role="TrG5h" value="provisions to be inserted" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by provisions to be inserted" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qTap" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/cde5dffe-542f-4a66-84f7-937eb7585fd3" />
@@ -3850,7 +3843,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT0T">
-    <property role="TrG5h" value="contractual clauses" />
+    <property role="TrG5h" value="appropriate safeguards are provided for, by contractual clauses" />
     <property role="3GE5qa" value="facts" />
     <node concept="cog_b" id="7uaI9y8qTah" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/5663ef03-2b1f-4c6d-badb-71df70d45c38" />
@@ -3992,7 +3985,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qTb2">
-    <property role="TrG5h" value="supervisory authority is competent" />
+    <property role="TrG5h" value="the supervisory authority is competent" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cog_a" id="7uaI9y8qTbe">
@@ -4767,6 +4760,14 @@
         <node concept="19SUe$" id="5KiQe4JdU_h" role="19SJt6">
           <property role="19SUeA" value=" means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller;" />
         </node>
+      </node>
+    </node>
+    <node concept="1zEWgd" id="1zkX1heM89H" role="coNO9">
+      <node concept="1FQA6B" id="1zkX1heM89E" role="1zF96y">
+        <ref role="1FQA6$" node="4EkVbrqCHbJ" resolve="processing by a processor is governed by a contract or other legal act" />
+      </node>
+      <node concept="1FQA6B" id="1zkX1heM89S" role="1zF96y">
+        <ref role="1FQA6$" node="4EkVbrqCH55" resolve="processor has authorisation of the controller to engage another processor" />
       </node>
     </node>
   </node>
@@ -11735,9 +11736,11 @@
         <ref role="1FQA6$" node="7uaI9y8qS4n" resolve="binding corporate rules" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGfl" role="1zF96y">
-        <ref role="1FQA6$" node="7uaI9y8qTb2" resolve="supervisory authority is competent" />
+        <ref role="1FQA6$" node="7uaI9y8qTb2" resolve="the supervisory authority is competent" />
       </node>
-      <node concept="1FQA6B" id="4EkVbrqCGfp" role="1zF96y" />
+      <node concept="1FQA6B" id="1zkX1heM8gs" role="1zF96y">
+        <ref role="1FQA6$" node="1zkX1heM8df" resolve="The supervisory authority has applied the consistency mechanism referred to in Article 63" />
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGft">
@@ -16597,13 +16600,10 @@
           </node>
         </node>
         <node concept="1zEWgd" id="1oJepmsRXWp" role="1zF96y">
-          <node concept="1zEWgd" id="qyR0EnzIjJ" role="1zF96y">
-            <node concept="1FQA6B" id="qyR0EnzHx4" role="1zF96y">
-              <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
-            </node>
-            <node concept="1FQA6B" id="qyR0EnzIjQ" role="1zF96y" />
+          <node concept="1FQA6B" id="1zkX1heM8bD" role="1zF96y">
+            <ref role="1FQA6$" node="1zkX1heM7Sa" resolve="personal data are collected from a source other than the data subject" />
           </node>
-          <node concept="1zEXH2" id="1oJepmsRYEy" role="1zF96y">
+          <node concept="1zEXH2" id="1zkX1heM8bu" role="1zF96y">
             <node concept="1FQA6B" id="1oJepmsRYEm" role="1zF96y">
               <ref role="1FQA6$" node="1oJepmsRYtj" resolve="the controller has provided the information within a reasonable period after obtaining the personal data" />
             </node>
@@ -16622,6 +16622,25 @@
         </node>
         <node concept="1FQA6B" id="1oJepmsRY8s" role="1zF96y">
           <ref role="1FQA6$" node="1oJepmsRXZ_" resolve="the controller refuses to act on the request" />
+        </node>
+      </node>
+      <node concept="1FQA6B" id="1zkX1heM7N$" role="1zF96y">
+        <ref role="1FQA6$" node="4EkVbrqCYBe" resolve="the data subject already has the information" />
+      </node>
+      <node concept="1zEWgd" id="1zkX1heM7PP" role="1zF96y">
+        <node concept="1FQA6B" id="1zkX1heM8bN" role="1zF96y">
+          <ref role="1FQA6$" node="1zkX1heM7Sa" resolve="personal data are collected from a source other than the data subject" />
+        </node>
+        <node concept="1zEXH2" id="1zkX1heM8ca" role="1zF96y">
+          <node concept="1FQA6B" id="1zkX1heM7JJ" role="1zF96y">
+            <ref role="1FQA6$" node="1oJepmsRWO4" resolve="the provision of such information proves impossible or would involve a disproportionate effort" />
+          </node>
+          <node concept="1FQA6B" id="1zkX1heM7Kv" role="1zF96y">
+            <ref role="1FQA6$" node="1oJepmsRX1K" resolve="obtaining or disclosure is expressly laid down by Union or Member State law" />
+          </node>
+          <node concept="1FQA6B" id="1zkX1heM7Lh" role="1zF96y">
+            <ref role="1FQA6$" node="1oJepmsRXaB" resolve="the personal data must remain confidential subject to an obligation of professional secrecy" />
+          </node>
         </node>
       </node>
     </node>
@@ -18411,22 +18430,13 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCZ9z">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="the existence of data subject rights" />
+    <property role="TrG5h" value="the existence of the right to object, withdraw consent, to request access, rectification, erasure or restriction of processing, data portability" />
     <node concept="cog_b" id="4EkVbrqCZ9$" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/9d44b6bc-6ded-4bd7-9900-b9dd1df58e85" />
       <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
       <node concept="2hPCcK" id="4EkVbrqCZ9_" role="2hN6Sa">
         <node concept="19SUe$" id="4EkVbrqCZ9A" role="19SJt6">
           <property role="19SUeA" value="the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject or to object to processing as well as the right to data portability" />
-        </node>
-      </node>
-    </node>
-    <node concept="cog_b" id="4EkVbrqCZ9L" role="2pmM46">
-      <property role="1hTq4$" value="https://calculemus.org/05b2890d-cf11-4568-a11b-7a3b824349af" />
-      <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
-      <node concept="2hPCcK" id="4EkVbrqCZ9M" role="2hN6Sa">
-        <node concept="19SUe$" id="4EkVbrqCZ9N" role="19SJt6">
-          <property role="19SUeA" value="the right to lodge a complaint with a supervisory authority" />
         </node>
       </node>
     </node>
@@ -19332,7 +19342,7 @@
   </node>
   <node concept="cu0$f" id="4EkVbrqCZqk">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="intent to transfer the personal data " />
+    <property role="TrG5h" value="where applicable, the intent to transfer the personal data under an adequacy decision or appropriate or suitable safeguards " />
     <node concept="cog_b" id="4EkVbrqCZql" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/a343e436-9224-4d45-8e46-694263e6255c" />
       <ref role="cog$q" node="4EkVbrqCY_O" resolve="Article 13" />
@@ -21651,7 +21661,7 @@
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXua">
-    <property role="TrG5h" value="personal data has been collected" />
+    <property role="TrG5h" value="personal data are collected" />
     <property role="3GE5qa" value="facts" />
     <node concept="1RnfdX" id="qyR0EnzIj_" role="coNO9" />
   </node>
@@ -21660,30 +21670,27 @@
     <property role="3GE5qa" value="facts" />
     <node concept="1zEXH2" id="1oJepmsRY91" role="coNO9">
       <node concept="1zEWgd" id="1oJepmsRY9l" role="1zF96y">
-        <node concept="1FQA6B" id="1oJepmsRY9h" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
+        <node concept="1FQA6B" id="1zkX1heM8cK" role="1zF96y">
+          <ref role="1FQA6$" node="1zkX1heM7VG" resolve="personal data are collected from the data subject" />
         </node>
-        <node concept="1FQA6B" id="1oJepmsRYaV" role="1zF96y">
+        <node concept="1FQA6B" id="1zkX1heM8cC" role="1zF96y">
           <ref role="1FQA6$" node="1oJepmsRYa4" resolve="the controller has provided the data subject with necessary information upon collecting personal data from the data subject" />
         </node>
       </node>
       <node concept="1zEWgd" id="1oJepmsRY9P" role="1zF96y">
-        <node concept="1zEWgd" id="qyR0EnzIjT" role="1zF96y">
-          <node concept="1FQA6B" id="qyR0EnzHxq" role="1zF96y">
-            <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
-          </node>
-          <node concept="1FQA6B" id="qyR0EnzIjX" role="1zF96y" />
+        <node concept="1FQA6B" id="1zkX1heM8d1" role="1zF96y">
+          <ref role="1FQA6$" node="1zkX1heM7Sa" resolve="personal data are collected from a source other than the data subject" />
         </node>
-        <node concept="1FQA6B" id="1oJepmsRYoj" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRYgd" resolve="the controller has provided the data subject with necessary information upon collecting personal data from another source" />
+        <node concept="1FQA6B" id="1zkX1heM8cT" role="1zF96y">
+          <ref role="1FQA6$" node="1oJepmsRYgd" resolve="the controller has provided the data subject with necessary information upon collecting personal data from a source other than the data subject" />
         </node>
       </node>
       <node concept="1zEWgd" id="1oJepmsRY9E" role="1zF96y">
-        <node concept="1FQA6B" id="2LnCOcayurn" role="1zF96y">
-          <ref role="1FQA6$" node="qyR0EnzImD" resolve="personal data has been processed" />
+        <node concept="1FQA6B" id="1zkX1heM7Vj" role="1zF96y">
+          <ref role="1FQA6$" node="1zkX1heM7SD" resolve="the controller intends to further process the personal data for a purpose other than that for which the personal data were collected" />
         </node>
-        <node concept="1FQA6B" id="qyR0EnzIQ6" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRYht" resolve="the controller has provided the data subject with information relating to processing " />
+        <node concept="1FQA6B" id="1zkX1heM7Ve" role="1zF96y">
+          <ref role="1FQA6$" node="1oJepmsRYht" resolve="the controller has provided the data subject with information relating to processing" />
         </node>
       </node>
     </node>
@@ -23173,13 +23180,13 @@
         <ref role="1FQA6$" node="4EkVbrqCYOL" resolve="the recipients or categories of recipients of the personal data, if any" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYbt" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCZqk" resolve="intent to transfer the personal data " />
+        <ref role="1FQA6$" node="4EkVbrqCZqk" resolve="where applicable, the intent to transfer the personal data under an adequacy decision or appropriate or suitable safeguards " />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYbF" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCYNr" resolve="legitimate interests pursued by the controller or by a third party" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYc4" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of data subject rights" />
+        <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of the right to object, withdraw consent, to request access, rectification, erasure or restriction of processing, data portability" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYeV" role="1zF96y">
         <ref role="1FQA6$" node="1oJepmsRYco" resolve="the right to lodge a complaint with a supervisory authority" />
@@ -23336,7 +23343,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYgd">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="the controller has provided the data subject with necessary information upon collecting personal data from another source" />
+    <property role="TrG5h" value="the controller has provided the data subject with necessary information upon collecting personal data from a source other than the data subject" />
     <node concept="cog_b" id="1oJepmsRYge" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/de3336a4-458d-4f05-8456-17c6d1be955a" />
       <ref role="cog$q" node="1oJepmsRWIU" resolve="Article 14" />
@@ -23423,13 +23430,13 @@
         <ref role="1FQA6$" node="4EkVbrqCYOL" resolve="the recipients or categories of recipients of the personal data, if any" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYha" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCZqk" resolve="intent to transfer the personal data " />
+        <ref role="1FQA6$" node="4EkVbrqCZqk" resolve="where applicable, the intent to transfer the personal data under an adequacy decision or appropriate or suitable safeguards " />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYhb" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCYNr" resolve="legitimate interests pursued by the controller or by a third party" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYhc" role="1zF96y">
-        <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of data subject rights" />
+        <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of the right to object, withdraw consent, to request access, rectification, erasure or restriction of processing, data portability" />
       </node>
       <node concept="1FQA6B" id="1oJepmsRYhd" role="1zF96y">
         <ref role="1FQA6$" node="1oJepmsRYco" resolve="the right to lodge a complaint with a supervisory authority" />
@@ -23450,7 +23457,7 @@
   </node>
   <node concept="cu0$f" id="1oJepmsRYht">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="the controller has provided the data subject with information relating to processing " />
+    <property role="TrG5h" value="the controller has provided the data subject with information relating to processing" />
     <node concept="cog_b" id="1oJepmsRYhu" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/b4e2434e-ecc8-4375-955c-981fb2bfc30b" />
       <ref role="cog$q" node="1oJepmsRYa5" resolve="Article 13" />
@@ -23534,12 +23541,17 @@
     </node>
     <node concept="1zEXH2" id="1oJepmsRYnB" role="coNO9">
       <node concept="1zEWgd" id="1oJepmsRYo5" role="1zF96y">
-        <node concept="1FQA6B" id="1oJepmsRYnL" role="1zF96y">
-          <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
+        <node concept="1zEWgd" id="1zkX1heM7Xk" role="1zF96y">
+          <node concept="1FQA6B" id="1oJepmsRYnL" role="1zF96y">
+            <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data are collected" />
+          </node>
+          <node concept="1FQA6B" id="1zkX1heM7Xx" role="1zF96y">
+            <ref role="1FQA6$" node="1zkX1heM7VG" resolve="personal data are collected from the data subject" />
+          </node>
         </node>
         <node concept="1zEWgd" id="1oJepmsRYpJ" role="1zF96y">
           <node concept="1FQA6B" id="1oJepmsRYpO" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of data subject rights" />
+            <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of the right to object, withdraw consent, to request access, rectification, erasure or restriction of processing, data portability" />
           </node>
           <node concept="1FQA6B" id="1oJepmsRYpU" role="1zF96y">
             <ref role="1FQA6$" node="1oJepmsRYco" resolve="the right to lodge a complaint with a supervisory authority" />
@@ -23556,9 +23568,12 @@
         </node>
       </node>
       <node concept="1zEWgd" id="1oJepmsRYnX" role="1zF96y">
-        <node concept="1zEXH5" id="qyR0EnzHyf" role="1zF96y">
-          <node concept="1FQA6B" id="qyR0EnzHxS" role="1zF96A">
-            <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
+        <node concept="1zEWgd" id="1zkX1heM7Vo" role="1zF96y">
+          <node concept="1FQA6B" id="qyR0EnzHxS" role="1zF96y">
+            <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data are collected" />
+          </node>
+          <node concept="1FQA6B" id="1zkX1heM7VA" role="1zF96y">
+            <ref role="1FQA6$" node="1zkX1heM7Sa" resolve="personal data are collected from a source other than the data subject" />
           </node>
         </node>
         <node concept="1zEWgd" id="1oJepmsRYpB" role="1zF96y">
@@ -23566,7 +23581,7 @@
             <ref role="1FQA6$" node="4EkVbrqCYNr" resolve="legitimate interests pursued by the controller or by a third party" />
           </node>
           <node concept="1FQA6B" id="1oJepmsRYqv" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of data subject rights" />
+            <ref role="1FQA6$" node="4EkVbrqCZ9z" resolve="the existence of the right to object, withdraw consent, to request access, rectification, erasure or restriction of processing, data portability" />
           </node>
           <node concept="1FQA6B" id="1oJepmsRYqB" role="1zF96y">
             <ref role="1FQA6$" node="1oJepmsRYco" resolve="the right to lodge a complaint with a supervisory authority" />
@@ -25360,19 +25375,21 @@
       <node concept="1FQA6B" id="2uCqiGqxH4k" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQz7" resolve="personal data is processed lawfully, fairly and in a transparent manner in relation to the data subject" />
       </node>
-      <node concept="1FQA6B" id="2uCqiGqxH4u" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQ$5" resolve="personal data are collected for specified, explicit and legitimate purposes" />
-      </node>
-      <node concept="1zEXH5" id="IMlc8iZQ_v" role="1zF96y">
-        <node concept="1FQA6B" id="2uCqiGqxH4C" role="1zF96A">
-          <ref role="1FQA6$" node="IMlc8iZQ$V" resolve="personal data are further processed in a manner that is incompatible with the purposes for which they were collected" />
+      <node concept="1zEWgd" id="1zkX1heM8a5" role="1zF96y">
+        <node concept="1FQA6B" id="2uCqiGqxH4u" role="1zF96y">
+          <ref role="1FQA6$" node="IMlc8iZQ$5" resolve="personal data are processed for specified, explicit and legitimate purposes" />
+        </node>
+        <node concept="1zEXH5" id="1zkX1heM8ai" role="1zF96y">
+          <node concept="1FQA6B" id="1zkX1heM8ap" role="1zF96A">
+            <ref role="1FQA6$" node="IMlc8iZQ$V" resolve="personal data are further processed in a manner that is incompatible with the purposes for which they were collected" />
+          </node>
         </node>
       </node>
       <node concept="1FQA6B" id="2uCqiGqxH4F" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQ_V" resolve="personal data are adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed" />
       </node>
       <node concept="1FQA6B" id="2uCqiGqxH4P" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQAX" resolve="personal data are accurate and, where necessary, kept up to date" />
+        <ref role="1FQA6$" node="IMlc8iZQAX" resolve="personal data are accurate and, where necessary, kept up to date, rectified or erased" />
       </node>
       <node concept="1FQA6B" id="2uCqiGqxH4Z" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQBP" resolve="personal data are kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed" />
@@ -25383,61 +25400,12 @@
       <node concept="1FQA6B" id="qyR0EnzIk_" role="1zF96y">
         <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
       </node>
-      <node concept="1zEWgd" id="qyR0EnzIlw" role="1zF96y">
-        <node concept="1FQA6B" id="qyR0EnzIlx" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCHbJ" resolve="processing by a processor is governed by a contract or other legal act" />
-        </node>
-        <node concept="1FQA6B" id="qyR0EnzIly" role="1zF96y">
-          <ref role="1FQA6$" node="4EkVbrqCH55" resolve="processor has authorisation of the controller to engage another processor" />
-        </node>
-      </node>
-      <node concept="1zEXH2" id="qyR0EnzIlz" role="1zF96y">
-        <node concept="1zEWgd" id="qyR0EnzIl$" role="1zF96y">
-          <node concept="1zEXH2" id="qyR0EnzIl_" role="1zF96y">
-            <node concept="1FQA6B" id="qyR0EnzIlA" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGiJ" resolve="personal data is processed for journalistic purposes" />
-            </node>
-            <node concept="1FQA6B" id="qyR0EnzIlB" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGj8" resolve="personal data is processed for academic expression purposes" />
-            </node>
-            <node concept="1FQA6B" id="qyR0EnzIlC" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGjg" resolve="personal data is processed for artistic expression purposes" />
-            </node>
-            <node concept="1FQA6B" id="qyR0EnzIlD" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGjq" resolve="personal data is processed for literary expression purposes" />
-            </node>
-          </node>
-          <node concept="1FQA6B" id="qyR0EnzIlE" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCG$b" resolve="processing adheres to exemptions or derogations in member state law" />
-          </node>
-        </node>
-        <node concept="1zEWgd" id="qyR0EnzIlF" role="1zF96y">
-          <node concept="1zEXH2" id="qyR0EnzIlG" role="1zF96y">
-            <node concept="1FQA6B" id="qyR0EnzIlH" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGjO" resolve="personal data is processed for archiving purposes in the public interest" />
-            </node>
-            <node concept="1FQA6B" id="qyR0EnzIlI" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGka" resolve="personal data is processed for scientific or historical research purposes" />
-            </node>
-            <node concept="1FQA6B" id="qyR0EnzIlJ" role="1zF96y">
-              <ref role="1FQA6$" node="4EkVbrqCGk5" resolve="personal data is processed for statistical purposes" />
-            </node>
-          </node>
-          <node concept="1FQA6B" id="qyR0EnzIlK" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCGnU" resolve="appropriate safeguards for the rights and freedoms of the data subject" />
-          </node>
-          <node concept="1FQA6B" id="qyR0EnzIlL" role="1zF96y">
-            <ref role="1FQA6$" node="4EkVbrqCGyM" resolve="processing adheres to derogations in member state law" />
-          </node>
-        </node>
-        <node concept="1FQA6B" id="qyR0EnzI$l" role="1zF96y" />
-      </node>
     </node>
     <node concept="2cz2WB" id="7PttoKL3prN" role="mu1cf">
       <ref role="2cz2WA" node="7PttoKL3prM" resolve="processed personal data" />
     </node>
     <node concept="1FQA6B" id="qyR0EnzImE" role="mu1cf">
-      <ref role="1FQA6$" node="qyR0EnzImD" resolve="personal data has been processed" />
+      <ref role="1FQA6$" node="qyR0EnzImD" resolve="personal data are processed" />
     </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQAs">
@@ -25508,16 +25476,16 @@
       </node>
       <node concept="1zEWgd" id="30e$WWxgnvR" role="1zF96y">
         <node concept="1FQA6B" id="7PttoKL3po6" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnvZ" resolve="Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child." />
+          <ref role="1FQA6$" node="30e$WWxgnvZ" resolve="where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child" />
         </node>
         <node concept="1FQA6B" id="7PttoKL3poc" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnw5" resolve="Member States may provide by law for a lower age for those purposes provided that such lower age is not below 13 years." />
+          <ref role="1FQA6$" node="30e$WWxgnw5" resolve="member states may provide by law for a lower age for those purposes provided that such lower age is not below 13 years" />
         </node>
         <node concept="1FQA6B" id="7PttoKL3poi" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnwd" resolve="The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology." />
+          <ref role="1FQA6$" node="30e$WWxgnwd" resolve="the controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology" />
         </node>
         <node concept="1FQA6B" id="7PttoKL3poo" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnwn" resolve="Paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child." />
+          <ref role="1FQA6$" node="30e$WWxgnwn" resolve="paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child" />
         </node>
       </node>
     </node>
@@ -25602,7 +25570,7 @@
   </node>
   <node concept="cu0$f" id="IMlc8iZQAX">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="personal data are accurate and, where necessary, kept up to date" />
+    <property role="TrG5h" value="personal data are accurate and, where necessary, kept up to date, rectified or erased" />
     <node concept="cog_b" id="IMlc8iZQAY" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/109ddc88-9bf1-4b2f-9c3f-4d3af602e09a" />
       <ref role="cog$q" node="4EkVbrqCHn3" resolve="Article 5" />
@@ -25618,6 +25586,9 @@
       </node>
       <node concept="1FQA6B" id="IMlc8iZQBh" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQBg" resolve="personal data are kept up to date where necessary" />
+      </node>
+      <node concept="1FQA6B" id="1zkX1heM85t" role="1zF96y">
+        <ref role="1FQA6$" node="1zkX1heM82L" resolve="personal data that are inaccurate, having regard to the processing purposes, are erased or rectified without delay" />
       </node>
     </node>
   </node>
@@ -26469,10 +26440,18 @@
       <node concept="1FQA6B" id="IMlc8iZQCe" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQCd" resolve="personal data are kept for no longer than is necessary for the processing purposes" />
       </node>
+      <node concept="1zEWgd" id="1zkX1heM89a" role="1zF96y">
+        <node concept="1FQA6B" id="1zkX1heM88T" role="1zF96y">
+          <ref role="1FQA6$" node="1zkX1heM85E" resolve="personal data are stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+        </node>
+        <node concept="1FQA6B" id="1zkX1heM89r" role="1zF96y">
+          <ref role="1FQA6$" node="1zkX1heM89n" resolve="appropriate technical and organisational measures are implemented" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnvZ">
-    <property role="TrG5h" value="Where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child." />
+    <property role="TrG5h" value="where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="mu5$5" id="1phiYgAMErZ">
@@ -26499,12 +26478,12 @@
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="30e$WWxgnw5">
-    <property role="TrG5h" value="Member States may provide by law for a lower age for those purposes provided that such lower age is not below 13 years." />
+    <property role="TrG5h" value="member states may provide by law for a lower age for those purposes provided that such lower age is not below 13 years" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$5">
     <property role="3GE5qa" value="facts" />
-    <property role="TrG5h" value="personal data are collected for specified, explicit and legitimate purposes" />
+    <property role="TrG5h" value="personal data are processed for specified, explicit and legitimate purposes" />
     <node concept="cog_b" id="IMlc8iZQ$6" role="2pmM46">
       <property role="1hTq4$" value="https://calculemus.org/5b47df33-e899-4549-9d88-9276124c7c21" />
       <ref role="cog$q" node="4EkVbrqCHn3" resolve="Article 5" />
@@ -26576,18 +26555,18 @@
     </node>
     <node concept="1zEWgd" id="IMlc8iZQ$9" role="coNO9">
       <node concept="1FQA6B" id="IMlc8iZQ$l" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQ$k" resolve="personal data are collected for specified purposes" />
+        <ref role="1FQA6$" node="IMlc8iZQ$k" resolve="personal data are processed for specified purposes" />
       </node>
       <node concept="1FQA6B" id="IMlc8iZQ$p" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQ$o" resolve="personal data are collected for explicit purposes" />
+        <ref role="1FQA6$" node="IMlc8iZQ$o" resolve="personal data are processed for explicit purposes" />
       </node>
       <node concept="1FQA6B" id="IMlc8iZQ$A" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQ$_" resolve="personal data are collected for legitimate purposes" />
+        <ref role="1FQA6$" node="IMlc8iZQ$_" resolve="personal data are processed for legitimate purposes" />
       </node>
     </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnwd">
-    <property role="TrG5h" value="The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology." />
+    <property role="TrG5h" value="the controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="1phiYgAMDZG">
@@ -26595,11 +26574,11 @@
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="30e$WWxgnwn">
-    <property role="TrG5h" value="Paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child." />
+    <property role="TrG5h" value="paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$o">
-    <property role="TrG5h" value="personal data are collected for explicit purposes" />
+    <property role="TrG5h" value="personal data are processed for explicit purposes" />
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="2cz0EU" id="1phiYgAMEnA">
@@ -26616,8 +26595,11 @@
     </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$k">
-    <property role="TrG5h" value="personal data are collected for specified purposes" />
+    <property role="TrG5h" value="personal data are processed for specified purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1FQA6B" id="1zkX1heM7YK" role="coNO9">
+      <ref role="1FQA6$" node="4EkVbrqCGjJ" resolve="archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+    </node>
   </node>
   <node concept="mu5$5" id="2uCqiGqxH2_">
     <property role="3GE5qa" value="acts" />
@@ -26717,7 +26699,7 @@
         <ref role="1FQA6$" node="IMlc8iZQz7" resolve="personal data is processed lawfully, fairly and in a transparent manner in relation to the data subject" />
       </node>
       <node concept="1FQA6B" id="2uCqiGqxH3h" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQ$5" resolve="personal data are collected for specified, explicit and legitimate purposes" />
+        <ref role="1FQA6$" node="IMlc8iZQ$5" resolve="personal data are processed for specified, explicit and legitimate purposes" />
       </node>
       <node concept="1zEXH5" id="2uCqiGqxH30" role="1zF96y">
         <node concept="1FQA6B" id="2uCqiGqxH3r" role="1zF96A">
@@ -26728,7 +26710,7 @@
         <ref role="1FQA6$" node="IMlc8iZQ_V" resolve="personal data are adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed" />
       </node>
       <node concept="1FQA6B" id="2uCqiGqxH3C" role="1zF96y">
-        <ref role="1FQA6$" node="IMlc8iZQAX" resolve="personal data are accurate and, where necessary, kept up to date" />
+        <ref role="1FQA6$" node="IMlc8iZQAX" resolve="personal data are accurate and, where necessary, kept up to date, rectified or erased" />
       </node>
       <node concept="1FQA6B" id="2uCqiGqxH3W" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQBP" resolve="personal data are kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed" />
@@ -26741,7 +26723,7 @@
       </node>
     </node>
     <node concept="1FQA6B" id="qyR0EnzIjF" role="mu1cf">
-      <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data has been collected" />
+      <ref role="1FQA6$" node="1oJepmsRXua" resolve="personal data are collected" />
     </node>
     <node concept="2cz2WB" id="2uCqiGqxH46" role="mu1cf">
       <ref role="2cz2WA" node="IMlc8iZQDU" resolve="duty to demonstrate compliance with Article 5(1) GDPR" />
@@ -26755,8 +26737,48 @@
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$_">
-    <property role="TrG5h" value="personal data are collected for legitimate purposes" />
+    <property role="TrG5h" value="personal data are processed for legitimate purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1zEXH2" id="1zkX1heM7YU" role="coNO9">
+      <node concept="1zEWgd" id="1zkX1heM80F" role="1zF96y">
+        <node concept="1zEXH2" id="qyR0EnzIlG" role="1zF96y">
+          <node concept="1FQA6B" id="qyR0EnzIlH" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGjO" resolve="personal data is processed for archiving purposes in the public interest" />
+          </node>
+          <node concept="1FQA6B" id="qyR0EnzIlI" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGka" resolve="personal data is processed for scientific or historical research purposes" />
+          </node>
+          <node concept="1FQA6B" id="qyR0EnzIlJ" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGk5" resolve="personal data is processed for statistical purposes" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="1zkX1heM80S" role="1zF96y">
+          <ref role="1FQA6$" node="4EkVbrqCGnU" resolve="appropriate safeguards for the rights and freedoms of the data subject" />
+        </node>
+        <node concept="1FQA6B" id="1zkX1heM80T" role="1zF96y">
+          <ref role="1FQA6$" node="4EkVbrqCGyM" resolve="processing adheres to derogations in member state law" />
+        </node>
+      </node>
+      <node concept="1zEWgd" id="1zkX1heM7ZN" role="1zF96y">
+        <node concept="1zEXH2" id="qyR0EnzIl_" role="1zF96y">
+          <node concept="1FQA6B" id="qyR0EnzIlA" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGiJ" resolve="personal data is processed for journalistic purposes" />
+          </node>
+          <node concept="1FQA6B" id="qyR0EnzIlB" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGj8" resolve="personal data is processed for academic expression purposes" />
+          </node>
+          <node concept="1FQA6B" id="qyR0EnzIlC" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGjg" resolve="personal data is processed for artistic expression purposes" />
+          </node>
+          <node concept="1FQA6B" id="qyR0EnzIlD" role="1zF96y">
+            <ref role="1FQA6$" node="4EkVbrqCGjq" resolve="personal data is processed for literary expression purposes" />
+          </node>
+        </node>
+        <node concept="1FQA6B" id="qyR0EnzIlE" role="1zF96y">
+          <ref role="1FQA6$" node="4EkVbrqCG$b" resolve="processing adheres to exemptions or derogations in member state law" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnsI">
     <property role="TrG5h" value="the purpose of the processing shall be determined in the legal basis of this specific provisions and shall be necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller" />
@@ -28360,7 +28382,7 @@
     <property role="3GE5qa" value="facts" />
   </node>
   <node concept="cu0$f" id="qyR0EnzImD">
-    <property role="TrG5h" value="personal data has been processed" />
+    <property role="TrG5h" value="personal data are processed" />
     <property role="3GE5qa" value="facts" />
     <node concept="1RnfdX" id="qyR0EnzImG" role="coNO9" />
   </node>
@@ -30982,6 +31004,1119 @@
   <node concept="cog_a" id="qyR0EnzH_r">
     <property role="TrG5h" value="Article 12" />
     <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="1zkX1heM7Sa">
+    <property role="TrG5h" value="personal data are collected from a source other than the data subject" />
+    <property role="3GE5qa" value="facts" />
+    <node concept="cog_b" id="1zkX1heM7Sj" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/254cd633-8bd0-451f-8b89-0d9953fa38df" />
+      <ref role="cog$q" node="1zkX1heM7Si" resolve="Article 14" />
+      <node concept="2hPCcK" id="1zkX1heM7Sk" role="2hN6Sa">
+        <node concept="19SUe$" id="1zkX1heM7Sl" role="19SJt6">
+          <property role="19SUeA" value="Where personal data have not been obtained from the data subject" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cog_a" id="1zkX1heM7Si">
+    <property role="TrG5h" value="Article 14" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="1zkX1heM7SD">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="the controller intends to further process the personal data for a purpose other than that for which the personal data were collected" />
+    <node concept="cog_b" id="1zkX1heM7SE" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/7e443179-9225-4b93-b9d5-fdc97643aa79" />
+      <ref role="cog$q" node="1zkX1heM7Si" resolve="Article 14" />
+      <node concept="2hPCcK" id="1zkX1heM7SF" role="2hN6Sa">
+        <node concept="19SUe$" id="1zkX1heM7SG" role="19SJt6">
+          <property role="19SUeA" value="Where " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7U5" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM7U6" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7U4" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7U1" role="19SJt6">
+          <property role="19SUeA" value="controller" />
+          <node concept="2UK0tq" id="1zkX1heM7U2" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7U0" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7TX" role="19SJt6">
+          <property role="19SUeA" value="intends" />
+          <node concept="2UK0tq" id="1zkX1heM7TY" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7TW" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7TT" role="19SJt6">
+          <property role="19SUeA" value="to" />
+          <node concept="2UK0tq" id="1zkX1heM7TU" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7TS" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7TP" role="19SJt6">
+          <property role="19SUeA" value="further" />
+          <node concept="2UK0tq" id="1zkX1heM7TQ" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7TO" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7TL" role="19SJt6">
+          <property role="19SUeA" value="process" />
+          <node concept="2UK0tq" id="1zkX1heM7TM" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7TK" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7TH" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM7TI" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7TG" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7TD" role="19SJt6">
+          <property role="19SUeA" value="personal" />
+          <node concept="2UK0tq" id="1zkX1heM7TE" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7TC" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7T_" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM7TA" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7T$" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Tx" role="19SJt6">
+          <property role="19SUeA" value="for" />
+          <node concept="2UK0tq" id="1zkX1heM7Ty" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Tw" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Tt" role="19SJt6">
+          <property role="19SUeA" value="a" />
+          <node concept="2UK0tq" id="1zkX1heM7Tu" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Ts" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Tp" role="19SJt6">
+          <property role="19SUeA" value="purpose" />
+          <node concept="2UK0tq" id="1zkX1heM7Tq" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7To" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Tl" role="19SJt6">
+          <property role="19SUeA" value="other" />
+          <node concept="2UK0tq" id="1zkX1heM7Tm" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Tk" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Th" role="19SJt6">
+          <property role="19SUeA" value="than" />
+          <node concept="2UK0tq" id="1zkX1heM7Ti" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Tg" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Td" role="19SJt6">
+          <property role="19SUeA" value="that" />
+          <node concept="2UK0tq" id="1zkX1heM7Te" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Tc" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7T9" role="19SJt6">
+          <property role="19SUeA" value="for" />
+          <node concept="2UK0tq" id="1zkX1heM7Ta" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7T8" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7T5" role="19SJt6">
+          <property role="19SUeA" value="which" />
+          <node concept="2UK0tq" id="1zkX1heM7T6" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7T4" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7T1" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM7T2" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7T0" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7SX" role="19SJt6">
+          <property role="19SUeA" value="personal" />
+          <node concept="2UK0tq" id="1zkX1heM7SY" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7SW" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7ST" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM7SU" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7SS" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7SP" role="19SJt6">
+          <property role="19SUeA" value="were" />
+          <node concept="2UK0tq" id="1zkX1heM7SQ" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7SO" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7SL" role="19SJt6">
+          <property role="19SUeA" value="obtained," />
+          <node concept="2UK0tq" id="1zkX1heM7SM" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7SK" role="19SJt6">
+          <property role="19SUeA" value=" the controller shall provide the data subject prior to that further processing with information on that other purpose and with any relevant further information as referred to in paragraph 2" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cog_a" id="1zkX1heM7VH">
+    <property role="TrG5h" value="Article 13" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="1zkX1heM7VG">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="personal data are collected from the data subject" />
+    <node concept="cog_b" id="1zkX1heM7VI" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/0417542d-4b57-411c-8009-1607d92294c4" />
+      <ref role="cog$q" node="1zkX1heM7VH" resolve="Article 13" />
+      <node concept="2hPCcK" id="1zkX1heM7VJ" role="2hN6Sa">
+        <node concept="2h$EKm" id="1zkX1heM7WC" role="19SJt6">
+          <property role="19SUeA" value="Where" />
+          <node concept="2UK0tq" id="1zkX1heM7WD" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7WB" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7W_" role="19SJt6">
+          <property role="19SUeA" value="personal" />
+          <node concept="2UK0tq" id="1zkX1heM7WA" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7W$" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Wx" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM7Wy" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Ww" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Wt" role="19SJt6">
+          <property role="19SUeA" value="relating" />
+          <node concept="2UK0tq" id="1zkX1heM7Wu" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Ws" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Wp" role="19SJt6">
+          <property role="19SUeA" value="to" />
+          <node concept="2UK0tq" id="1zkX1heM7Wq" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Wo" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Wl" role="19SJt6">
+          <property role="19SUeA" value="a" />
+          <node concept="2UK0tq" id="1zkX1heM7Wm" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Wk" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Wh" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM7Wi" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Wg" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7Wd" role="19SJt6">
+          <property role="19SUeA" value="subject" />
+          <node concept="2UK0tq" id="1zkX1heM7We" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7Wc" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7W9" role="19SJt6">
+          <property role="19SUeA" value="are" />
+          <node concept="2UK0tq" id="1zkX1heM7Wa" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7W8" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7W5" role="19SJt6">
+          <property role="19SUeA" value="collected" />
+          <node concept="2UK0tq" id="1zkX1heM7W6" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7W4" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7W1" role="19SJt6">
+          <property role="19SUeA" value="from" />
+          <node concept="2UK0tq" id="1zkX1heM7W2" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7W0" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7VX" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM7VY" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7VW" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7VT" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM7VU" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7VS" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM7VP" role="19SJt6">
+          <property role="19SUeA" value="subject" />
+          <node concept="2UK0tq" id="1zkX1heM7VQ" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM7VO" role="19SJt6">
+          <property role="19SUeA" value="" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cog_a" id="1zkX1heM7XS">
+    <property role="TrG5h" value="Article 5" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="1zkX1heM82L">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="personal data that are inaccurate, having regard to the processing purposes, are erased or rectified without delay" />
+    <node concept="cog_b" id="1zkX1heM82M" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/109ddc88-9bf1-4b2f-9c3f-4d3af602e09a" />
+      <ref role="cog$q" node="1zkX1heM7XS" resolve="Article 5" />
+      <node concept="2hPCcK" id="1zkX1heM82N" role="2hN6Sa">
+        <node concept="19SUe$" id="1zkX1heM82O" role="19SJt6">
+          <property role="19SUeA" value="every reasonable step must be taken to " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM84h" role="19SJt6">
+          <property role="19SUeA" value="ensure" />
+          <node concept="2UK0tq" id="1zkX1heM84i" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM84g" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM84d" role="19SJt6">
+          <property role="19SUeA" value="that" />
+          <node concept="2UK0tq" id="1zkX1heM84e" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM84c" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM849" role="19SJt6">
+          <property role="19SUeA" value="personal" />
+          <node concept="2UK0tq" id="1zkX1heM84a" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM848" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM845" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM846" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM844" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM841" role="19SJt6">
+          <property role="19SUeA" value="that" />
+          <node concept="2UK0tq" id="1zkX1heM842" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM840" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83X" role="19SJt6">
+          <property role="19SUeA" value="are" />
+          <node concept="2UK0tq" id="1zkX1heM83Y" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83W" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83T" role="19SJt6">
+          <property role="19SUeA" value="inaccurate," />
+          <node concept="2UK0tq" id="1zkX1heM83U" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83S" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83P" role="19SJt6">
+          <property role="19SUeA" value="having" />
+          <node concept="2UK0tq" id="1zkX1heM83Q" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83O" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83L" role="19SJt6">
+          <property role="19SUeA" value="regard" />
+          <node concept="2UK0tq" id="1zkX1heM83M" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83K" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83H" role="19SJt6">
+          <property role="19SUeA" value="to" />
+          <node concept="2UK0tq" id="1zkX1heM83I" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83G" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83D" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM83E" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83C" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83_" role="19SJt6">
+          <property role="19SUeA" value="purposes" />
+          <node concept="2UK0tq" id="1zkX1heM83A" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83$" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83x" role="19SJt6">
+          <property role="19SUeA" value="for" />
+          <node concept="2UK0tq" id="1zkX1heM83y" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83w" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83t" role="19SJt6">
+          <property role="19SUeA" value="which" />
+          <node concept="2UK0tq" id="1zkX1heM83u" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83s" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83p" role="19SJt6">
+          <property role="19SUeA" value="they" />
+          <node concept="2UK0tq" id="1zkX1heM83q" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83o" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83l" role="19SJt6">
+          <property role="19SUeA" value="are" />
+          <node concept="2UK0tq" id="1zkX1heM83m" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83k" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83h" role="19SJt6">
+          <property role="19SUeA" value="processed," />
+          <node concept="2UK0tq" id="1zkX1heM83i" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83g" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM83d" role="19SJt6">
+          <property role="19SUeA" value="are" />
+          <node concept="2UK0tq" id="1zkX1heM83e" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM83c" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM839" role="19SJt6">
+          <property role="19SUeA" value="erased" />
+          <node concept="2UK0tq" id="1zkX1heM83a" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM838" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM835" role="19SJt6">
+          <property role="19SUeA" value="or" />
+          <node concept="2UK0tq" id="1zkX1heM836" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM834" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM831" role="19SJt6">
+          <property role="19SUeA" value="rectified" />
+          <node concept="2UK0tq" id="1zkX1heM832" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM830" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM82X" role="19SJt6">
+          <property role="19SUeA" value="without" />
+          <node concept="2UK0tq" id="1zkX1heM82Y" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM82W" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM82T" role="19SJt6">
+          <property role="19SUeA" value="delay" />
+          <node concept="2UK0tq" id="1zkX1heM82U" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM82S" role="19SJt6">
+          <property role="19SUeA" value="" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="1zkX1heM85E">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="personal data are stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+    <node concept="cog_b" id="1zkX1heM85F" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/0f505d6d-302e-45b1-a09b-0b377e2363a0" />
+      <ref role="cog$q" node="1zkX1heM7XS" resolve="Article 5" />
+      <node concept="2hPCcK" id="1zkX1heM85G" role="2hN6Sa">
+        <node concept="19SUe$" id="1zkX1heM85H" role="19SJt6">
+          <property role="19SUeA" value="personal data may be " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM87u" role="19SJt6">
+          <property role="19SUeA" value="stored" />
+          <node concept="2UK0tq" id="1zkX1heM87v" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM87t" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM87q" role="19SJt6">
+          <property role="19SUeA" value="for" />
+          <node concept="2UK0tq" id="1zkX1heM87r" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM87p" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM87m" role="19SJt6">
+          <property role="19SUeA" value="longer" />
+          <node concept="2UK0tq" id="1zkX1heM87n" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM87l" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM87i" role="19SJt6">
+          <property role="19SUeA" value="periods" />
+          <node concept="2UK0tq" id="1zkX1heM87j" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM87h" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM87e" role="19SJt6">
+          <property role="19SUeA" value="insofar" />
+          <node concept="2UK0tq" id="1zkX1heM87f" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM87d" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM87a" role="19SJt6">
+          <property role="19SUeA" value="as" />
+          <node concept="2UK0tq" id="1zkX1heM87b" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM879" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM876" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM877" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM875" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM872" role="19SJt6">
+          <property role="19SUeA" value="personal" />
+          <node concept="2UK0tq" id="1zkX1heM873" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM871" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86Y" role="19SJt6">
+          <property role="19SUeA" value="data" />
+          <node concept="2UK0tq" id="1zkX1heM86Z" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86X" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86U" role="19SJt6">
+          <property role="19SUeA" value="will" />
+          <node concept="2UK0tq" id="1zkX1heM86V" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86T" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86Q" role="19SJt6">
+          <property role="19SUeA" value="be" />
+          <node concept="2UK0tq" id="1zkX1heM86R" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86P" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86M" role="19SJt6">
+          <property role="19SUeA" value="processed" />
+          <node concept="2UK0tq" id="1zkX1heM86N" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86L" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86I" role="19SJt6">
+          <property role="19SUeA" value="solely" />
+          <node concept="2UK0tq" id="1zkX1heM86J" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86H" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86E" role="19SJt6">
+          <property role="19SUeA" value="for" />
+          <node concept="2UK0tq" id="1zkX1heM86F" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86D" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86A" role="19SJt6">
+          <property role="19SUeA" value="archiving" />
+          <node concept="2UK0tq" id="1zkX1heM86B" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86_" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86y" role="19SJt6">
+          <property role="19SUeA" value="purposes" />
+          <node concept="2UK0tq" id="1zkX1heM86z" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86x" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86u" role="19SJt6">
+          <property role="19SUeA" value="in" />
+          <node concept="2UK0tq" id="1zkX1heM86v" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86t" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86q" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM86r" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86p" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86m" role="19SJt6">
+          <property role="19SUeA" value="public" />
+          <node concept="2UK0tq" id="1zkX1heM86n" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86l" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86i" role="19SJt6">
+          <property role="19SUeA" value="interest," />
+          <node concept="2UK0tq" id="1zkX1heM86j" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86h" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86e" role="19SJt6">
+          <property role="19SUeA" value="scientific" />
+          <node concept="2UK0tq" id="1zkX1heM86f" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM86d" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM86a" role="19SJt6">
+          <property role="19SUeA" value="or" />
+          <node concept="2UK0tq" id="1zkX1heM86b" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM869" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM866" role="19SJt6">
+          <property role="19SUeA" value="historical" />
+          <node concept="2UK0tq" id="1zkX1heM867" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM865" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM862" role="19SJt6">
+          <property role="19SUeA" value="research" />
+          <node concept="2UK0tq" id="1zkX1heM863" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM861" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM85Y" role="19SJt6">
+          <property role="19SUeA" value="purposes" />
+          <node concept="2UK0tq" id="1zkX1heM85Z" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM85X" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM85U" role="19SJt6">
+          <property role="19SUeA" value="or" />
+          <node concept="2UK0tq" id="1zkX1heM85V" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM85T" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM85Q" role="19SJt6">
+          <property role="19SUeA" value="statistical" />
+          <node concept="2UK0tq" id="1zkX1heM85R" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM85P" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM85M" role="19SJt6">
+          <property role="19SUeA" value="purposes" />
+          <node concept="2UK0tq" id="1zkX1heM85N" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM85L" role="19SJt6">
+          <property role="19SUeA" value=" in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="1zkX1heM89n">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="appropriate technical and organisational measures are implemented" />
+    <node concept="cog_b" id="1zkX1heM89o" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/0f505d6d-302e-45b1-a09b-0b377e2363a0" />
+      <ref role="cog$q" node="1zkX1heM7XS" resolve="Article 5" />
+      <node concept="2hPCcK" id="1zkX1heM89p" role="2hN6Sa">
+        <node concept="19SUe$" id="1zkX1heM89q" role="19SJt6">
+          <property role="19SUeA" value="implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cog_a" id="1zkX1heM8dg">
+    <property role="TrG5h" value="Article 46" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="1zkX1heM8df">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="The supervisory authority has applied the consistency mechanism referred to in Article 63" />
+    <node concept="cog_b" id="1zkX1heM8dh" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/fe6fcf5a-b7ea-4e52-bcfb-a02e99c44940" />
+      <ref role="cog$q" node="1zkX1heM8dg" resolve="Article 46" />
+      <node concept="2hPCcK" id="1zkX1heM8di" role="2hN6Sa">
+        <node concept="2h$EKm" id="1zkX1heM8eN" role="19SJt6">
+          <property role="19SUeA" value="The" />
+          <node concept="2UK0tq" id="1zkX1heM8eO" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8eM" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8eK" role="19SJt6">
+          <property role="19SUeA" value="supervisory" />
+          <node concept="2UK0tq" id="1zkX1heM8eL" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8eJ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8eG" role="19SJt6">
+          <property role="19SUeA" value="authority" />
+          <node concept="2UK0tq" id="1zkX1heM8eH" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8eF" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8eC" role="19SJt6">
+          <property role="19SUeA" value="shall" />
+          <node concept="2UK0tq" id="1zkX1heM8eD" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8eB" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8e$" role="19SJt6">
+          <property role="19SUeA" value="apply" />
+          <node concept="2UK0tq" id="1zkX1heM8e_" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8ez" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8ew" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM8ex" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8ev" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8es" role="19SJt6">
+          <property role="19SUeA" value="consistency" />
+          <node concept="2UK0tq" id="1zkX1heM8et" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8er" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8eo" role="19SJt6">
+          <property role="19SUeA" value="mechanism" />
+          <node concept="2UK0tq" id="1zkX1heM8ep" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8en" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8ek" role="19SJt6">
+          <property role="19SUeA" value="referred" />
+          <node concept="2UK0tq" id="1zkX1heM8el" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8ej" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8eg" role="19SJt6">
+          <property role="19SUeA" value="to" />
+          <node concept="2UK0tq" id="1zkX1heM8eh" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8ef" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8ec" role="19SJt6">
+          <property role="19SUeA" value="in" />
+          <node concept="2UK0tq" id="1zkX1heM8ed" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8eb" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8e8" role="19SJt6">
+          <property role="19SUeA" value="Article" />
+          <node concept="2UK0tq" id="1zkX1heM8e9" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8e7" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8e4" role="19SJt6">
+          <property role="19SUeA" value="63" />
+          <node concept="2UK0tq" id="1zkX1heM8e5" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8e3" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8e0" role="19SJt6">
+          <property role="19SUeA" value="in" />
+          <node concept="2UK0tq" id="1zkX1heM8e1" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dZ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dW" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="1zkX1heM8dX" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dV" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dS" role="19SJt6">
+          <property role="19SUeA" value="cases" />
+          <node concept="2UK0tq" id="1zkX1heM8dT" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dR" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dO" role="19SJt6">
+          <property role="19SUeA" value="referred" />
+          <node concept="2UK0tq" id="1zkX1heM8dP" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dN" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dK" role="19SJt6">
+          <property role="19SUeA" value="to" />
+          <node concept="2UK0tq" id="1zkX1heM8dL" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dJ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dG" role="19SJt6">
+          <property role="19SUeA" value="in" />
+          <node concept="2UK0tq" id="1zkX1heM8dH" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dF" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dC" role="19SJt6">
+          <property role="19SUeA" value="paragraph" />
+          <node concept="2UK0tq" id="1zkX1heM8dD" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dB" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8d$" role="19SJt6">
+          <property role="19SUeA" value="3" />
+          <node concept="2UK0tq" id="1zkX1heM8d_" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dz" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8dw" role="19SJt6">
+          <property role="19SUeA" value="of" />
+          <node concept="2UK0tq" id="1zkX1heM8dx" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dv" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8ds" role="19SJt6">
+          <property role="19SUeA" value="this" />
+          <node concept="2UK0tq" id="1zkX1heM8dt" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dr" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="1zkX1heM8do" role="19SJt6">
+          <property role="19SUeA" value="Article" />
+          <node concept="2UK0tq" id="1zkX1heM8dp" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="1zkX1heM8dn" role="19SJt6">
+          <property role="19SUeA" value="" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="1zkX1heM8gb">
+    <property role="TrG5h" value="the supervisory authority has authorised the appropriate safeguards reffered to in paragraph 1" />
+    <property role="3GE5qa" value="facts" />
+    <node concept="cog_b" id="1zkX1heM8gi" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/9f1a5e22-f519-4e93-9e4f-932bd37fce8a" />
+      <ref role="cog$q" node="1zkX1heM8dg" resolve="Article 46" />
+      <node concept="2hPCcK" id="1zkX1heM8gj" role="2hN6Sa">
+        <node concept="19SUe$" id="1zkX1heM8gk" role="19SJt6">
+          <property role="19SUeA" value="Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by:" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
