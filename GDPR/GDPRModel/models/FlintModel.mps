@@ -25444,7 +25444,7 @@
   </node>
   <node concept="mu5$5" id="IMlc8iZQyy">
     <property role="3GE5qa" value="acts" />
-    <property role="TrG5h" value="Give consent to processing of personal data" />
+    <property role="TrG5h" value="give consent to processing of personal data" />
     <property role="3ANC2_" value="If it is an act why does it have so many conditions? (1) How does this work for non-binairy people? (2)" />
     <node concept="1FQA6B" id="IMlc8iZQyF" role="3H36mW">
       <ref role="1FQA6$" node="4EkVbrqCY_$" resolve="data subject" />
@@ -25474,19 +25474,17 @@
       <node concept="1FQA6B" id="7PttoKL3pnU" role="1zF96y">
         <ref role="1FQA6$" node="30e$WWxgnvD" resolve="when assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of the contract" />
       </node>
-      <node concept="1zEWgd" id="30e$WWxgnvR" role="1zF96y">
-        <node concept="1FQA6B" id="7PttoKL3po6" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnvZ" resolve="where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child" />
-        </node>
-        <node concept="1FQA6B" id="7PttoKL3poc" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnw5" resolve="member states may provide by law for a lower age for those purposes provided that such lower age is not below 13 years" />
-        </node>
-        <node concept="1FQA6B" id="7PttoKL3poi" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnwd" resolve="the controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology" />
-        </node>
-        <node concept="1FQA6B" id="7PttoKL3poo" role="1zF96y">
-          <ref role="1FQA6$" node="30e$WWxgnwn" resolve="paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child" />
-        </node>
+      <node concept="1FQA6B" id="7035cAN__Dw" role="1zF96y">
+        <ref role="1FQA6$" node="30e$WWxgnvZ" resolve="the child (if 16 or above) or the parents (if below 16) have given consent" />
+      </node>
+      <node concept="1FQA6B" id="7035cAN__DW" role="1zF96y">
+        <ref role="1FQA6$" node="30e$WWxgnw5" resolve="member states may provide by law for a lower age for those purposes provided that such lower age is not below 13 years" />
+      </node>
+      <node concept="1FQA6B" id="7035cAN__Em" role="1zF96y">
+        <ref role="1FQA6$" node="30e$WWxgnwd" resolve="the controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology" />
+      </node>
+      <node concept="1FQA6B" id="7035cAN__EM" role="1zF96y">
+        <ref role="1FQA6$" node="30e$WWxgnwn" resolve="paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child" />
       </node>
     </node>
     <node concept="2cz2WB" id="7PttoKL3prD" role="mu1cf">
@@ -26451,8 +26449,26 @@
     </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnvZ">
-    <property role="TrG5h" value="where point (a) of Article 6(1) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old. Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that consent is given or authorised by the holder of parental responsibility over the child" />
+    <property role="TrG5h" value="the child (if 16 or above) or the parents (if below 16) have given consent" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1zEXH2" id="7035cAN__Js" role="coNO9">
+      <node concept="1zEWgd" id="7035cAN__JL" role="1zF96y">
+        <node concept="1FQA6B" id="7035cAN__Jm" role="1zF96y">
+          <ref role="1FQA6$" node="7035cAN__Gn" resolve="the child is at least 16 years old" />
+        </node>
+        <node concept="1FQA6B" id="7035cAN__JV" role="1zF96y">
+          <ref role="1FQA6$" node="5KiQe4JdUFV" resolve="data subject has given consent to the processing of his or her personal data" />
+        </node>
+      </node>
+      <node concept="1zEWgd" id="7035cAN__Jy" role="1zF96y">
+        <node concept="1FQA6B" id="7035cAN__JB" role="1zF96y">
+          <ref role="1FQA6$" node="7035cAN__Fe" resolve="the child is below the age of 16 years" />
+        </node>
+        <node concept="1FQA6B" id="7035cAN__JH" role="1zF96y">
+          <ref role="1FQA6$" node="7035cAN__Ho" resolve="consent is given or authorised by the holder of parental responsibility over the child" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="mu5$5" id="1phiYgAMErZ">
     <property role="TrG5h" value="notify the european commission" />
@@ -32114,6 +32130,328 @@
       <node concept="2hPCcK" id="1zkX1heM8gj" role="2hN6Sa">
         <node concept="19SUe$" id="1zkX1heM8gk" role="19SJt6">
           <property role="19SUeA" value="Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by:" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cog_a" id="7035cAN__Ff">
+    <property role="TrG5h" value="Article 8" />
+    <property role="3GE5qa" value="sources" />
+  </node>
+  <node concept="cu0$f" id="7035cAN__Fe">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="the child is below the age of 16 years" />
+    <node concept="cog_b" id="7035cAN__Fg" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/9f9dd533-326f-451d-b2ba-0b1a80b4e8e7" />
+      <ref role="cog$q" node="7035cAN__Ff" resolve="Article 8" />
+      <node concept="2hPCcK" id="7035cAN__Fh" role="2hN6Sa">
+        <node concept="19SUe$" id="7035cAN__Fi" role="19SJt6">
+          <property role="19SUeA" value="Where " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__FR" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="7035cAN__FS" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__FQ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__FN" role="19SJt6">
+          <property role="19SUeA" value="child" />
+          <node concept="2UK0tq" id="7035cAN__FO" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__FM" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__FJ" role="19SJt6">
+          <property role="19SUeA" value="is" />
+          <node concept="2UK0tq" id="7035cAN__FK" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__FI" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__FF" role="19SJt6">
+          <property role="19SUeA" value="below" />
+          <node concept="2UK0tq" id="7035cAN__FG" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__FE" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__FB" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="7035cAN__FC" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__FA" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Fz" role="19SJt6">
+          <property role="19SUeA" value="age" />
+          <node concept="2UK0tq" id="7035cAN__F$" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Fy" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Fv" role="19SJt6">
+          <property role="19SUeA" value="of" />
+          <node concept="2UK0tq" id="7035cAN__Fw" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Fu" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Fr" role="19SJt6">
+          <property role="19SUeA" value="16" />
+          <node concept="2UK0tq" id="7035cAN__Fs" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Fq" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Fn" role="19SJt6">
+          <property role="19SUeA" value="years" />
+          <node concept="2UK0tq" id="7035cAN__Fo" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Fm" role="19SJt6">
+          <property role="19SUeA" value="" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="7035cAN__Gn">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="the child is at least 16 years old" />
+    <node concept="cog_b" id="7035cAN__Go" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/9f9dd533-326f-451d-b2ba-0b1a80b4e8e7" />
+      <ref role="cog$q" node="7035cAN__Ff" resolve="Article 8" />
+      <node concept="2hPCcK" id="7035cAN__Gp" role="2hN6Sa">
+        <node concept="19SUe$" id="7035cAN__Gq" role="19SJt6">
+          <property role="19SUeA" value="where " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__GV" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="7035cAN__GW" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__GU" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__GR" role="19SJt6">
+          <property role="19SUeA" value="child" />
+          <node concept="2UK0tq" id="7035cAN__GS" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__GQ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__GN" role="19SJt6">
+          <property role="19SUeA" value="is" />
+          <node concept="2UK0tq" id="7035cAN__GO" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__GM" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__GJ" role="19SJt6">
+          <property role="19SUeA" value="at" />
+          <node concept="2UK0tq" id="7035cAN__GK" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__GI" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__GF" role="19SJt6">
+          <property role="19SUeA" value="least" />
+          <node concept="2UK0tq" id="7035cAN__GG" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__GE" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__GB" role="19SJt6">
+          <property role="19SUeA" value="16" />
+          <node concept="2UK0tq" id="7035cAN__GC" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__GA" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Gz" role="19SJt6">
+          <property role="19SUeA" value="years" />
+          <node concept="2UK0tq" id="7035cAN__G$" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Gy" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Gv" role="19SJt6">
+          <property role="19SUeA" value="old" />
+          <node concept="2UK0tq" id="7035cAN__Gw" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Gu" role="19SJt6">
+          <property role="19SUeA" value="" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="cu0$f" id="7035cAN__Ho">
+    <property role="3GE5qa" value="facts" />
+    <property role="TrG5h" value="consent is given or authorised by the holder of parental responsibility over the child" />
+    <node concept="cog_b" id="7035cAN__Hp" role="2pmM46">
+      <property role="1hTq4$" value="https://calculemus.org/9f9dd533-326f-451d-b2ba-0b1a80b4e8e7" />
+      <ref role="cog$q" node="7035cAN__Ff" resolve="Article 8" />
+      <node concept="2hPCcK" id="7035cAN__Hq" role="2hN6Sa">
+        <node concept="19SUe$" id="7035cAN__Hr" role="19SJt6">
+          <property role="19SUeA" value="Where the child is below the age of 16 years, such processing shall be lawful only if and to the extent that " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Ik" role="19SJt6">
+          <property role="19SUeA" value="consent" />
+          <node concept="2UK0tq" id="7035cAN__Il" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Ij" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Ig" role="19SJt6">
+          <property role="19SUeA" value="is" />
+          <node concept="2UK0tq" id="7035cAN__Ih" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__If" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Ic" role="19SJt6">
+          <property role="19SUeA" value="given" />
+          <node concept="2UK0tq" id="7035cAN__Id" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Ib" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__I8" role="19SJt6">
+          <property role="19SUeA" value="or" />
+          <node concept="2UK0tq" id="7035cAN__I9" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__I7" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__I4" role="19SJt6">
+          <property role="19SUeA" value="authorised" />
+          <node concept="2UK0tq" id="7035cAN__I5" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__I3" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__I0" role="19SJt6">
+          <property role="19SUeA" value="by" />
+          <node concept="2UK0tq" id="7035cAN__I1" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HZ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__HW" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="7035cAN__HX" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HV" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__HS" role="19SJt6">
+          <property role="19SUeA" value="holder" />
+          <node concept="2UK0tq" id="7035cAN__HT" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HR" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__HO" role="19SJt6">
+          <property role="19SUeA" value="of" />
+          <node concept="2UK0tq" id="7035cAN__HP" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HN" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__HK" role="19SJt6">
+          <property role="19SUeA" value="parental" />
+          <node concept="2UK0tq" id="7035cAN__HL" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HJ" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__HG" role="19SJt6">
+          <property role="19SUeA" value="responsibility" />
+          <node concept="2UK0tq" id="7035cAN__HH" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HF" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__HC" role="19SJt6">
+          <property role="19SUeA" value="over" />
+          <node concept="2UK0tq" id="7035cAN__HD" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__HB" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__H$" role="19SJt6">
+          <property role="19SUeA" value="the" />
+          <node concept="2UK0tq" id="7035cAN__H_" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Hz" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+        <node concept="2h$EKm" id="7035cAN__Hw" role="19SJt6">
+          <property role="19SUeA" value="child." />
+          <node concept="2UK0tq" id="7035cAN__Hx" role="2h$EKj">
+            <property role="2UK0tr" value="7B7tObSCA8X/FactName" />
+          </node>
+        </node>
+        <node concept="19SUe$" id="7035cAN__Hv" role="19SJt6">
+          <property role="19SUeA" value="" />
         </node>
       </node>
     </node>
