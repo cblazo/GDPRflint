@@ -22,8 +22,8 @@
       <concept id="6868897032739893314" name="Flint.structure.IExplainable" flags="ng" index="cog$R">
         <property id="778381075952164307" name="explanation" index="3ANC2_" />
       </concept>
-      <concept id="6868897032739893311" name="Flint.structure.FlintSource" flags="ng" index="cog_a" />
-      <concept id="6868897032739893310" name="Flint.structure.FlintSourceReference" flags="ng" index="cog_b">
+      <concept id="6868897032739893311" name="Flint.structure.FlintSourceDeprecated" flags="ng" index="cog_a" />
+      <concept id="6868897032739893310" name="Flint.structure.FlintSource" flags="ng" index="cog_b">
         <property id="2215264714367931041" name="textId" index="1hTq4$" />
         <reference id="6868897032739893359" name="baseSource" index="cog$q" />
         <child id="7816114204006679678" name="betterText" index="2hN6Sa" />
@@ -34,8 +34,8 @@
       </concept>
       <concept id="2444626260293387291" name="Flint.structure.Duty" flags="ng" index="2cz0EU">
         <child id="2444626260294521210" name="dutyComponents" index="2cBPZr" />
-        <child id="898982168832817003" name="create" index="cMmjI" />
-        <child id="898982168832817017" name="terminate" index="cMmjW" />
+        <child id="898982168832817003" name="oldCreate" index="cMmjI" />
+        <child id="898982168832817017" name="oldTerminate" index="cMmjW" />
         <child id="6205025464253210169" name="claimant" index="3H37fL" />
         <child id="6205025464253210160" name="dutyHolder" index="3H37fS" />
       </concept>
@@ -57,6 +57,9 @@
       </concept>
       <concept id="6983418503075280677" name="Flint.structure.IHasSources" flags="ng" index="2pmM45">
         <child id="6983418503075280678" name="sources" index="2pmM46" />
+      </concept>
+      <concept id="589729100932390229" name="Flint.structure.IHasLanguage" flags="ng" index="ITzSF">
+        <child id="5326288789495449519" name="translatedNames" index="1GVO30" />
       </concept>
       <concept id="2986354165693918736" name="Flint.structure.SRole" flags="ng" index="2UK0tq">
         <property id="2986354165693918737" name="role" index="2UK0tr" />
@@ -81,6 +84,10 @@
       <concept id="6587498613242404529" name="Flint.structure.FactReference" flags="ng" index="1FQA6B">
         <reference id="6587498613242404530" name="fact" index="1FQA6$" />
       </concept>
+      <concept id="5326288789495450601" name="Flint.structure.TranslatedName" flags="ng" index="1GVOM6">
+        <property id="5326288789495451684" name="translatedName" index="1GVPtb" />
+        <property id="5326288789495451682" name="language" index="1GVPtd" />
+      </concept>
       <concept id="491685697582670580" name="Flint.structure.CREATE" flags="ng" index="1RnfdX" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -93,7 +100,7 @@
     </language>
   </registry>
   <node concept="cu0$2" id="5kBM18a5Rw1">
-    <property role="TrG5h" value="FlintModel" />
+    <property role="TrG5h" value="GDPR" />
   </node>
   <node concept="cog_a" id="7uaI9y8qRNH">
     <property role="TrG5h" value="Article 4" />
@@ -648,6 +655,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyV" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="binding corporate rules" />
+    </node>
   </node>
   <node concept="cog_a" id="7uaI9y8qSdP">
     <property role="TrG5h" value="Article 44" />
@@ -787,6 +798,10 @@
         <ref role="1FQA6$" node="1oJepmsRYrI" resolve="the controller has provided the data subject with all necessary information relating to the processing" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyN" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="transfer personal data to a third country or an international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSdX">
     <property role="TrG5h" value="transfer" />
@@ -799,6 +814,10 @@
           <property role="19SUeA" value="Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for onward transfers of personal data from the third country or an international organisation to another third country or to another international organisation. All provisions in this Chapter shall be applied in order to ensure that the level of protection of natural persons guaranteed by this Regulation is not undermined." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lyW" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="transfer" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSek">
@@ -819,6 +838,10 @@
           <property role="19SUeA" value="Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for onward transfers of personal data from the third country or an international organisation to another third country or to another international organisation. All provisions in this Chapter shall be applied in order to ensure that the level of protection of natural persons guaranteed by this Regulation is not undermined." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lyX" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSeM">
@@ -1415,6 +1438,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyY" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="controller" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSfJ">
     <property role="TrG5h" value="processing" />
@@ -1442,6 +1469,10 @@
         <ref role="1FQA6$" node="4EkVbrqCGSY" resolve="disclosure by transmission or otherwise making availible" />
       </node>
       <node concept="1FQA6B" id="4EkVbrqCGU2" role="1zF96y" />
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lyZ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSfZ">
@@ -1759,6 +1790,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lz0" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSjU">
     <property role="TrG5h" value="third country" />
@@ -1772,6 +1807,10 @@
           <ref role="1FQA6$" node="4EkVbrqCHsv" resolve="member state" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lz1" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="third country" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSkX">
@@ -1792,6 +1831,10 @@
       <node concept="1FQA6B" id="7uaI9y8qSxl" role="1zF96y">
         <ref role="1FQA6$" node="7uaI9y8qSfZ" resolve="international organisation" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lz2" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="third country or international organisation" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSnG">
@@ -2528,6 +2571,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lz3" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="recipient" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSxH">
     <property role="TrG5h" value="the personal data is transferred" />
@@ -2757,6 +2804,10 @@
       </node>
     </node>
     <node concept="1RnfdX" id="4IUtUNEgasI" role="coNO9" />
+    <node concept="1GVOM6" id="60aWmcf7lz4" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the personal data is transferred" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qS_q">
     <property role="TrG5h" value="the controller is authorised to transfer personal data to the third country or international organisation" />
@@ -2819,6 +2870,10 @@
           <property role="19SUeA" value="In the absence of an adequacy decision pursuant to Article 45(3), or of appropriate safeguards pursuant to Article 46, including binding corporate rules, a transfer or a set of transfers of personal data to a third country or an international organisation shall take place only on one of the following conditions" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lz5" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller is authorised to transfer personal data to the third country or international organisation" />
     </node>
   </node>
   <node concept="cog_a" id="7uaI9y8qS_I">
@@ -3137,6 +3192,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lz6" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the Commission has decided that an adequate level of protection is ensured by the third country or international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSEc">
     <property role="TrG5h" value="the controller or processor has provided appropriate safeguards for the transfer of personal data" />
@@ -3200,6 +3259,10 @@
           <property role="19SUeA" value="The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lz7" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller or processor has provided appropriate safeguards for the transfer of personal data" />
     </node>
   </node>
   <node concept="cog_a" id="7uaI9y8qSOV">
@@ -3314,6 +3377,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lz8" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by a legally binding and enforceable public instrument" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUq">
     <property role="TrG5h" value="appropriate safeguards are provided for, by approved binding corporate rules" />
@@ -3343,6 +3410,10 @@
       <node concept="1FQA6B" id="4EkVbrqCGfD" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCGf6" resolve="the binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lz9" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by approved binding corporate rules" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUy">
@@ -3747,6 +3818,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lza" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by standard data protection clauses" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUG">
     <property role="TrG5h" value="appropriate safeguards are provided for, by an approved code of conduct" />
@@ -3760,6 +3835,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzb" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by an approved code of conduct" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSUS">
     <property role="TrG5h" value="appropriate safeguards are provided for, by an approved certification mechanism" />
@@ -3772,6 +3851,10 @@
           <property role="19SUeA" value="an approved certification mechanism pursuant to Article 42" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzc" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by an approved certification mechanism" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qSVa">
@@ -3794,6 +3877,10 @@
           <property role="19SUeA" value="binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects&amp;#39; rights." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzd" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="binding and enforceable commitments by the controller or processor to apply the appropriate safeguards" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT0a">
@@ -3828,6 +3915,10 @@
         <ref role="1FQA6$" node="1zkX1heM8gb" resolve="the supervisory authority has authorised the appropriate safeguards reffered to in paragraph 1" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lze" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the appropriate safeguards are authorised by the competent supervisory authority" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT0P">
     <property role="TrG5h" value="appropriate safeguards are provided for, by provisions to be inserted" />
@@ -3841,6 +3932,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzf" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by provisions to be inserted" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT0T">
     <property role="TrG5h" value="appropriate safeguards are provided for, by contractual clauses" />
@@ -3853,6 +3948,10 @@
           <property role="19SUeA" value="contractual clauses between the controller or processor and the controller, processor or the recipient of the personal data in the third country or international organisation;" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzg" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards are provided for, by contractual clauses" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qT80">
@@ -3983,10 +4082,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzh" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="enforceable data subject rights are available in the third country or international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qTb2">
     <property role="TrG5h" value="the supervisory authority is competent" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzi" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the supervisory authority is competent" />
+    </node>
   </node>
   <node concept="cog_a" id="7uaI9y8qTbe">
     <property role="TrG5h" value="Article 47" />
@@ -4689,6 +4796,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzj" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer of personal data is required by a judgment of a court or tribunal" />
+    </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qTkK">
     <property role="TrG5h" value="personal data is undergoing processing" />
@@ -4700,6 +4811,10 @@
           <property role="19SUeA" value="Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzk" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is undergoing processing" />
     </node>
   </node>
   <node concept="cu0$f" id="7uaI9y8qTkS">
@@ -4713,6 +4828,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzl" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is intended for processing after transfer" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCE6j">
     <property role="TrG5h" value="controller and processor" />
@@ -4724,6 +4843,10 @@
       <node concept="1FQA6B" id="4EkVbrqCE6A" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCE6_" resolve="processor" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzm" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="controller and processor" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCE6_">
@@ -4770,10 +4893,18 @@
         <ref role="1FQA6$" node="4EkVbrqCH55" resolve="processor has authorisation of the controller to engage another processor" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzn" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processor" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCE6J">
     <property role="TrG5h" value="supervisory authority has applied the consistency mechanism" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzo" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="supervisory authority has applied the consistency mechanism" />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCE6S">
     <property role="TrG5h" value="Article 49" />
@@ -5130,6 +5261,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzp" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the data subject has explicitly consented to transfer" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEc1">
     <property role="3GE5qa" value="facts" />
@@ -5427,6 +5562,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzq" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is necessary for the performance of a contract" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEgy">
@@ -5750,6 +5889,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzr" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is necessary for the conclusion or performance of a contract concluded in the interest of the data subject" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEmb">
     <property role="3GE5qa" value="facts" />
@@ -5879,6 +6022,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzs" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is necessary for important reasons of public interest" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEoK">
@@ -6045,6 +6192,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzt" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is necessary for the establishment, exercise or defence of legal claims" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEs5">
@@ -6382,6 +6533,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzu" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is necessary in order to protect the vital interests of the data subject or of other persons" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCExN">
@@ -7569,6 +7724,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzv" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is made from a register intended to provide information to the public" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEGE">
     <property role="3GE5qa" value="facts" />
@@ -7971,6 +8130,10 @@
         <ref role="1FQA6$" node="4EkVbrqCFye" resolve="the controller or processor has documented the assessment as well as the suitable safeguards" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzw" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="authorised transfer which is not based on Article 45 or 46, or 49.1(1)" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEGQ">
     <property role="3GE5qa" value="facts" />
@@ -8040,6 +8203,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzx" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is not repetitive" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEIb">
@@ -8122,6 +8289,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzy" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer concerns only a limited number of data subjects" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEJz">
@@ -8384,6 +8555,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzz" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is necessary for the purposes of compelling legitimate interests pursued by the controller which are not overridden by the interests or rights and freedoms of the data subject" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCEMI">
@@ -8665,6 +8840,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lz$" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has assessed all the circumstances surrounding the data transfer and has on the basis of that assessment provided suitable safeguards with regard to the protection of personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFc7">
     <property role="TrG5h" value="the controller is authorised under a derogation for a specific situation" />
@@ -8723,6 +8902,10 @@
           <ref role="1FQA6$" node="4EkVbrqCFKf" resolve="the transfer is made at the request of persons having a legitimate interest or they are to be the recipients" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lz_" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller is authorised under a derogation for a specific situation" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFm6">
@@ -9097,6 +9280,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzA" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer could not be based on Article 45 or 46, or 49.1(1)" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFye">
     <property role="3GE5qa" value="facts" />
@@ -9439,6 +9626,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzB" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller or processor has documented the assessment as well as the suitable safeguards" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFBO">
@@ -10068,6 +10259,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzC" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer does not involve the entirety of the personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFKf">
     <property role="3GE5qa" value="facts" />
@@ -10438,6 +10633,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzD" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer is made at the request of persons having a legitimate interest or they are to be the recipients" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFR9">
     <property role="3GE5qa" value="facts" />
@@ -10801,6 +11000,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzE" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="not activities carried out by public authorities in the exercise of their public powers" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCFYh">
@@ -11181,6 +11384,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzF" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the public interest is recognised in Union law or in the law of the Member State to which the controller is subject" />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCG4U">
     <property role="TrG5h" value="Article 47" />
@@ -11525,6 +11732,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzG" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the binding corporate rules are legally binding and apply to and are enforced by every member concerned" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGaL">
     <property role="3GE5qa" value="facts" />
@@ -11727,6 +11938,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzH" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the binding corporate rules expressly confer enforceable rights on data subjects with regard to the processing of their personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGf6">
     <property role="TrG5h" value="the binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
@@ -11742,6 +11957,10 @@
         <ref role="1FQA6$" node="1zkX1heM8df" resolve="The supervisory authority has applied the consistency mechanism referred to in Article 63" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzI" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the binding corporate rules have been approved by the competent supervisory authority in accordance with the consistency mechanism set out in Article 63" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGft">
     <property role="TrG5h" value="the binding corporate rules fulfil requirements laid out in paragraph 2" />
@@ -11755,6 +11974,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzJ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the binding corporate rules fulfil requirements laid out in paragraph 2" />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCGge">
     <property role="TrG5h" value="Article 85" />
@@ -11763,18 +11986,34 @@
   <node concept="cu0$f" id="4EkVbrqCGiJ">
     <property role="TrG5h" value="personal data is processed for journalistic purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzK" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for journalistic purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGj8">
     <property role="TrG5h" value="personal data is processed for academic expression purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzL" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for academic expression purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGjg">
     <property role="TrG5h" value="personal data is processed for artistic expression purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzM" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for artistic expression purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGjq">
     <property role="TrG5h" value="personal data is processed for literary expression purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzN" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for literary expression purposes" />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCGjK">
     <property role="TrG5h" value="Article 89" />
@@ -11925,18 +12164,34 @@
         <ref role="1FQA6$" node="4EkVbrqCGk5" resolve="personal data is processed for statistical purposes" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzO" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGjO">
     <property role="TrG5h" value="personal data is processed for archiving purposes in the public interest" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzP" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for archiving purposes in the public interest" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGk5">
     <property role="TrG5h" value="personal data is processed for statistical purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzQ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for statistical purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGka">
     <property role="TrG5h" value="personal data is processed for scientific or historical research purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzR" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed for scientific or historical research purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGnU">
     <property role="3GE5qa" value="facts" />
@@ -12723,6 +12978,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzS" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate safeguards for the rights and freedoms of the data subject" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGyM">
@@ -14468,6 +14727,10 @@
     <node concept="1FQA6B" id="1phiYgAMEOF" role="coNO9">
       <ref role="1FQA6$" node="4EkVbrqCGka" resolve="personal data is processed for scientific or historical research purposes" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzT" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing adheres to derogations in member state law" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCG$b">
     <property role="3GE5qa" value="facts" />
@@ -14510,6 +14773,10 @@
     </node>
     <node concept="1FQA6B" id="1phiYgAMEOA" role="coNO9">
       <ref role="1FQA6$" node="1phiYgAMEEj" resolve="exemptions or derogations in member state law" />
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lzU" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing adheres to exemptions or derogations in member state law" />
     </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCGKg">
@@ -14858,6 +15125,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzV" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="third party" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGOw">
     <property role="TrG5h" value="collect" />
@@ -15007,6 +15278,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzW" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="collect" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGOU">
     <property role="TrG5h" value="transfer to a third country or international organisation" />
@@ -15027,6 +15302,10 @@
         <ref role="1FQA6$" node="4EkVbrqCGPr" resolve="the recipient is in a third country or is an international organisation" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzX" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="transfer to a third country or international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGPr">
     <property role="TrG5h" value="the recipient is in a third country or is an international organisation" />
@@ -15039,10 +15318,18 @@
         <ref role="1FQA6$" node="7uaI9y8qSkX" resolve="third country or international organisation" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lzY" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the recipient is in a third country or is an international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGSY">
     <property role="TrG5h" value="disclosure by transmission or otherwise making availible" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7lzZ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="disclosure by transmission or otherwise making availible" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCGU8">
     <property role="TrG5h" value="controller or processor" />
@@ -15054,6 +15341,10 @@
       <node concept="1FQA6B" id="4EkVbrqCGUn" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCE6_" resolve="processor" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$0" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="controller or processor" />
     </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCGUt">
@@ -15550,6 +15841,10 @@
           <property role="19SUeA" value=" changes." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$1" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processor has authorisation of the controller to engage another processor" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCHbJ">
@@ -16313,6 +16608,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$2" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing by a processor is governed by a contract or other legal act" />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCHn3">
     <property role="TrG5h" value="Article 5" />
@@ -16489,14 +16788,26 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$3" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCHrA">
     <property role="TrG5h" value="country" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$4" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="country" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCHsv">
     <property role="TrG5h" value="member state" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$5" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="member state" />
+    </node>
   </node>
   <node concept="2cz0EU" id="4EkVbrqCY_u">
     <property role="TrG5h" value="The controller shall inform inform the data subject of the processing" />
@@ -16540,10 +16851,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_T" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="The controller shall inform inform the data subject of the processing" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCY_$">
     <property role="TrG5h" value="data subject" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$6" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="data subject" />
+    </node>
   </node>
   <node concept="mu5$5" id="4EkVbrqCY_F">
     <property role="TrG5h" value="provide information relating to processing" />
@@ -16644,6 +16963,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyO" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="provide information relating to processing" />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCY_O">
     <property role="TrG5h" value="Article 13" />
@@ -16736,6 +17059,10 @@
           <property role="19SUeA" value="the data subject already has the information;" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$7" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the data subject already has the information" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCYG_">
@@ -16891,6 +17218,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$8" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the identity and the contact details of the controller and, where applicable, of the controller's representative" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCYIs">
     <property role="3GE5qa" value="facts" />
@@ -17020,6 +17351,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$9" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the contact details of the data protection officer, where applicable" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCYL1">
@@ -17220,6 +17555,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$a" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the purposes of the processing for which the personal data are intended as well as the legal basis for the processing" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCYNr">
     <property role="3GE5qa" value="facts" />
@@ -17331,6 +17670,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$b" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="legitimate interests pursued by the controller or by a third party" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCYOL">
@@ -17455,6 +17798,10 @@
       <node concept="1FQA6B" id="4EkVbrqCYOP" role="1zF6e3">
         <ref role="1FQA6$" node="7uaI9y8qSnG" resolve="recipient" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$c" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the recipients or categories of recipients of the personal data, if any" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCYQl">
@@ -18180,6 +18527,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$d" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="information regarding the transfer of personal data to a third country or international organisation" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCZ5z">
     <property role="3GE5qa" value="facts" />
@@ -18427,6 +18778,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$e" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the period for which the personal data will be stored" />
+    </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCZ9z">
     <property role="3GE5qa" value="facts" />
@@ -18448,6 +18803,10 @@
           <property role="19SUeA" value="where the processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$f" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the existence of the right to object, withdraw consent, to request access, rectification, erasure or restriction of processing, data portability" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCZaa">
@@ -18851,6 +19210,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$g" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the existence of automated decision-making" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCZfS">
@@ -19338,6 +19701,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$h" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="whether the provision of personal data is a statutory or contractual requirement, or a requirement necessary to enter into a contract" />
     </node>
   </node>
   <node concept="cu0$f" id="4EkVbrqCZqk">
@@ -20042,6 +20409,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$i" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="where applicable, the intent to transfer the personal data under an adequacy decision or appropriate or suitable safeguards " />
+    </node>
   </node>
   <node concept="cog_a" id="4EkVbrqCZ$k">
     <property role="TrG5h" value="Article 46" />
@@ -20085,6 +20456,10 @@
           <property role="19SUeA" value=" for data subjects are available" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$j" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="effective legal remedies for data subjects are available in the third country or international organisation" />
     </node>
   </node>
   <node concept="cog_a" id="1oJepmsRWIU">
@@ -21039,6 +21414,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$k" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the provision of such information proves impossible or would involve a disproportionate effort" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRX1K">
     <property role="3GE5qa" value="facts" />
@@ -21367,6 +21746,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$l" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="obtaining or disclosure is expressly laid down by Union or Member State law" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXaB">
     <property role="3GE5qa" value="facts" />
@@ -21659,11 +22042,19 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$m" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the personal data must remain confidential subject to an obligation of professional secrecy" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXua">
     <property role="TrG5h" value="personal data are collected" />
     <property role="3GE5qa" value="facts" />
     <node concept="1RnfdX" id="qyR0EnzIj_" role="coNO9" />
+    <node concept="1GVOM6" id="60aWmcf7l$n" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are collected" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXuh">
     <property role="TrG5h" value="information relating to the processing" />
@@ -21693,6 +22084,10 @@
           <ref role="1FQA6$" node="1oJepmsRYht" resolve="the controller has provided the data subject with information relating to processing" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$o" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="information relating to the processing" />
     </node>
   </node>
   <node concept="cog_a" id="1oJepmsRXur">
@@ -22125,6 +22520,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$p" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the information is provided in writing or by other means" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXGv">
     <property role="3GE5qa" value="facts" />
@@ -22458,6 +22857,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$q" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the information is provided free of charge" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXOQ">
@@ -22811,6 +23214,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$r" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="requests from a data subject are manifestly unfounded or excessive" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXSc">
     <property role="3GE5qa" value="facts" />
@@ -23022,6 +23429,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$s" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller charges a reasonable fee" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRXZ_">
     <property role="3GE5qa" value="facts" />
@@ -23103,6 +23514,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$t" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller refuses to act on the request" />
     </node>
   </node>
   <node concept="cog_a" id="1oJepmsRYa5">
@@ -23209,6 +23624,10 @@
           <property role="19SUeA" value="In addition to the information referred to in paragraph 1, the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing:" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$u" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the data subject with necessary information upon collecting personal data from the data subject" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYco">
@@ -23340,6 +23759,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$v" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the right to lodge a complaint with a supervisory authority" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYgd">
     <property role="3GE5qa" value="facts" />
@@ -23453,6 +23876,10 @@
       <node concept="1FQA6B" id="1oJepmsRYoQ" role="1zF96y">
         <ref role="1FQA6$" node="4EkVbrqCZ5z" resolve="the period for which the personal data will be stored" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$w" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the data subject with necessary information upon collecting personal data from a source other than the data subject" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYht">
@@ -23601,6 +24028,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$x" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the data subject with information relating to processing" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYiu">
     <property role="3GE5qa" value="facts" />
@@ -23682,6 +24113,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$y" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the categories of personal data concerned" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYkr">
@@ -23867,6 +24302,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$z" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="from which source the personal data originate" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYrI">
     <property role="TrG5h" value="the controller has provided the data subject with all necessary information relating to the processing" />
@@ -23926,10 +24365,18 @@
       </node>
     </node>
     <node concept="1RnfdX" id="4IUtUNEgasG" role="coNO9" />
+    <node concept="1GVOM6" id="60aWmcf7l$$" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the data subject with all necessary information relating to the processing" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYrL">
     <property role="TrG5h" value="inform" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$_" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="inform" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYtj">
     <property role="3GE5qa" value="facts" />
@@ -24227,6 +24674,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$A" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the information within a reasonable period after obtaining the personal data" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYxO">
@@ -24532,6 +24983,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$B" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the information at the latest at the time of the first communication to that data subject" />
+    </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYxU">
     <property role="3GE5qa" value="facts" />
@@ -24733,6 +25188,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$C" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has provided the information at the latest when the personal data are first disclosed" />
     </node>
   </node>
   <node concept="cu0$f" id="1oJepmsRYEQ">
@@ -25236,10 +25695,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$D" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the information may be provided in combination with standardised, machine-readable icons" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQAf">
     <property role="TrG5h" value="personal data are relevant to what is necessary in relation to the purposes for which they are processed" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$E" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are relevant to what is necessary in relation to the purposes for which they are processed" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQyc">
     <property role="TrG5h" value="erase" />
@@ -25253,14 +25720,26 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$F" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="erase" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnq4">
     <property role="TrG5h" value="processing is necessary in order to protect the vital interests of the data subject or of another natural person" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$G" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing is necessary in order to protect the vital interests of the data subject or of another natural person" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQA5">
     <property role="TrG5h" value="personal data are adequate to what is necessary in relation to the purposes for which they are processed" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$H" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are adequate to what is necessary in relation to the purposes for which they are processed" />
+    </node>
   </node>
   <node concept="cu0$f" id="7hSlYmu6A6c">
     <property role="TrG5h" value="personal data" />
@@ -25273,10 +25752,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$I" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnue">
     <property role="TrG5h" value="processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third part, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection or personal data, in particular where the data subject is a child" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$J" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third part, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection or personal data, in particular where the data subject is a child" />
+    </node>
   </node>
   <node concept="mu5$5" id="6deO3M$q$Ka">
     <property role="3GE5qa" value="acts" />
@@ -25407,19 +25894,35 @@
     <node concept="1FQA6B" id="qyR0EnzImE" role="mu1cf">
       <ref role="1FQA6$" node="qyR0EnzImD" resolve="personal data are processed" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyP" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="process personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQAs">
     <property role="TrG5h" value="personal data are limited to what is necessary in relation to the purposes for which they are processed" />
     <property role="3GE5qa" value="facts" />
     <property role="3ANC2_" value="What is limited?" />
+    <node concept="1GVOM6" id="60aWmcf7l$K" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are limited to what is necessary in relation to the purposes for which they are processed" />
+    </node>
   </node>
   <node concept="cu0$f" id="2uCqiGqxH4h">
     <property role="TrG5h" value="providing" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$L" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="providing" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnup">
     <property role="TrG5h" value="processing carried out by public authorities in the performance of their tasks" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$M" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing carried out by public authorities in the performance of their tasks" />
+    </node>
   </node>
   <node concept="cu0$f" id="7hSlYmu6A6A">
     <property role="TrG5h" value="process" />
@@ -25440,6 +25943,10 @@
           <property role="19SUeA" value="processed lawfully, fairly and in a transparent manner in relation to the data subject („lawfulness, fairness and transparency”);" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$N" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="process" />
     </node>
   </node>
   <node concept="mu5$5" id="IMlc8iZQyy">
@@ -25565,6 +26072,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyQ" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="give consent to processing of personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQAX">
     <property role="3GE5qa" value="facts" />
@@ -25589,6 +26100,10 @@
         <ref role="1FQA6$" node="1zkX1heM82L" resolve="personal data that are inaccurate, having regard to the processing purposes, are erased or rectified without delay" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$O" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are accurate and, where necessary, kept up to date, rectified or erased" />
+    </node>
   </node>
   <node concept="2cz0EU" id="30e$WWxgnuT">
     <property role="3GE5qa" value="duties" />
@@ -25600,6 +26115,10 @@
           <property role="19SUeA" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_U" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processor demonstrates that the data subject has consented to processing of his or her personal data" />
     </node>
   </node>
   <node concept="cog_a" id="1phiYgAME95">
@@ -25616,6 +26135,10 @@
           <property role="19SUeA" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l$P" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="consent" />
     </node>
   </node>
   <node concept="mu5$5" id="1phiYgAME90">
@@ -25963,14 +26486,26 @@
     <node concept="1FQA6B" id="1phiYgAMEEh" role="mu3T0">
       <ref role="1FQA6$" node="1phiYgAMEuL" resolve="exemptions or derogations are necessary to reconcile the right to the protection of personal data with the freedom of expression and information" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyR" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="by law reconcile the right to the protection of personal data with the right to freedom of expression and information" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnv5">
     <property role="TrG5h" value="if the data subject's consent is given in the context of a written declaration which also concerns other matters, the request for consent is presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$Q" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="if the data subject's consent is given in the context of a written declaration which also concerns other matters, the request for consent is presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQB8">
     <property role="TrG5h" value="personal data ara accurate" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$R" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data ara accurate" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQz7">
     <property role="3GE5qa" value="facts" />
@@ -26119,10 +26654,18 @@
         <ref role="1FQA6$" node="IMlc8iZQzF" resolve="personal data is processed in a transparent manner in relation to the data subject" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$S" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed lawfully, fairly and in a transparent manner in relation to the data subject" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnvb">
     <property role="TrG5h" value="the data subject shall have the right to withdraw his or her consent at any time" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$T" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the data subject shall have the right to withdraw his or her consent at any time" />
+    </node>
   </node>
   <node concept="cog_a" id="1phiYgAMDWK">
     <property role="TrG5h" value="Article 4" />
@@ -26153,14 +26696,26 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$U" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="data subject" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnvj">
     <property role="TrG5h" value="prior to giving consent, the data subject shall be informed thereof" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$V" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="prior to giving consent, the data subject shall be informed thereof" />
+    </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMEOC">
     <property role="TrG5h" value="notify" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$W" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="notify" />
+    </node>
   </node>
   <node concept="cog_a" id="1phiYgAMDWB">
     <property role="TrG5h" value="Article 13" />
@@ -26169,10 +26724,18 @@
   <node concept="cu0$f" id="30e$WWxgnvt">
     <property role="TrG5h" value="it shall be as easy to withdraw as to give consent" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$X" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="it shall be as easy to withdraw as to give consent" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQBg">
     <property role="TrG5h" value="personal data are kept up to date where necessary" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l$Y" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are kept up to date where necessary" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQzF">
     <property role="TrG5h" value="personal data is processed in a transparent manner in relation to the data subject" />
@@ -26284,14 +26847,26 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l$Z" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed in a transparent manner in relation to the data subject" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQzA">
     <property role="TrG5h" value="personal data is processed fairly" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_0" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed fairly" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnvD">
     <property role="TrG5h" value="when assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of the contract" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_1" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="when assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of the contract" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQzx">
     <property role="TrG5h" value="personal data is processed lawfully" />
@@ -26414,10 +26989,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_2" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data is processed lawfully" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQBX">
     <property role="TrG5h" value="personal data are kept in a form which permits identification of data subjects" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_3" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are kept in a form which permits identification of data subjects" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQBP">
     <property role="3GE5qa" value="facts" />
@@ -26447,6 +27030,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_4" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnvZ">
     <property role="TrG5h" value="the child (if 16 or above) or the parents (if below 16) have given consent" />
@@ -26469,6 +27056,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_5" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the child (if 16 or above) or the parents (if below 16) have given consent" />
+    </node>
   </node>
   <node concept="mu5$5" id="1phiYgAMErZ">
     <property role="TrG5h" value="notify the european commission" />
@@ -26488,14 +27079,26 @@
     <node concept="2cz2WB" id="qyR0EnzIkp" role="mu1c7">
       <ref role="2cz2WA" node="1phiYgAMEil" resolve="notify to the Commission the provisions of its law" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyS" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="notify the european commission" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQCd">
     <property role="TrG5h" value="personal data are kept for no longer than is necessary for the processing purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_6" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are kept for no longer than is necessary for the processing purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnw5">
     <property role="TrG5h" value="member states may provide by law for a lower age for those purposes provided that such lower age is not below 13 years" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_7" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="member states may provide by law for a lower age for those purposes provided that such lower age is not below 13 years" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$5">
     <property role="3GE5qa" value="facts" />
@@ -26580,22 +27183,42 @@
         <ref role="1FQA6$" node="IMlc8iZQ$_" resolve="personal data are processed for legitimate purposes" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_8" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed for specified, explicit and legitimate purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnwd">
     <property role="TrG5h" value="the controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_9" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology" />
+    </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMDZG">
     <property role="TrG5h" value="erase" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_a" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="erase" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnwn">
     <property role="TrG5h" value="paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_b" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$o">
     <property role="TrG5h" value="personal data are processed for explicit purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_c" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed for explicit purposes" />
+    </node>
   </node>
   <node concept="2cz0EU" id="1phiYgAMEnA">
     <property role="TrG5h" value="notify to the Commission the provisions of its law which it has adopted pursuant to paragraph 2 and, without delay, any subsequent amendment law or amendment affecting them." />
@@ -26609,12 +27232,20 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_V" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="notify to the Commission the provisions of its law which it has adopted pursuant to paragraph 2 and, without delay, any subsequent amendment law or amendment affecting them." />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$k">
     <property role="TrG5h" value="personal data are processed for specified purposes" />
     <property role="3GE5qa" value="facts" />
     <node concept="1FQA6B" id="1zkX1heM7YK" role="coNO9">
       <ref role="1FQA6$" node="4EkVbrqCGjJ" resolve="archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_d" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed for specified purposes" />
     </node>
   </node>
   <node concept="mu5$5" id="2uCqiGqxH2_">
@@ -26747,10 +27378,18 @@
     <node concept="2cz2WB" id="7tvgFBncHcW" role="mu1cf">
       <ref role="2cz2WA" node="5KiQe4JdUFz" resolve="personal data" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7lyT" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="collect personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnsy">
     <property role="TrG5h" value="processing is necessary for the performance of a task carried out in the public interest or in the exercises of official authority vested in the controller" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_e" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing is necessary for the performance of a task carried out in the public interest or in the exercises of official authority vested in the controller" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$_">
     <property role="TrG5h" value="personal data are processed for legitimate purposes" />
@@ -26795,10 +27434,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_f" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed for legitimate purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnsI">
     <property role="TrG5h" value="the purpose of the processing shall be determined in the legal basis of this specific provisions and shall be necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_g" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the purpose of the processing shall be determined in the legal basis of this specific provisions and shall be necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ$V">
     <property role="3GE5qa" value="facts" />
@@ -26919,6 +27566,10 @@
         <ref role="1FQA6$" node="IMlc8iZQ_n" resolve="processing manner is incompatible with the collection purposes" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_h" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are further processed in a manner that is incompatible with the purposes for which they were collected" />
+    </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMEb8">
     <property role="TrG5h" value="by law reconcile the right to the protection of personal data with the right to freedom of expression and information" />
@@ -26931,6 +27582,10 @@
           <property role="19SUeA" value="Member States shall by law reconcile the right to the protection of personal data pursuant to this Regulation with the right to freedom of expression and information, including processing for journalistic purposes and the purposes of academic, artistic or literary expression." />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_i" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="by law reconcile the right to the protection of personal data with the right to freedom of expression and information" />
     </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQCP">
@@ -26949,6 +27604,10 @@
       <node concept="1FQA6B" id="IMlc8iZQD1" role="1zF96y">
         <ref role="1FQA6$" node="IMlc8iZQD0" resolve="personal data are processed in a secure manner" />
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_j" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed in a manner that ensures appropriate security of the personal data" />
     </node>
   </node>
   <node concept="cu0$f" id="7hSlYmu6A9f">
@@ -26983,6 +27642,10 @@
           <property role="19SUeA" value="„processing” means any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_k" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="collect" />
     </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMEuL">
@@ -27672,26 +28335,50 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_l" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="exemptions or derogations are necessary to reconcile the right to the protection of personal data with the freedom of expression and information" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQD0">
     <property role="TrG5h" value="personal data are processed in a secure manner" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_m" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed in a secure manner" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ_n">
     <property role="TrG5h" value="processing manner is incompatible with the collection purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_n" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing manner is incompatible with the collection purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ_j">
     <property role="TrG5h" value="personal data are further processed" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_o" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are further processed" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnpy">
     <property role="TrG5h" value="processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_p" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnd$">
     <property role="TrG5h" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_q" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the data subject has given consent to the processing of his or her personal data for one or more specific purposes" />
+    </node>
   </node>
   <node concept="2cz0EU" id="1phiYgAMEil">
     <property role="3GE5qa" value="duties" />
@@ -27999,19 +28686,35 @@
     <node concept="3jSua8" id="qyR0EnzIkn" role="cMmjI">
       <ref role="3jSua9" node="1phiYgAME90" resolve="by law reconcile the right to the protection of personal data with the right to freedom of expression and information" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_W" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="notify to the Commission the provisions of its law" />
+    </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMEEj">
     <property role="TrG5h" value="exemptions or derogations in member state law" />
     <property role="3GE5qa" value="facts" />
     <node concept="1RnfdX" id="1phiYgAMEEn" role="coNO9" />
+    <node concept="1GVOM6" id="60aWmcf7l_r" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="exemptions or derogations in member state law" />
+    </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMEie">
     <property role="TrG5h" value="member state law" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_s" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="member state law" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnpN">
     <property role="TrG5h" value="processing is necessary for compliance with a legal obligation to which the controller is subject" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_t" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processing is necessary for compliance with a legal obligation to which the controller is subject" />
+    </node>
   </node>
   <node concept="mu5$5" id="IMlc8iZQxW">
     <property role="3GE5qa" value="acts" />
@@ -28124,6 +28827,10 @@
     </node>
     <node concept="2cz2WB" id="5KiQe4JdUF$" role="mu1c7">
       <ref role="2cz2WA" node="5KiQe4JdUFz" resolve="personal data" />
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7lyU" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="erase personal data" />
     </node>
   </node>
   <node concept="cu0$f" id="IMlc8iZQ_V">
@@ -28326,6 +29033,10 @@
         <ref role="1FQA6$" node="IMlc8iZQAs" resolve="personal data are limited to what is necessary in relation to the purposes for which they are processed" />
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_u" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed" />
+    </node>
   </node>
   <node concept="2cz0EU" id="IMlc8iZQDU">
     <property role="3GE5qa" value="duties" />
@@ -28360,14 +29071,26 @@
     <node concept="3jSua8" id="5KiQe4JdUFQ" role="cMmjI">
       <ref role="3jSua9" node="2uCqiGqxH2_" resolve="collect personal data" />
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_X" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="duty to demonstrate compliance with Article 5(1) GDPR" />
+    </node>
   </node>
   <node concept="cu0$f" id="30e$WWxgnpR">
     <property role="TrG5h" value="if applicable Member State specific provisions according to Union law or Member State law to which the controller is subject|" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_v" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="if applicable Member State specific provisions according to Union law or Member State law to which the controller is subject|" />
+    </node>
   </node>
   <node concept="cu0$f" id="1phiYgAMEe2">
     <property role="TrG5h" value="european commission" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_w" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="european commission" />
+    </node>
   </node>
   <node concept="cu0$f" id="5KiQe4JdU$E">
     <property role="TrG5h" value="given" />
@@ -28380,35 +29103,67 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_x" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="given" />
+    </node>
   </node>
   <node concept="2cz0EU" id="5KiQe4JdUFz">
     <property role="TrG5h" value="personal data" />
     <property role="3GE5qa" value="duties" />
+    <node concept="1GVOM6" id="60aWmcf7l_Y" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="5KiQe4JdUFV">
     <property role="TrG5h" value="data subject has given consent to the processing of his or her personal data" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_y" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="data subject has given consent to the processing of his or her personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="7PttoKL3pjt">
     <property role="TrG5h" value="the possible consequences of the intended further processing for data subjects;" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_z" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the possible consequences of the intended further processing for data subjects;" />
+    </node>
   </node>
   <node concept="cu0$f" id="7PttoKL3pjm">
     <property role="TrG5h" value="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_$" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the nature of the personal data, in particular whether special categories of personal data are processed, pursuant to Article 9, or whether personal data related to criminal convictions and offences are processed, pursuant to Article 10;" />
+    </node>
   </node>
   <node concept="cu0$f" id="qyR0EnzImD">
     <property role="TrG5h" value="personal data are processed" />
     <property role="3GE5qa" value="facts" />
     <node concept="1RnfdX" id="qyR0EnzImG" role="coNO9" />
+    <node concept="1GVOM6" id="60aWmcf7l__" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are processed" />
+    </node>
   </node>
   <node concept="cu0$f" id="7PttoKL3pjf">
     <property role="TrG5h" value="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_A" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the context in which the personal data have been collected, in particular regarding the relationship between data subjects and the controller;" />
+    </node>
   </node>
   <node concept="cu0$f" id="7PttoKL3pj8">
     <property role="TrG5h" value="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_B" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="if not consent, take into account any link between the purposes for which the personal data have been collected and the purposes of the intended further processing;" />
+    </node>
   </node>
   <node concept="cog_a" id="qyR0EnzHwN">
     <property role="TrG5h" value="Article 14" />
@@ -29109,10 +29864,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_C" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the transfer of personal data is required by a decision of an administrative authority" />
+    </node>
   </node>
   <node concept="2cz0EU" id="7PttoKL3prM">
     <property role="TrG5h" value="processed personal data" />
     <property role="3GE5qa" value="duties" />
+    <node concept="1GVOM6" id="60aWmcf7l_Z" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="processed personal data" />
+    </node>
   </node>
   <node concept="cu0$f" id="7PttoKL3pfC">
     <property role="3GE5qa" value="facts" />
@@ -29126,10 +29889,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_D" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="p" />
+    </node>
   </node>
   <node concept="2cz0EU" id="7PttoKL3prC">
     <property role="TrG5h" value="data subject has given consent to the processing of his or her personal data" />
     <property role="3GE5qa" value="duties" />
+    <node concept="1GVOM6" id="60aWmcf7lA0" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="data subject has given consent to the processing of his or her personal data" />
+    </node>
   </node>
   <node concept="cog_a" id="7PttoKL3pfD">
     <property role="TrG5h" value="Article 4" />
@@ -29702,10 +30473,18 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_E" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has taken appropriate measures to provide any information relating to processing to the data subject using clear and plain language" />
+    </node>
   </node>
   <node concept="cu0$f" id="7PttoKL3pj$">
     <property role="TrG5h" value="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
     <property role="3GE5qa" value="facts" />
+    <node concept="1GVOM6" id="60aWmcf7l_F" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the existence of appropriate safeguards, which may include encryption or pseudonymisation." />
+    </node>
   </node>
   <node concept="cu0$f" id="qyR0EnzIL6">
     <property role="3GE5qa" value="facts" />
@@ -30400,6 +31179,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_G" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the requirement to transfer personal data is based on an international agreement" />
+    </node>
   </node>
   <node concept="cu0$f" id="qyR0EnzH_q">
     <property role="3GE5qa" value="facts" />
@@ -31016,6 +31799,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_H" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller has taken appropriate measures to provide any information relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form" />
+    </node>
   </node>
   <node concept="cog_a" id="qyR0EnzH_r">
     <property role="TrG5h" value="Article 12" />
@@ -31032,6 +31819,10 @@
           <property role="19SUeA" value="Where personal data have not been obtained from the data subject" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_I" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are collected from a source other than the data subject" />
     </node>
   </node>
   <node concept="cog_a" id="1zkX1heM7Si">
@@ -31248,6 +32039,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_J" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the controller intends to further process the personal data for a purpose other than that for which the personal data were collected" />
+    </node>
   </node>
   <node concept="cog_a" id="1zkX1heM7VH">
     <property role="TrG5h" value="Article 13" />
@@ -31387,6 +32182,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_K" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are collected from the data subject" />
     </node>
   </node>
   <node concept="cog_a" id="1zkX1heM7XS">
@@ -31611,6 +32410,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_L" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data that are inaccurate, having regard to the processing purposes, are erased or rectified without delay" />
     </node>
   </node>
   <node concept="cu0$f" id="1zkX1heM85E">
@@ -31877,6 +32680,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_M" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="personal data are stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes" />
+    </node>
   </node>
   <node concept="cu0$f" id="1zkX1heM89n">
     <property role="3GE5qa" value="facts" />
@@ -31889,6 +32696,10 @@
           <property role="19SUeA" value="implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_N" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="appropriate technical and organisational measures are implemented" />
     </node>
   </node>
   <node concept="cog_a" id="1zkX1heM8dg">
@@ -32120,6 +32931,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_O" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="The supervisory authority has applied the consistency mechanism referred to in Article 63" />
+    </node>
   </node>
   <node concept="cu0$f" id="1zkX1heM8gb">
     <property role="TrG5h" value="the supervisory authority has authorised the appropriate safeguards reffered to in paragraph 1" />
@@ -32132,6 +32947,10 @@
           <property role="19SUeA" value="Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in paragraph 1 may also be provided for, in particular, by:" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_P" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the supervisory authority has authorised the appropriate safeguards reffered to in paragraph 1" />
     </node>
   </node>
   <node concept="cog_a" id="7035cAN__Ff">
@@ -32231,6 +33050,10 @@
         </node>
       </node>
     </node>
+    <node concept="1GVOM6" id="60aWmcf7l_Q" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the child is below the age of 16 years" />
+    </node>
   </node>
   <node concept="cu0$f" id="7035cAN__Gn">
     <property role="3GE5qa" value="facts" />
@@ -32315,6 +33138,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_R" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="the child is at least 16 years old" />
     </node>
   </node>
   <node concept="cu0$f" id="7035cAN__Ho">
@@ -32454,6 +33281,10 @@
           <property role="19SUeA" value="" />
         </node>
       </node>
+    </node>
+    <node concept="1GVOM6" id="60aWmcf7l_S" role="1GVO30">
+      <property role="1GVPtd" value="English" />
+      <property role="1GVPtb" value="consent is given or authorised by the holder of parental responsibility over the child" />
     </node>
   </node>
 </model>
